@@ -49,10 +49,10 @@ h3 {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: none;
     width: 100%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 5%;
 }
 
 /* Glassmorphism utility */
@@ -83,7 +83,8 @@ header {
 /* Main Layout */
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 2fr;
+    /* Give formula table twice as much space as the side library */
     gap: 2rem;
 }
 
