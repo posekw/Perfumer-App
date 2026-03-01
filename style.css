@@ -38,13 +38,14 @@ h3 {
 }
 
 .perfumer-plugin-container {
+    /* Guaranteed Full Width RTL Breakout */
     width: 100vw !important;
     position: relative;
-    left: 50%;
     right: 50%;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
+    transform: translateX(50%);
     background-color: var(--bg-color);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container {
