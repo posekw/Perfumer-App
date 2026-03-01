@@ -1,13 +1,9 @@
 <?php
-/* Plugin Name: Perfumer App Plugin URI: https://github.com/posekw/Perfumer-App Description: تطبيق احترافي لحساب نسب العطور وتصميم التركيبات بناءً على قواعد علمية. Version: 1.6.3 Author: Dhari Al-Tamimi Author URI: https://github.com/posekw */
+header('Content-Type: text/html; charset=utf-8');
+/* Plugin Name: Perfumer App Description: Professional perfume formulation and ratio calculator based on IFRA standards. Version: 1.6.4 Author: Dhari Al-Tamimi Text Domain: perfumer-app */
 
-if (!defined('ABSPATH')) {
+if (!defined('ABSPATH'))
     exit;
-}
-
-if (!defined('ABSPATH')) {
-    exit;
-}
 
 function perfumer_app_enqueue_assets()
 {
