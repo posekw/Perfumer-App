@@ -1,6 +1,12 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-/* Plugin Name: Perfumer App Description: Professional perfume formulation and ratio calculator based on IFRA standards. Version: 1.6.4 Author: Dhari Al-Tamimi Text Domain: perfumer-app */
+/**
+ * Plugin Name: Perfumer App
+ * Description: Professional perfume formulation and ratio calculator based on IFRA standards.
+ * Version: 1.6.5
+ * Author: Dhari Al-Tamimi
+ * Text Domain: perfumer-app
+ */
 
 if (!defined('ABSPATH'))
     exit;
