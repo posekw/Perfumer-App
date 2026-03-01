@@ -197,3 +197,305 @@
 73,Usnea Lichen Essential Oil,خشبي ترابي طحلبي,"Fresh, earthy, slightly woody usnea lichen oil",Base,5,23190-02-5,0.1
 74,Balsam Fir Essential Oil,خشبي ترابي طحلبي,"Fresh, woody, resinous fir tree oil",Base,5,82665-88-0,100
 75,Pine Needle Essential Oil,خشبي ترابي طحلبي,"Fresh, crisp, woody pine needles oil",Base,5,49207-39-6,100
+300,Iso E Super,خشبي,"Woody, ambergris, velvety",Base,5,54464-57-2,20.0
+301,Timbersilk,خشبي,"Smooth, woody, amber",Base,5,54464-57-2,20.0
+302,Sylvamber,خشبي,"Radiant, woody, ambery",Base,5,54464-57-2,20.0
+303,Hedione,زهري,"Transparent, radiant, jasmine-like floral",Heart,5,24851-98-7,100
+304,Hedione HC,زهري,"High-cis Hedione, more diffusive and floral",Heart,5,24851-98-7,100
+305,Linalool,زهري,"Fresh, floral, sweet, woody",Heart,5,78-70-6,4.3
+306,Linalyl Acetate,حمضي,"Sweet, green, citrus, bergamot-like",Heart,5,115-95-7,100
+307,Geraniol,زهري,"Sweet, floral, rose-like",Heart,5,106-24-1,5.3
+308,Citronellol,زهري,"Floral, rosy, waxy, citrus",Heart,5,106-22-9,13.3
+309,Phenylethyl Alcohol (PEA),زهري,"Mild, warm, rose-honey",Heart,5,60-12-8,100
+310,Hydroxycitronellal,زهري,"Sweet, floral, lily of the valley",Heart,5,107-75-5,1.2
+311,Lyral,زهري,"Soft, delicate floral, lily, cyclamen",Heart,5,31906-04-4,0.0
+312,Lilial,زهري,"Floral, muguet, watery, green",Heart,5,80-54-6,0.0
+313,Florol,زهري,"Fresh, floral, muguet, natural",Heart,5,63500-71-0,100
+314,Galaxolide,مسك,"Clean, sweet, musky, floral, woody",Base,5,1222-05-5,100
+315,Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk",Base,5,105-95-3,100
+316,Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed",Base,5,28645-51-4,100
+317,Habanolide,مسك,"Elegant, powdery, macrocyclic musk",Base,5,111879-80-2,100
+318,Helvetolide,مسك,"Modern, fruity, ambrette-like musk",Base,5,141773-73-1,100
+319,Romandolide,مسك,"Musky, sweet, powdery, blackberry",Base,5,236391-76-7,100
+320,Musk Ketone,مسك,"Sweet, powdery, animalic nitro-musk",Base,5,81-14-1,1.4
+321,Cashmeran,مسك,"Musky, woody, spicy, floral",Base,5,33704-61-9,3.8
+322,Ambroxan,عنبر,"Ambergris, woody, dry, radiant",Heart,5,6790-58-5,100
+323,Cetalox,عنبر,"Rich, elegant, ambergris, woody",Heart,5,3738-00-9,100
+324,Norlimbanol,خشبي,"Extremely dry, woody, ambery",Base,5,70788-30-6,100
+325,Timberol,خشبي,"Dry, woody, amber, powdery",Base,5,70788-30-6,100
+326,Kephalis,خشبي,"Rich, warm, woody, amber, tobacco",Base,5,36306-87-3,100
+327,Sandalore,خشبي,"Warm, sweet, sandalwood, rich",Base,5,65113-99-7,100
+328,Ebanol,خشبي,"Rich, sandalwood, slightly musky",Base,5,67801-20-1,100
+329,Javanol,خشبي,"Powerful, creamy, rosy sandalwood",Base,5,198404-98-7,100
+330,Bacdanol,خشبي,"Powerful, woody, sandalwood",Base,5,28219-61-6,100
+331,Clearwood,خشبي,"Modern patchouli, clean, transparent",Base,5,1450625-49-6,100
+332,Vertofix Coeur,خشبي,"Woody, vetiver, cedar, leather",Base,5,32388-55-9,100
+333,Vanillin,غورماند (حلو),"Sweet, intense, vanilla bean",Heart,5,121-33-5,100
+334,Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger",Heart,5,121-32-4,100
+335,Coumarin,غورماند (حلو),"Sweet, hay, tonka bean, almond",Heart,5,91-64-5,1.6
+336,Maltol,غورماند (حلو),"Sweet, cotton candy, caramel, jam",Heart,5,118-71-8,100
+337,Ethyl Maltol,غورماند (حلو),"Extremely sweet, burnt sugar, caramel",Heart,5,4940-11-8,100
+338,Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity",Heart,5,104-61-0,100
+339,Gamma Undecalactone,فاكهي,"Peach, apricot, fruity, creamy",Heart,5,104-67-6,100
+340,Cis-3-Hexenol,أخضر,"Intense green grass, leafy, fresh",Heart,5,928-96-1,100
+341,Damascenone,فاكهي/زهري,"Intense plum, rose, berry, tobacco",Heart,5,23696-85-7,0.04
+342,Damascone Alpha,فاكهي/زهري,"Apple, rose, fruity, plum",Heart,5,24720-09-0,0.2
+343,Fructone,فاكهي,"Apple, fruity, sweet, woody",Heart,5,6413-10-1,100
+344,Allyl Amyl Glycolate,فاكهي,"Pineapple, metallic, fruity, green",Heart,5,67634-00-8,100
+345,Eugenol,توابل,"Spicy, clove, warm, woody",Heart,5,97-53-0,0.5
+346,Isoeugenol,توابل,"Spicy, sweet, floral, carnation",Heart,5,97-54-1,0.02
+347,Cinnamaldehyde,توابل,"Spicy, cinnamon, sweet, warm",Heart,5,104-55-2,0.05
+348,Benzyl Salicylate,بلسمي,"Faint floral, balsamic, blender",Heart,5,118-58-1,8.0
+349,Methyl Ionone Gamma,زهري,"Woody, floral, violet, powdery",Heart,5,127-51-5,100
+350,Ionone Alpha,زهري,"Floral, violet, woody, sweet",Heart,5,127-41-3,100
+351,Calone,بحري (مائي),"Marine, ozone, watermelon, fresh",Heart,5,28940-11-6,100
+352,Scentenal,بحري (مائي),"Marine, green, muguet, ozone",Heart,5,86803-90-9,100
+353,Evernyl,ترابي,"Oakmoss, woody, phenolic, earthy",Heart,5,4707-47-5,100
+354,Indole,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine",Heart,5,120-72-9,100
+355,Ambrettolide,مسك,"Musk, ambrette, floral, fruity",Base,5,28645-51-4,100
+356,Methyl Laitone,غورماند (حلو),"Coconut, milk, creamy, lactonic",Heart,5,94201-19-1,100
+357,Propyl Iso E Super,خشبي,"Woody, ambergris, velvety (Variation)",Base,5,79695-81-8,100
+358,Propyl Maltol,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,10431-88-8,100
+359,Evernyl Butyrate,ترابي,"Oakmoss, woody, phenolic, earthy (Variation)",Heart,5,73712-12-4,100
+360,Benzyl Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,66347-03-1,9.0
+361,Propyl Norlimbanol,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,59259-83-6,3.1
+362,Evernyl Isobutyrate,ترابي,"Oakmoss, woody, phenolic, earthy (Variation)",Heart,5,84766-02-1,100
+363,Alpha-Fructone,فاكهي,"Apple, fruity, sweet, woody (Variation)",Heart,5,66887-70-3,100
+364,Norlimbanol Butyrate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,9914-19-5,100
+365,Citronellol Salicylate,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,35621-73-4,12.2
+366,Ethyl Geraniol,زهري,"Sweet, floral, rose-like (Variation)",Heart,5,30428-34-8,0.6
+367,Cis-Cetalox,عنبر,"Rich, elegant, ambergris, woody (Variation)",Heart,5,12346-27-1,100
+368,Methyl Cashmeran,مسك,"Musky, woody, spicy, floral (Variation)",Base,5,24874-41-4,100
+369,Benzyl Phenylethyl Alcohol (PEA),زهري,"Mild, warm, rose-honey (Variation)",Heart,5,53559-02-6,100
+370,Cis-Ionone Alpha,زهري,"Floral, violet, woody, sweet (Variation)",Heart,5,94501-87-2,100
+371,Geraniol Butyrate,زهري,"Sweet, floral, rose-like (Variation)",Heart,5,53966-87-1,21.7
+372,Gamma-Citronellol,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,27493-40-6,100
+373,Alpha-Eugenol,توابل,"Spicy, clove, warm, woody (Variation)",Heart,5,67619-91-5,100
+374,Indole Formate,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,73548-99-4,100
+375,Gamma-Norlimbanol,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,66176-51-1,100
+376,Phenylethyl Alcohol (PEA) Propionate,زهري,"Mild, warm, rose-honey (Variation)",Heart,5,88751-75-4,100
+377,Ebanol Formate,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,63457-30-8,100
+378,Iso E Super Propionate,خشبي,"Woody, ambergris, velvety (Variation)",Base,5,36874-17-7,20.7
+379,Ethyl Lyral,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,50766-94-6,100
+380,Helvetolide Salicylate,مسك,"Modern, fruity, ambrette-like musk (Variation)",Base,5,19226-33-1,100
+381,Cashmeran Butyrate,مسك,"Musky, woody, spicy, floral (Variation)",Base,5,7932-05-9,4.2
+382,Trans-Lyral,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,6562-23-4,100
+383,Methyl Ethyl Maltol,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,11389-78-5,100
+384,Ethyl Ethyl Maltol,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,47027-75-1,18.6
+385,Ebanol Acetate,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,39698-36-8,100
+386,Bacdanol Formate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,29063-04-2,100
+387,Cis-Javanol,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,24739-54-8,100
+388,Ethyl Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,44301-93-9,100
+389,Ethyl Evernyl,ترابي,"Oakmoss, woody, phenolic, earthy (Variation)",Heart,5,11975-96-6,100
+390,Gamma-Lyral,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,87684-77-0,1.7
+391,Timberol Salicylate,خشبي,"Dry, woody, amber, powdery (Variation)",Base,5,74979-23-9,100
+392,Trans-Kephalis,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,75665-49-6,100
+393,Beta-Galaxolide,مسك,"Clean, sweet, musky, floral, woody (Variation)",Base,5,35519-85-9,100
+394,Ethylene Brassylate Acetate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,47396-86-1,100
+395,Methyl Kephalis,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,47665-46-8,100
+396,Fructone Isobutyrate,فاكهي,"Apple, fruity, sweet, woody (Variation)",Heart,5,16830-31-6,100
+397,Trans-Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,71385-98-9,100
+398,Cis-Romandolide,مسك,"Musky, sweet, powdery, blackberry (Variation)",Base,5,26623-80-6,100
+399,Ethyl Cinnamaldehyde,توابل,"Spicy, cinnamon, sweet, warm (Variation)",Heart,5,90999-03-7,100
+400,Benzyl Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,87151-46-3,100
+401,Ambrettolide Propionate,مسك,"Musk, ambrette, floral, fruity (Variation)",Base,5,40805-48-4,100
+402,Propyl Indole,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,52448-78-3,100
+403,Hydroxycitronellal Isobutyrate,زهري,"Sweet, floral, lily of the valley (Variation)",Heart,5,84281-31-2,6.8
+404,Cetalox Salicylate,عنبر,"Rich, elegant, ambergris, woody (Variation)",Heart,5,28682-88-1,0.3
+405,Alpha-Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,79318-28-8,13.1
+406,Alpha-Allyl Amyl Glycolate,فاكهي,"Pineapple, metallic, fruity, green (Variation)",Heart,5,32769-73-7,20.5
+407,Isoeugenol Salicylate,توابل,"Spicy, sweet, floral, carnation (Variation)",Heart,5,41021-73-4,18.2
+408,Phenylethyl Alcohol (PEA) Acetate,زهري,"Mild, warm, rose-honey (Variation)",Heart,5,18676-51-0,100
+409,Ambroxan Propionate,عنبر,"Ambergris, woody, dry, radiant (Variation)",Heart,5,84814-64-7,100
+410,Vertofix Coeur Isobutyrate,خشبي,"Woody, vetiver, cedar, leather (Variation)",Base,5,81019-19-8,100
+411,Beta-Hedione,زهري,"Transparent, radiant, jasmine-like floral (Variation)",Heart,5,94153-62-4,3.4
+412,Beta-Geraniol,زهري,"Sweet, floral, rose-like (Variation)",Heart,5,43538-20-3,100
+413,Timbersilk Isobutyrate,خشبي,"Smooth, woody, amber (Variation)",Base,5,81040-08-1,100
+414,Coumarin Butyrate,غورماند (حلو),"Sweet, hay, tonka bean, almond (Variation)",Heart,5,80055-13-4,100
+415,Ethylene Brassylate Formate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,85199-90-4,100
+416,Ambroxan Isobutyrate,عنبر,"Ambergris, woody, dry, radiant (Variation)",Heart,5,57984-83-1,6.3
+417,Bacdanol Isobutyrate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,39914-23-5,100
+418,Cinnamaldehyde Salicylate,توابل,"Spicy, cinnamon, sweet, warm (Variation)",Heart,5,16552-10-7,12.9
+419,Alpha-Ebanol,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,58003-13-7,100
+420,Bacdanol Isobutyrate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,39914-23-5,100
+421,Alpha-Romandolide,مسك,"Musky, sweet, powdery, blackberry (Variation)",Base,5,72147-52-4,100
+422,Benzyl Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,87151-46-3,100
+423,Linalyl Acetate Salicylate,حمضي,"Sweet, green, citrus, bergamot-like (Variation)",Heart,5,62601-59-7,100
+424,Methyl Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger (Variation)",Heart,5,23066-13-4,100
+425,Timbersilk Formate,خشبي,"Smooth, woody, amber (Variation)",Base,5,47151-00-8,12.4
+426,Cinnamaldehyde Acetate,توابل,"Spicy, cinnamon, sweet, warm (Variation)",Heart,5,30449-94-7,100
+427,Ambroxan Butyrate,عنبر,"Ambergris, woody, dry, radiant (Variation)",Heart,5,70743-03-9,4.0
+428,Trans-Eugenol,توابل,"Spicy, clove, warm, woody (Variation)",Heart,5,83630-79-9,18.7
+429,Beta-Hedione,زهري,"Transparent, radiant, jasmine-like floral (Variation)",Heart,5,94153-62-4,4.3
+430,Benzyl Clearwood,خشبي,"Modern patchouli, clean, transparent (Variation)",Base,5,32278-22-1,100
+431,Gamma Undecalactone Butyrate,فاكهي,"Peach, apricot, fruity, creamy (Variation)",Heart,5,92776-45-1,100
+432,Beta-Fructone,فاكهي,"Apple, fruity, sweet, woody (Variation)",Heart,5,53792-07-1,100
+433,Norlimbanol Acetate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,84720-82-9,100
+434,Isoeugenol Formate,توابل,"Spicy, sweet, floral, carnation (Variation)",Heart,5,45161-46-0,11.6
+435,Alpha-Romandolide,مسك,"Musky, sweet, powdery, blackberry (Variation)",Base,5,72147-52-4,11.0
+436,Beta-Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger (Variation)",Heart,5,58907-71-9,100
+437,Alpha-Florol,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,67372-56-7,100
+438,Citronellol Formate,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,77659-21-5,100
+439,Norlimbanol Salicylate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,22223-28-1,100
+440,Sandalore Butyrate,خشبي,"Warm, sweet, sandalwood, rich (Variation)",Base,5,41799-44-7,100
+441,Cis-3-Hexenol Propionate,أخضر,"Intense green grass, leafy, fresh (Variation)",Heart,5,49011-64-8,100
+442,Cetalox Propionate,عنبر,"Rich, elegant, ambergris, woody (Variation)",Heart,5,73705-40-2,100
+443,Methyl Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,55827-67-3,100
+444,Citronellol Propionate,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,12518-48-9,17.1
+445,Clearwood Isobutyrate,خشبي,"Modern patchouli, clean, transparent (Variation)",Base,5,16488-86-9,100
+446,Methyl Galaxolide,مسك,"Clean, sweet, musky, floral, woody (Variation)",Base,5,86674-53-1,100
+447,Benzyl Salicylate Acetate,بلسمي,"Faint floral, balsamic, blender (Variation)",Heart,5,62839-63-8,100
+448,Helvetolide Acetate,مسك,"Modern, fruity, ambrette-like musk (Variation)",Base,5,79474-00-6,10.8
+449,Kephalis Acetate,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,64944-84-6,10.1
+450,Alpha-Clearwood,خشبي,"Modern patchouli, clean, transparent (Variation)",Base,5,25527-22-9,100
+451,Beta-Ionone Alpha,زهري,"Floral, violet, woody, sweet (Variation)",Heart,5,27024-85-9,100
+452,Methyl Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,22882-65-4,100
+453,Kephalis Butyrate,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,23911-56-8,100
+454,Maltol Butyrate,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,49806-37-3,24.2
+455,Gamma-Hydroxycitronellal,زهري,"Sweet, floral, lily of the valley (Variation)",Heart,5,82447-71-7,20.4
+456,Lilial Formate,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,19181-08-8,100
+457,Trans-Phenylethyl Alcohol (PEA),زهري,"Mild, warm, rose-honey (Variation)",Heart,5,44516-81-3,100
+458,Benzyl Ionone Alpha,زهري,"Floral, violet, woody, sweet (Variation)",Heart,5,82468-14-2,100
+459,Ethyl Cis-3-Hexenol,أخضر,"Intense green grass, leafy, fresh (Variation)",Heart,5,22033-88-5,20.5
+460,Trans-Maltol,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,41837-22-3,100
+461,Gamma-Isoeugenol,توابل,"Spicy, sweet, floral, carnation (Variation)",Heart,5,65525-88-6,1.0
+462,Javanol Salicylate,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,46973-40-1,100
+463,Kephalis Acetate,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,64944-84-6,100
+464,Calone Butyrate,بحري (مائي),"Marine, ozone, watermelon, fresh (Variation)",Heart,5,19925-90-2,100
+465,Cis-Galaxolide,مسك,"Clean, sweet, musky, floral, woody (Variation)",Base,5,61115-34-5,100
+466,Trans-Hedione HC,زهري,"High-cis Hedione, more diffusive and floral (Variation)",Heart,5,71061-39-7,100
+467,Ethyl Allyl Amyl Glycolate,فاكهي,"Pineapple, metallic, fruity, green (Variation)",Heart,5,46280-47-3,2.3
+468,Phenylethyl Alcohol (PEA) Butyrate,زهري,"Mild, warm, rose-honey (Variation)",Heart,5,86874-93-2,100
+469,Ethyl Maltol Butyrate,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,18206-37-6,100
+470,Benzyl Scentenal,بحري (مائي),"Marine, green, muguet, ozone (Variation)",Heart,5,13084-83-6,100
+471,Norlimbanol Salicylate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,22223-28-1,2.4
+472,Ambrettolide Butyrate,مسك,"Musk, ambrette, floral, fruity (Variation)",Base,5,30545-53-7,100
+473,Bacdanol Acetate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,64210-95-6,2.9
+474,Cashmeran Isobutyrate,مسك,"Musky, woody, spicy, floral (Variation)",Base,5,8542-74-9,18.7
+475,Timberol Propionate,خشبي,"Dry, woody, amber, powdery (Variation)",Base,5,8008-23-4,100
+476,Ebanol Propionate,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,21066-65-3,21.9
+477,Methyl Methyl Laitone,غورماند (حلو),"Coconut, milk, creamy, lactonic (Variation)",Heart,5,22478-32-7,100
+478,Alpha-Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,79318-28-8,100
+479,Ethyl Allyl Amyl Glycolate,فاكهي,"Pineapple, metallic, fruity, green (Variation)",Heart,5,46280-47-3,3.6
+480,Citronellol Isobutyrate,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,29244-53-3,100
+481,Bacdanol Propionate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,92507-05-3,9.3
+482,Lilial Isobutyrate,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,9020-07-1,100
+483,Benzyl Gamma Nonalactone,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,87151-46-3,100
+484,Vanillin Acetate,غورماند (حلو),"Sweet, intense, vanilla bean (Variation)",Heart,5,44375-94-6,100
+485,Methyl Hedione,زهري,"Transparent, radiant, jasmine-like floral (Variation)",Heart,5,23173-17-8,100
+486,Musk Ketone Butyrate,مسك,"Sweet, powdery, animalic nitro-musk (Variation)",Base,5,58579-19-6,100
+487,Methyl Romandolide,مسك,"Musky, sweet, powdery, blackberry (Variation)",Base,5,75652-33-7,100
+488,Ethyl Maltol Isobutyrate,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,36921-26-1,8.8
+489,Indole Propionate,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,20990-96-0,100
+490,Methyl Methyl Ionone Gamma,زهري,"Woody, floral, violet, powdery (Variation)",Heart,5,21673-62-0,100
+491,Vertofix Coeur Formate,خشبي,"Woody, vetiver, cedar, leather (Variation)",Base,5,28703-69-3,8.5
+492,Beta-Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger (Variation)",Heart,5,58907-71-9,23.3
+493,Trans-Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger (Variation)",Heart,5,9527-23-5,100
+494,Trans-Linalyl Acetate,حمضي,"Sweet, green, citrus, bergamot-like (Variation)",Heart,5,16927-93-4,100
+495,Musk Ketone Acetate,مسك,"Sweet, powdery, animalic nitro-musk (Variation)",Base,5,36580-54-8,100
+496,Benzyl Timbersilk,خشبي,"Smooth, woody, amber (Variation)",Base,5,83797-60-3,100
+497,Scentenal Salicylate,بحري (مائي),"Marine, green, muguet, ozone (Variation)",Heart,5,26861-75-0,100
+498,Gamma Undecalactone Salicylate,فاكهي,"Peach, apricot, fruity, creamy (Variation)",Heart,5,89258-11-7,0.2
+499,Isoeugenol Formate,توابل,"Spicy, sweet, floral, carnation (Variation)",Heart,5,45161-46-0,100
+500,Gamma-Coumarin,غورماند (حلو),"Sweet, hay, tonka bean, almond (Variation)",Heart,5,66670-60-2,100
+501,Lilial Isobutyrate,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,9020-07-1,3.5
+502,Ambrettolide Formate,مسك,"Musk, ambrette, floral, fruity (Variation)",Base,5,60141-32-6,100
+503,Ethyl Vertofix Coeur,خشبي,"Woody, vetiver, cedar, leather (Variation)",Base,5,18371-72-8,100
+504,Cis-Indole,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,85657-60-7,17.0
+505,Benzyl Methyl Laitone,غورماند (حلو),"Coconut, milk, creamy, lactonic (Variation)",Heart,5,27629-37-6,4.3
+506,Linalyl Acetate Salicylate,حمضي,"Sweet, green, citrus, bergamot-like (Variation)",Heart,5,62601-59-7,23.2
+507,Lilial Acetate,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,28809-37-3,100
+508,Propyl Isoeugenol,توابل,"Spicy, sweet, floral, carnation (Variation)",Heart,5,15160-67-0,3.3
+509,Gamma Nonalactone Formate,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,80619-31-4,100
+510,Propyl Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,26345-52-1,100
+511,Habanolide Butyrate,مسك,"Elegant, powdery, macrocyclic musk (Variation)",Base,5,43943-38-3,100
+512,Beta-Timbersilk,خشبي,"Smooth, woody, amber (Variation)",Base,5,57783-18-9,100
+513,Ambrettolide Acetate,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,45581-43-3,18.6
+514,Alpha-Hedione HC,زهري,"High-cis Hedione, more diffusive and floral (Variation)",Heart,5,71303-80-3,2.3
+515,Cis-Norlimbanol,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,92704-11-1,100
+516,Sylvamber Acetate,خشبي,"Radiant, woody, ambery (Variation)",Base,5,71098-74-3,100
+517,Gamma Nonalactone Butyrate,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,69665-76-6,21.0
+518,Bacdanol Propionate,خشبي,"Powerful, woody, sandalwood (Variation)",Base,5,92507-05-3,100
+519,Ethyl Hedione HC,زهري,"High-cis Hedione, more diffusive and floral (Variation)",Heart,5,84950-10-3,3.5
+520,Ambrettolide Acetate,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,45581-43-3,100
+521,Geraniol Salicylate,زهري,"Sweet, floral, rose-like (Variation)",Heart,5,47710-01-0,100
+522,Lyral Isobutyrate,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,42371-41-7,100
+523,Benzyl Lyral,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,32432-71-5,100
+524,Propyl Helvetolide,مسك,"Modern, fruity, ambrette-like musk (Variation)",Base,5,83477-26-4,19.8
+525,Methyl Javanol,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,50693-28-7,100
+526,Florol Propionate,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,51143-40-6,100
+527,Eugenol Propionate,توابل,"Spicy, clove, warm, woody (Variation)",Heart,5,89276-84-2,100
+528,Trans-Scentenal,بحري (مائي),"Marine, green, muguet, ozone (Variation)",Heart,5,94160-25-0,100
+529,Galaxolide Isobutyrate,مسك,"Clean, sweet, musky, floral, woody (Variation)",Base,5,84797-88-0,100
+530,Hydroxycitronellal Butyrate,زهري,"Sweet, floral, lily of the valley (Variation)",Heart,5,29888-95-3,100
+531,Alpha-Fructone,فاكهي,"Apple, fruity, sweet, woody (Variation)",Heart,5,66887-70-3,100
+532,Sylvamber Acetate,خشبي,"Radiant, woody, ambery (Variation)",Base,5,71098-74-3,100
+533,Methyl Helvetolide,مسك,"Modern, fruity, ambrette-like musk (Variation)",Base,5,90693-70-2,100
+534,Sandalore Acetate,خشبي,"Warm, sweet, sandalwood, rich (Variation)",Base,5,45584-54-9,100
+535,Beta-Florol,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,81861-76-4,100
+536,Methyl Ethyl Maltol,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,11389-78-5,100
+537,Cis-Gamma Undecalactone,فاكهي,"Peach, apricot, fruity, creamy (Variation)",Heart,5,57593-03-5,100
+538,Cis-Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,92022-78-6,15.1
+539,Alpha-Ethylene Brassylate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,79318-28-8,4.8
+540,Damascenone Propionate,فاكهي/زهري,"Intense plum, rose, berry, tobacco (Variation)",Heart,5,70459-60-7,100
+541,Propyl Norlimbanol,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,59259-83-6,100
+542,Florol Propionate,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,51143-40-6,100
+543,Ethylene Brassylate Acetate,مسك,"Sweet, powdery, vanilla-musk (Variation)",Base,5,47396-86-1,100
+544,Propyl Coumarin,غورماند (حلو),"Sweet, hay, tonka bean, almond (Variation)",Heart,5,9848-37-4,12.9
+545,Ebanol Butyrate,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,78238-40-3,100
+546,Ethyl Benzyl Salicylate,بلسمي,"Faint floral, balsamic, blender (Variation)",Heart,5,67095-84-8,19.8
+547,Alpha-Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,56346-46-4,21.9
+548,Cis-Indole,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,85657-60-7,100
+549,Lilial Acetate,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,28809-37-3,100
+550,Benzyl Lilial,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,75044-89-2,100
+551,Alpha-Damascenone,فاكهي/زهري,"Intense plum, rose, berry, tobacco (Variation)",Heart,5,19546-35-6,17.9
+552,Gamma-Hedione,زهري,"Transparent, radiant, jasmine-like floral (Variation)",Heart,5,13336-74-0,100
+553,Calone Formate,بحري (مائي),"Marine, ozone, watermelon, fresh (Variation)",Heart,5,85409-12-4,100
+554,Maltol Butyrate,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,49806-37-3,100
+555,Cis-Vanillin,غورماند (حلو),"Sweet, intense, vanilla bean (Variation)",Heart,5,41518-80-1,19.0
+556,Alpha-Lyral,زهري,"Soft, delicate floral, lily, cyclamen (Variation)",Heart,5,28245-89-5,100
+557,Beta-Lilial,زهري,"Floral, muguet, watery, green (Variation)",Heart,5,95132-56-3,100
+558,Cinnamaldehyde Formate,توابل,"Spicy, cinnamon, sweet, warm (Variation)",Heart,5,31173-42-2,100
+559,Gamma Nonalactone Butyrate,فاكهي,"Coconut, creamy, buttery, fruity (Variation)",Heart,5,69665-76-6,22.4
+560,Cis-Timbersilk,خشبي,"Smooth, woody, amber (Variation)",Base,5,10663-52-8,100
+561,Cis-Ethyl Vanillin,غورماند (حلو),"Very sweet, intense vanilla, 3x stronger (Variation)",Heart,5,89657-89-7,100
+562,Cis-Ambrettolide,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,92022-78-6,100
+563,Galaxolide Acetate,مسك,"Clean, sweet, musky, floral, woody (Variation)",Base,5,21209-96-4,100
+564,Musk Ketone Acetate,مسك,"Sweet, powdery, animalic nitro-musk (Variation)",Base,5,36580-54-8,17.7
+565,Propyl Scentenal,بحري (مائي),"Marine, green, muguet, ozone (Variation)",Heart,5,95984-60-8,16.8
+566,Benzyl Evernyl,ترابي,"Oakmoss, woody, phenolic, earthy (Variation)",Heart,5,44727-66-4,0.9
+567,Alpha-Florol,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,67372-56-7,100
+568,Coumarin Isobutyrate,غورماند (حلو),"Sweet, hay, tonka bean, almond (Variation)",Heart,5,69708-17-4,100
+569,Javanol Acetate,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,28521-69-7,100
+570,Sandalore Acetate,خشبي,"Warm, sweet, sandalwood, rich (Variation)",Base,5,45584-54-9,5.6
+571,Ebanol Formate,خشبي,"Rich, sandalwood, slightly musky (Variation)",Base,5,63457-30-8,100
+572,Florol Acetate,زهري,"Fresh, floral, muguet, natural (Variation)",Heart,5,85519-77-7,100
+573,Ethyl Maltol Butyrate,غورماند (حلو),"Extremely sweet, burnt sugar, caramel (Variation)",Heart,5,18206-37-6,100
+574,Propyl Javanol,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,70942-34-3,100
+575,Sandalore Propionate,خشبي,"Warm, sweet, sandalwood, rich (Variation)",Base,5,32549-37-3,100
+576,Phenylethyl Alcohol (PEA) Propionate,زهري,"Mild, warm, rose-honey (Variation)",Heart,5,88751-75-4,100
+577,Benzyl Maltol,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,39567-02-2,100
+578,Beta-Cetalox,عنبر,"Rich, elegant, ambergris, woody (Variation)",Heart,5,21238-82-7,2.8
+579,Evernyl Propionate,ترابي,"Oakmoss, woody, phenolic, earthy (Variation)",Heart,5,69213-47-9,100
+580,Methyl Damascenone,فاكهي/زهري,"Intense plum, rose, berry, tobacco (Variation)",Heart,5,11745-66-2,1.9
+581,Javanol Salicylate,خشبي,"Powerful, creamy, rosy sandalwood (Variation)",Base,5,46973-40-1,100
+582,Hydroxycitronellal Butyrate,زهري,"Sweet, floral, lily of the valley (Variation)",Heart,5,29888-95-3,100
+583,Norlimbanol Formate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,20192-74-3,18.3
+584,Trans-Methyl Ionone Gamma,زهري,"Woody, floral, violet, powdery (Variation)",Heart,5,91591-68-1,7.4
+585,Hydroxycitronellal Acetate,زهري,"Sweet, floral, lily of the valley (Variation)",Heart,5,72242-37-1,100
+586,Sylvamber Butyrate,خشبي,"Radiant, woody, ambery (Variation)",Base,5,92877-88-3,16.0
+587,Ambrettolide Salicylate,مسك,"Musky, sweet, floral, ambrette seed (Variation)",Base,5,58212-24-1,22.6
+588,Methyl Cis-3-Hexenol,أخضر,"Intense green grass, leafy, fresh (Variation)",Heart,5,21606-83-2,11.5
+589,Citronellol Salicylate,زهري,"Floral, rosy, waxy, citrus (Variation)",Heart,5,35621-73-4,12.7
+590,Vertofix Coeur Acetate,خشبي,"Woody, vetiver, cedar, leather (Variation)",Base,5,26155-12-4,11.7
+591,Propyl Ambroxan,عنبر,"Ambergris, woody, dry, radiant (Variation)",Heart,5,37706-07-5,100
+592,Norlimbanol Propionate,خشبي,"Extremely dry, woody, ambery (Variation)",Base,5,67789-00-6,12.0
+593,Trans-Calone,بحري (مائي),"Marine, ozone, watermelon, fresh (Variation)",Heart,5,78029-75-8,100
+594,Vanillin Acetate,غورماند (حلو),"Sweet, intense, vanilla bean (Variation)",Heart,5,44375-94-6,15.9
+595,Indole Salicylate,حيواني,"Animalic, fecal in high concentration, floral in low, jasmine (Variation)",Heart,5,22516-17-6,100
+596,Sylvamber Propionate,خشبي,"Radiant, woody, ambery (Variation)",Base,5,38499-76-3,100
+597,Maltol Propionate,غورماند (حلو),"Sweet, cotton candy, caramel, jam (Variation)",Heart,5,55599-77-5,100
+598,Propyl Damascone Alpha,فاكهي/زهري,"Apple, rose, fruity, plum (Variation)",Heart,5,13069-93-0,22.5
+599,Gamma-Eugenol,توابل,"Spicy, clove, warm, woody (Variation)",Heart,5,11475-11-1,6.8
+600,Methyl Laitone Propionate,غورماند (حلو),"Coconut, milk, creamy, lactonic (Variation)",Heart,5,44874-37-2,100
+601,Kephalis Formate,خشبي,"Rich, warm, woody, amber, tobacco (Variation)",Base,5,84508-72-4,100
