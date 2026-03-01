@@ -1,0 +1,1784 @@
+[
+    {
+        "id": 76,
+        "name_en": "Ambroxan Absolute",
+        "name_ar": "خلاصة أمبروكسان مطلقة",
+        "description_en": "Smoky, woody, animalic ambroxan absolute",
+        "description_ar": "دخاني, خشبي, حيواني ambroxan absolute",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 77,
+        "name_en": "Cashmeran Absolute",
+        "name_ar": "خلاصة كاشميران مطلقة",
+        "description_en": "Soft, woody, slightly sweet cashmeran absolute",
+        "description_ar": "Soft, خشبي, قليلاً حلو cashmeran absolute",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 78,
+        "name_en": "Dracopax Absolute",
+        "name_ar": "خلاصة دراكوپاكس مطلقة",
+        "description_en": "Earthy, woody, slightly smoky dracopax absolute",
+        "description_ar": "ترابي, خشبي, قليلاً دخاني dracopax absolute",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 79,
+        "name_en": "Hiba Wood Essential Oil",
+        "name_ar": "زيت خشب الهيبا العطري",
+        "description_en": "Fresh, woody, slightly floral hiba wood oil",
+        "description_ar": "منعش, خشبي, قليلاً زهري hiba wood oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 80,
+        "name_en": "Blue Tansy Essential Oil",
+        "name_ar": "زيت التانزي الأزرق العطري",
+        "description_en": "Smoky, woody, slightly animalic blue tansy oil",
+        "description_ar": "دخاني, خشبي, قليلاً حيواني blue tansy oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 81,
+        "name_en": "Pink Pepper Essential Oil",
+        "name_ar": "زيت الفلفل الوردي العطري",
+        "description_en": "Spicy, woody, slightly sweet pink pepper oil",
+        "description_ar": "توابلي, خشبي, قليلاً حلو pink pepper oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 82,
+        "name_en": "Green Pepper Absolute",
+        "name_ar": "خلاصة الفلفل الأخضر مطلقة",
+        "description_en": "Fresh, spicy, slightly woody green pepper oil",
+        "description_ar": "منعش, توابلي, قليلاً خشبي أخضر pepper oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 83,
+        "name_en": "Cumin Essential Oil",
+        "name_ar": "زيت الكمون العطري",
+        "description_en": "Earthy, spicy, slightly woody cumin oil",
+        "description_ar": "ترابي, توابلي, قليلاً خشبي cumin oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 84,
+        "name_en": "Coriander Essential Oil",
+        "name_ar": "زيت الكزبرة العطري",
+        "description_en": "Spicy, earthy, slightly citrusy coriander oil",
+        "description_ar": "توابلي, ترابي, قليلاً حمضي coriander oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 85,
+        "name_en": "Cardamom Essential Oil",
+        "name_ar": "زيت الهيل العطري",
+        "description_en": "Sweet, spicy, slightly woody cardamom oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي cardamom oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 86,
+        "name_en": "Nutmeg Essential Oil",
+        "name_ar": "زيت جوزة الطيب العطري",
+        "description_en": "Warm, sweet, slightly woody nutmeg oil",
+        "description_ar": "دافئ, حلو, قليلاً خشبي nutmeg oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 87,
+        "name_en": "Clove Essential Oil",
+        "name_ar": "زيت القرنفل العطري",
+        "description_en": "Spicy, warm, slightly woody clove oil",
+        "description_ar": "توابلي, دافئ, قليلاً خشبي clove oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 88,
+        "name_en": "Vanilla Absolute",
+        "name_ar": "خلاصة الفانيليا مطلقة",
+        "description_en": "Sweet, creamy, slightly woody vanilla oil",
+        "description_ar": "حلو, creamy, قليلاً خشبي vanilla oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 89,
+        "name_en": "Tonka Bean Absolute",
+        "name_ar": "خلاصة Tonka Bean مطلقة",
+        "description_en": "Sweet, spicy, slightly woody tonka bean oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tonka bean oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 90,
+        "name_en": "Cade Essential Oil",
+        "name_ar": "زيت Cade العطري",
+        "description_en": "Smoky, woody, dry with slight citrus undertones",
+        "description_ar": "دخاني, خشبي, جاف with slight citrus undertones",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 91,
+        "name_en": "Orris Root Distillate",
+        "name_ar": "مقطر جذر السوسن",
+        "description_en": "Powdery, floral, earthy iris root distillate",
+        "description_ar": "بودري, زهري, ترابي iris root distillate",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 92,
+        "name_en": "Moss Absolute",
+        "name_ar": "خلاصة الطحلب مطلقة",
+        "description_en": "Earthy, damp, mossy forest floor distillate",
+        "description_ar": "ترابي, damp, mossy forest floor distillate",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 93,
+        "name_en": "Usnea Lichen Essential Oil",
+        "name_ar": "زيت Usnea Lichen العطري",
+        "description_en": "Fresh, earthy, slightly woody usnea lichen oil",
+        "description_ar": "منعش, ترابي, قليلاً خشبي usnea lichen oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 94,
+        "name_en": "Balsam Fir Essential Oil",
+        "name_ar": "زيت بلسم الفير العطري",
+        "description_en": "Fresh, woody, resinous fir tree oil",
+        "description_ar": "منعش, خشبي, راتنجي fir tree oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 95,
+        "name_en": "Pine Needle Essential Oil",
+        "name_ar": "زيت إبر الصنوبر العطري",
+        "description_en": "Fresh, crisp, woody pine needles oil",
+        "description_ar": "منعش, crisp, خشبي pine needles oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 96,
+        "name_en": "Rosemary Essential Oil",
+        "name_ar": "زيت إكليل الجبل العطري",
+        "description_en": "Herbal, woody, slightly spicy rosemary oil",
+        "description_ar": "Herbal, خشبي, قليلاً توابلي rosemary oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 97,
+        "name_en": "Thyme Essential Oil",
+        "name_ar": "زيت الزعتر العطري",
+        "description_en": "Spicy, herbal, slightly woody thyme oil",
+        "description_ar": "توابلي, herbal, قليلاً خشبي thyme oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 98,
+        "name_en": "Basil Essential Oil",
+        "name_ar": "زيت الريحان العطري",
+        "description_en": "Sweet, spicy, slightly woody basil oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي basil oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 99,
+        "name_en": "Oregano Essential Oil",
+        "name_ar": "زيت الأوريغانو العطري",
+        "description_en": "Spicy, earthy, slightly woody oregano oil",
+        "description_ar": "توابلي, ترابي, قليلاً خشبي oregano oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 100,
+        "name_en": "Marjoram Essential Oil",
+        "name_ar": "زيت المردقوش العطري",
+        "description_en": "Sweet, spicy, slightly woody marjoram oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي marjoram oil",
+        "category_en": "Ambery Oriental",
+        "category_ar": "عنبري شرقي"
+    },
+    {
+        "id": 76,
+        "name_en": "Ambroxan Absolute",
+        "name_ar": "خلاصة أمبروكسان مطلقة",
+        "description_en": "Smoky, woody, animalic ambroxan absolute",
+        "description_ar": "دخاني, خشبي, حيواني ambroxan absolute",
+        "category_en": "Animalic Absolutes",
+        "category_ar": "خلاصات حيوانية"
+    },
+    {
+        "id": 77,
+        "name_en": "Cashmeran Absolute",
+        "name_ar": "خلاصة كاشميران مطلقة",
+        "description_en": "Soft, woody, slightly sweet cashmeran absolute",
+        "description_ar": "Soft, خشبي, قليلاً حلو cashmeran absolute",
+        "category_en": "Animalic Absolutes",
+        "category_ar": "خلاصات حيوانية"
+    },
+    {
+        "id": 78,
+        "name_en": "Dracopax Absolute",
+        "name_ar": "خلاصة دراكوپاكس مطلقة",
+        "description_en": "Earthy, woody, slightly smoky dracopax absolute",
+        "description_ar": "ترابي, خشبي, قليلاً دخاني dracopax absolute",
+        "category_en": "Animalic Absolutes",
+        "category_ar": "خلاصات حيوانية"
+    },
+    {
+        "id": 1,
+        "name_en": "Bergamot Essential Oil",
+        "name_ar": "زيت برغموت العطري",
+        "description_en": "Bright, citrusy, slightly floral bergamot",
+        "description_ar": "ساطع, حمضي, قليلاً زهري bergamot",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 2,
+        "name_en": "Lemon Essential Oil",
+        "name_ar": "زيت ليمون العطري",
+        "description_en": "Fresh, tangy, acidic lemon oil",
+        "description_ar": "منعش, لاذع, حمضي lemon oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 3,
+        "name_en": "Lime Essential Oil",
+        "name_ar": "زيت ليمون بنزهير العطري",
+        "description_en": "Zesty, bright, slightly sweet lime oil",
+        "description_ar": "فواح, ساطع, قليلاً حلو lime oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 4,
+        "name_en": "Orange Essential Oil",
+        "name_ar": "زيت برتقال العطري",
+        "description_en": "Sweet, juicy, tangy orange oil",
+        "description_ar": "حلو, عصاري, لاذع orange oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 5,
+        "name_en": "Grapefruit Essential Oil",
+        "name_ar": "زيت جريب فروت العطري",
+        "description_en": "Fresh, tart, slightly bitter grapefruit oil",
+        "description_ar": "منعش, لاذع, قليلاً مر grapefruit oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 6,
+        "name_en": "Tangerine Essential Oil",
+        "name_ar": "زيت يوسفي العطري",
+        "description_en": "Sweet, tangy, slightly spicy tangerine oil",
+        "description_ar": "حلو, لاذع, قليلاً توابلي tangerine oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 7,
+        "name_en": "Mandarin Essential Oil",
+        "name_ar": "زيت مندارين العطري",
+        "description_en": "Bright, citrusy, slightly sweet mandarin oil",
+        "description_ar": "ساطع, حمضي, قليلاً حلو mandarin oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 8,
+        "name_en": "Yuzu Essential Oil",
+        "name_ar": "زيت يوزو العطري",
+        "description_en": "Complex, tart, slightly floral yuzu oil",
+        "description_ar": "معقد, لاذع, قليلاً زهري yuzu oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 9,
+        "name_en": "Kumquat Essential Oil",
+        "name_ar": "زيت Kumquat العطري",
+        "description_en": "Tart, tangy, slightly bitter kumquat oil",
+        "description_ar": "لاذع, لاذع, قليلاً مر kumquat oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 10,
+        "name_en": "Neroli Essential Oil",
+        "name_ar": "زيت نيرولي العطري",
+        "description_en": "Sweet, floral, slightly citrusy neroli (bitter orange flower)",
+        "description_ar": "حلو, زهري, قليلاً حمضي neroli (مر orange flower)",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 11,
+        "name_en": "Petitgrain Essential Oil",
+        "name_ar": "زيت Petitgrain العطري",
+        "description_en": "Fresh, green, slightly citrusy petitgrain oil",
+        "description_ar": "منعش, أخضر, قليلاً حمضي petitgrain oil",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 12,
+        "name_en": "Lime Blossom Absolute",
+        "name_ar": "خلاصة Lime Blossom مطلقة",
+        "description_en": "Floral, powdery, slightly citrusy lime blossom absolute",
+        "description_ar": "زهري, بودري, قليلاً حمضي lime blossom absolute",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 13,
+        "name_en": "Bergaptene",
+        "name_ar": "Bergaptene",
+        "description_en": "Bright, tangy, slightly floral bergaptene (bergamot derivative)",
+        "description_ar": "ساطع, لاذع, قليلاً زهري bergaptene (bergamot derivative)",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 14,
+        "name_en": "Cedrol",
+        "name_ar": "Cedrol",
+        "description_en": "Woody, fresh, slightly citrusy cedrol",
+        "description_ar": "خشبي, منعش, قليلاً حمضي cedrol",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 15,
+        "name_en": "Exaltolide",
+        "name_ar": "Exaltolide",
+        "description_en": "Sweet, green, slightly citrusy exaltolide",
+        "description_ar": "حلو, أخضر, قليلاً حمضي exaltolide",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 16,
+        "name_en": "Carvone",
+        "name_ar": "Carvone",
+        "description_en": "Spicy, fresh, slightly citrusy carvone",
+        "description_ar": "توابلي, منعش, قليلاً حمضي carvone",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 17,
+        "name_en": "Menthol",
+        "name_ar": "Menthol",
+        "description_en": "Cool, refreshing, slightly minty menthol",
+        "description_ar": "بارد, reمنعشing, قليلاً minty menthol",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 18,
+        "name_en": "Citronellol",
+        "name_ar": "Citronellol",
+        "description_en": "Fresh, floral, slightly citrusy citronellol",
+        "description_ar": "منعش, زهري, قليلاً حمضي citronellol",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 19,
+        "name_en": "Geraniol",
+        "name_ar": "Geraniol",
+        "description_en": "Floral, sweet, slightly citrusy geraniol",
+        "description_ar": "زهري, حلو, قليلاً حمضي geraniol",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 20,
+        "name_en": "Linalool",
+        "name_ar": "Linalool",
+        "description_en": "Sweet, floral, slightly citrusy linalool",
+        "description_ar": "حلو, زهري, قليلاً حمضي linalool",
+        "category_en": "Citrus Hesperidic",
+        "category_ar": "حمضيات حمضية"
+    },
+    {
+        "id": 26,
+        "name_en": "Rose Essential Oil",
+        "name_ar": "زيت الورد العطري",
+        "description_en": "Rich, floral, slightly sweet rose oil",
+        "description_ar": "غني, زهري, قليلاً حلو rose oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 27,
+        "name_en": "Jasmine Essential Oil",
+        "name_ar": "زيت الياسمين العطري",
+        "description_en": "Sweet, heady, slightly spicy jasmine oil",
+        "description_ar": "حلو, heady, قليلاً توابلي jasmine oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 28,
+        "name_en": "Lavender Essential Oil",
+        "name_ar": "زيت الخزامى (لافندر) العطري",
+        "description_en": "Fresh, floral, slightly woody lavender oil",
+        "description_ar": "منعش, زهري, قليلاً خشبي lavender oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 29,
+        "name_en": "Geranium Essential Oil",
+        "name_ar": "زيت الجيرانيوم العطري",
+        "description_en": "Floral, sweet, slightly citrusy geranium oil",
+        "description_ar": "زهري, حلو, قليلاً حمضي geranium oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 30,
+        "name_en": "Ylang",
+        "name_ar": "Ylang",
+        "description_en": "Ylang Essential Oil - Sweet, tropical, slightly spicy ylang-ylang oil",
+        "description_ar": "Ylang Essential Oil - حلو, tropical, قليلاً توابلي ylang-ylang oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 31,
+        "name_en": "Tuberose Absolute",
+        "name_ar": "خلاصة مسك الروم مطلقة",
+        "description_en": "Rich, heady, slightly waxy tuberose absolute",
+        "description_ar": "غني, heady, قليلاً waxy tuberose absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 32,
+        "name_en": "Orris Root Absolute",
+        "name_ar": "خلاصة Orris جذور مطلقة",
+        "description_en": "Powdery, floral, earthy orris root absolute",
+        "description_ar": "بودري, زهري, ترابي orris root absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 33,
+        "name_en": "Violet Leaf Absolute",
+        "name_ar": "خلاصة Violet أوراق مطلقة",
+        "description_en": "Fresh, floral, slightly sweet violet leaf absolute",
+        "description_ar": "منعش, زهري, قليلاً حلو violet leaf absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 34,
+        "name_en": "Lily of the Valley Absolute",
+        "name_ar": "خلاصة زنبق الوادي مطلقة",
+        "description_en": "Sweet, delicate, slightly green lily of the valley absolute",
+        "description_ar": "حلو, delicate, قليلاً أخضر lily of the valley absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 35,
+        "name_en": "Gardenia Absolute",
+        "name_ar": "خلاصة الغاردينيا مطلقة",
+        "description_en": "Sweet, tropical, slightly jasmine-like gardenia absolute",
+        "description_ar": "حلو, tropical, قليلاً jasmine-like gardenia absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 36,
+        "name_en": "Narcissus Absolute",
+        "name_ar": "خلاصة النرجس مطلقة",
+        "description_en": "Rich, floral, slightly honeyed narcissus absolute",
+        "description_ar": "غني, زهري, قليلاً honeyed narcissus absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 37,
+        "name_en": "Mimosa Absolute",
+        "name_ar": "خلاصة الميموزا مطلقة",
+        "description_en": "Soft, floral, slightly sweet mimosa absolute",
+        "description_ar": "Soft, زهري, قليلاً حلو mimosa absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 38,
+        "name_en": "Osmanthus Absolute",
+        "name_ar": "خلاصة الأوسمانثوس مطلقة",
+        "description_en": "Sweet, floral, slightly nutty osmanthus absolute",
+        "description_ar": "حلو, زهري, قليلاً nutty osmanthus absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 39,
+        "name_en": "Honeysuckle Absolute",
+        "name_ar": "خلاصة لونيسيرا (شب الليل) مطلقة",
+        "description_en": "Fresh, floral, slightly sweet honeysuckle absolute",
+        "description_ar": "منعش, زهري, قليلاً حلو honeysuckle absolute",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 40,
+        "name_en": "Chamomile Essential Oil",
+        "name_ar": "زيت البابونج العطري",
+        "description_en": "Floral, sweet, slightly spicy chamomile oil",
+        "description_ar": "زهري, حلو, قليلاً توابلي chamomile oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 41,
+        "name_en": "Mimosa Essential Oil",
+        "name_ar": "زيت الميموزا العطري",
+        "description_en": "Light, floral, slightly citrusy mimosa oil",
+        "description_ar": "Light, زهري, قليلاً حمضي mimosa oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 42,
+        "name_en": "Tarragon Essential Oil",
+        "name_ar": "زيت طرخون العطري",
+        "description_en": "Sweet, spicy, slightly floral tarragon oil",
+        "description_ar": "حلو, توابلي, قليلاً زهري tarragon oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 43,
+        "name_en": "Fennel Essential Oil",
+        "name_ar": "زيت الشمر العطري",
+        "description_en": "Sweet, spicy, slightly floral fennel oil",
+        "description_ar": "حلو, توابلي, قليلاً زهري fennel oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 44,
+        "name_en": "Anise Essential Oil",
+        "name_ar": "زيت اليانسون العطري",
+        "description_en": "Sweet, spicy, slightly floral anise oil",
+        "description_ar": "حلو, توابلي, قليلاً زهري anise oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 45,
+        "name_en": "Clove Essential Oil",
+        "name_ar": "زيت القرنفل العطري",
+        "description_en": "Spicy, warm, slightly floral clove oil",
+        "description_ar": "توابلي, دافئ, قليلاً زهري clove oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 46,
+        "name_en": "Cinnamon Essential Oil",
+        "name_ar": "زيت القرفة العطري",
+        "description_en": "Warm, sweet, slightly floral cinnamon oil",
+        "description_ar": "دافئ, حلو, قليلاً زهري cinnamon oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 47,
+        "name_en": "Star Anise Essential Oil",
+        "name_ar": "زيت اليانسون النجمي العطري",
+        "description_en": "Spicy, warm, slightly floral star anise oil",
+        "description_ar": "توابلي, دافئ, قليلاً زهري star anise oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 48,
+        "name_en": "Allspice Essential Oil",
+        "name_ar": "زيت البهار الحلو العطري",
+        "description_en": "Spicy, warm, slightly floral allspice oil",
+        "description_ar": "توابلي, دافئ, قليلاً زهري allspice oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 49,
+        "name_en": "Pink Pepper Essential Oil",
+        "name_ar": "زيت الفلفل الوردي العطري",
+        "description_en": "Smoky, woody, slightly sweet pink pepper oil",
+        "description_ar": "دخاني, خشبي, قليلاً حلو pink pepper oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 50,
+        "name_en": "Black Pepper Essential Oil",
+        "name_ar": "زيت الفلفل الأسود العطري",
+        "description_en": "Fresh, spicy, slightly woody black pepper oil",
+        "description_ar": "منعش, توابلي, قليلاً خشبي black pepper oil",
+        "category_en": "Floral",
+        "category_ar": "زهري"
+    },
+    {
+        "id": 176,
+        "name_en": "Vanilla Absolute Distillate",
+        "name_ar": "مقطر Vanilla Absolute",
+        "description_en": "Sweet, creamy, slightly woody vanilla oil",
+        "description_ar": "حلو, creamy, قليلاً خشبي vanilla oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 177,
+        "name_en": "Tonka Bean Absolute Distillate",
+        "name_ar": "مقطر Tonka Bean Absolute",
+        "description_en": "Sweet, spicy, slightly woody tonka bean oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tonka bean oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 178,
+        "name_en": "Cade Essential Oil Distillate",
+        "name_ar": "زيت Cade  Distillate العطري",
+        "description_en": "Smoky, woody, dry with slight citrus undertones",
+        "description_ar": "دخاني, خشبي, جاف with slight citrus undertones",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 179,
+        "name_en": "Orris Root Distillate",
+        "name_ar": "مقطر جذر السوسن",
+        "description_en": "Powdery, floral, earthy iris root distillate",
+        "description_ar": "بودري, زهري, ترابي iris root distillate",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 180,
+        "name_en": "Moss Absolute Distillate",
+        "name_ar": "مقطر Moss Absolute",
+        "description_en": "Earthy, damp, mossy forest floor distillate",
+        "description_ar": "ترابي, damp, mossy forest floor distillate",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 181,
+        "name_en": "Usnea Lichen Essential Oil Distillate",
+        "name_ar": "زيت Usnea Lichen  Distillate العطري",
+        "description_en": "Fresh, earthy, slightly woody usnea lichen oil",
+        "description_ar": "منعش, ترابي, قليلاً خشبي usnea lichen oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 182,
+        "name_en": "Balsam Fir Essential Oil Distillate",
+        "name_ar": "زيت Balsam Fir  Distillate العطري",
+        "description_en": "Fresh, woody, resinous fir tree oil",
+        "description_ar": "منعش, خشبي, راتنجي fir tree oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 183,
+        "name_en": "Pine Needle Essential Oil Distillate",
+        "name_ar": "زيت Pine Needle  Distillate العطري",
+        "description_en": "Fresh, crisp, woody pine needles oil",
+        "description_ar": "منعش, crisp, خشبي pine needles oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 184,
+        "name_en": "Rosemary Essential Oil Distillate",
+        "name_ar": "زيت Rosemary  Distillate العطري",
+        "description_en": "Herbal, woody, slightly spicy rosemary oil",
+        "description_ar": "Herbal, خشبي, قليلاً توابلي rosemary oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 185,
+        "name_en": "Thyme Essential Oil Distillate",
+        "name_ar": "زيت Thyme  Distillate العطري",
+        "description_en": "Spicy, herbal, slightly woody thyme oil",
+        "description_ar": "توابلي, herbal, قليلاً خشبي thyme oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 186,
+        "name_en": "Basil Essential Oil Distillate",
+        "name_ar": "زيت Basil  Distillate العطري",
+        "description_en": "Sweet, spicy, slightly woody basil oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي basil oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 187,
+        "name_en": "Oregano Essential Oil Distillate",
+        "name_ar": "زيت Oregano  Distillate العطري",
+        "description_en": "Spicy, earthy, slightly woody oregano oil",
+        "description_ar": "توابلي, ترابي, قليلاً خشبي oregano oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 188,
+        "name_en": "Marjoram Essential Oil Distillate",
+        "name_ar": "زيت Marjoram  Distillate العطري",
+        "description_en": "Sweet, spicy, slightly woody marjoram oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي marjoram oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 189,
+        "name_en": "Lavender Essential Oil Distillate",
+        "name_ar": "زيت Lavender  Distillate العطري",
+        "description_en": "Floral, woody, slightly sweet lavender oil",
+        "description_ar": "زهري, خشبي, قليلاً حلو lavender oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 190,
+        "name_en": "Clary Sage Essential Oil Distillate",
+        "name_ar": "زيت Clary Sage  Distillate العطري",
+        "description_en": "Herbal, woody, slightly floral clary sage oil",
+        "description_ar": "Herbal, خشبي, قليلاً زهري clary sage oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 191,
+        "name_en": "Yarrow Absolute Distillate",
+        "name_ar": "مقطر Yarrow Absolute",
+        "description_en": "Fresh, earthy, slightly woody yarrow absolute",
+        "description_ar": "منعش, ترابي, قليلاً خشبي yarrow absolute",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 192,
+        "name_en": "Mugwort Absolute Distillate",
+        "name_ar": "مقطر Mugwort Absolute",
+        "description_en": "Spicy, earthy, slightly woody mugwort absolute",
+        "description_ar": "توابلي, ترابي, قليلاً خشبي mugwort absolute",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 193,
+        "name_en": "Tarragon Essential Oil Distillate",
+        "name_ar": "زيت Tarragon  Distillate العطري",
+        "description_en": "Sweet, spicy, slightly woody tarragon oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tarragon oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 194,
+        "name_en": "Anise Essential Oil Distillate",
+        "name_ar": "زيت Anise  Distillate العطري",
+        "description_en": "Sweet, spicy, slightly woody anise oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي anise oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 195,
+        "name_en": "Fennel Essential Oil Distillate",
+        "name_ar": "زيت Fennel  Distillate العطري",
+        "description_en": "Sweet, spicy, slightly woody fennel oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي fennel oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 196,
+        "name_en": "Cinnamon Essential Oil Distillate",
+        "name_ar": "زيت Cinnamon  Distillate العطري",
+        "description_en": "Warm, sweet, slightly woody cinnamon oil",
+        "description_ar": "دافئ, حلو, قليلاً خشبي cinnamon oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 197,
+        "name_en": "Star Anise Essential Oil Distillate",
+        "name_ar": "زيت Star Anise  Distillate العطري",
+        "description_en": "Spicy, warm, slightly woody star anise oil",
+        "description_ar": "توابلي, دافئ, قليلاً خشبي star anise oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 198,
+        "name_en": "Allspice Essential Oil Distillate",
+        "name_ar": "زيت Allspice  Distillate العطري",
+        "description_en": "Spicy, warm, slightly woody allspice oil",
+        "description_ar": "توابلي, دافئ, قليلاً خشبي allspice oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 199,
+        "name_en": "Black Pepper Absolute Distillate",
+        "name_ar": "مقطر Black Pepper Absolute",
+        "description_en": "Fresh, spicy, slightly woody black pepper oil",
+        "description_ar": "منعش, توابلي, قليلاً خشبي black pepper oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 200,
+        "name_en": "Pink Pepper Absolute Distillate",
+        "name_ar": "مقطر Pink Pepper Absolute",
+        "description_en": "Smoky, woody, slightly sweet pink pepper oil",
+        "description_ar": "دخاني, خشبي, قليلاً حلو pink pepper oil",
+        "category_en": "Fruit Gourmand Others",
+        "category_ar": "فانيليا وفواكه"
+    },
+    {
+        "id": 151,
+        "name_en": "Fresh Mint Essential Oil",
+        "name_ar": "زيت Fresh Mint العطري",
+        "description_en": "Cool, refreshing mint",
+        "description_ar": "بارد, reمنعشing mint",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 152,
+        "name_en": "Basil Essential Oil",
+        "name_ar": "زيت الريحان العطري",
+        "description_en": "Sweet, spicy basil",
+        "description_ar": "حلو, توابلي basil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 153,
+        "name_en": "Rosemary Essential Oil",
+        "name_ar": "زيت إكليل الجبل العطري",
+        "description_en": "Herbal, woody rosemary",
+        "description_ar": "Herbal, خشبي rosemary",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 154,
+        "name_en": "Cucumber Absolute",
+        "name_ar": "خلاصة الخيار مطلقة",
+        "description_en": "Refreshing, green cucumber",
+        "description_ar": "Reمنعشing, أخضر cucumber",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 155,
+        "name_en": "Bamboo Shoot Absolute",
+        "name_ar": "خلاصة Bamboo Shoot مطلقة",
+        "description_en": "Fresh, grassy bamboo",
+        "description_ar": "منعش, grassy bamboo",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 156,
+        "name_en": "Eucalyptus Essential Oil",
+        "name_ar": "زيت Eucalyptus العطري",
+        "description_en": "Cool, medicinal eucalyptus",
+        "description_ar": "بارد, طبي eucalyptus",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 157,
+        "name_en": "Green Tea Absolute",
+        "name_ar": "خلاصة Green Tea مطلقة",
+        "description_en": "Fresh, earthy green tea",
+        "description_ar": "منعش, ترابي أخضر tea",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 158,
+        "name_en": "Oolong Tea Absolute",
+        "name_ar": "خلاصة Oolong Tea مطلقة",
+        "description_en": "Rich, earthy oolong tea",
+        "description_ar": "غني, ترابي oolong tea",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 159,
+        "name_en": "Coffee Absolute",
+        "name_ar": "خلاصة القهوة مطلقة",
+        "description_en": "Earthy, roasted coffee",
+        "description_ar": "ترابي, محمص coffee",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 160,
+        "name_en": "Cocoa Absolute",
+        "name_ar": "خلاصة الكاكاو مطلقة",
+        "description_en": "Sweet, earthy cocoa",
+        "description_ar": "حلو, ترابي cocoa",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 161,
+        "name_en": "Tobacco Absolute",
+        "name_ar": "خلاصة التبغ مطلقة",
+        "description_en": "Smoky, earthy tobacco",
+        "description_ar": "دخاني, ترابي tobacco",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 162,
+        "name_en": "Patchouli Essential Oil Distillate",
+        "name_ar": "زيت Patchouli  Distillate العطري",
+        "description_en": "Earthy, deep, slightly sweet patchouli oil",
+        "description_ar": "ترابي, deep, قليلاً حلو patchouli oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 163,
+        "name_en": "Vetiver Essential Oil Distillate",
+        "name_ar": "زيت Vetiver  Distillate العطري",
+        "description_en": "Woody, earthy, smoky vetiver root oil",
+        "description_ar": "خشبي, ترابي, دخاني vetiver root oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 164,
+        "name_en": "Sandalwood Essential Oil Distillate",
+        "name_ar": "زيت Sandalwood  Distillate العطري",
+        "description_en": "Warm, woody, slightly sweet sandalwood oil",
+        "description_ar": "دافئ, خشبي, قليلاً حلو sandalwood oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 165,
+        "name_en": "Cedarwood Essential Oil Distillate",
+        "name_ar": "زيت Cedarwood  Distillate العطري",
+        "description_en": "Rich, dry, woody cedar aroma oil",
+        "description_ar": "غني, جاف, خشبي cedar aroma oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 166,
+        "name_en": "Cypress Essential Oil Distillate",
+        "name_ar": "زيت Cypress  Distillate العطري",
+        "description_en": "Fresh, woody, slightly herbal cypress oil",
+        "description_ar": "منعش, خشبي, قليلاً herbal cypress oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 167,
+        "name_en": "Juniper Berry Essential Oil Distillate",
+        "name_ar": "زيت Juniper Berry  Distillate العطري",
+        "description_en": "Piney, woody, slightly spicy juniper oil",
+        "description_ar": "Piney, خشبي, قليلاً توابلي juniper oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 168,
+        "name_en": "Amyris Essential Oil Distillate",
+        "name_ar": "زيت Amyris  Distillate العطري",
+        "description_en": "Sweet, woody, slightly smoky amyris oil",
+        "description_ar": "حلو, خشبي, قليلاً دخاني amyris oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 169,
+        "name_en": "Guaiac Wood Essential Oil Distillate",
+        "name_ar": "زيت Guaiac Wood  Distillate العطري",
+        "description_en": "Smoky, woody, medicinal guaiac oil",
+        "description_ar": "دخاني, خشبي, طبي guaiac oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 170,
+        "name_en": "Storax Resinoid Absolute",
+        "name_ar": "خلاصة Storax Resinoid مطلقة",
+        "description_en": "Sweet, woody, spicy storax absolute",
+        "description_ar": "حلو, خشبي, توابلي storax absolute",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 171,
+        "name_en": "Dracopax Absolute",
+        "name_ar": "خلاصة دراكوپاكس مطلقة",
+        "description_en": "Earthy, woody, slightly smoky dracopax absolute",
+        "description_ar": "ترابي, خشبي, قليلاً دخاني dracopax absolute",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 172,
+        "name_en": "Hiba Wood Essential Oil Distillate",
+        "name_ar": "زيت Hiba Wood  Distillate العطري",
+        "description_en": "Fresh, woody, slightly floral hiba wood oil",
+        "description_ar": "منعش, خشبي, قليلاً زهري hiba wood oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 173,
+        "name_en": "Blue Tansy Essential Oil Distillate",
+        "name_ar": "زيت Blue Tansy  Distillate العطري",
+        "description_en": "Smoky, woody, slightly animalic blue tansy oil",
+        "description_ar": "دخاني, خشبي, قليلاً حيواني blue tansy oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 174,
+        "name_en": "Pink Pepper Essential Oil Distillate",
+        "name_ar": "زيت Pink Pepper  Distillate العطري",
+        "description_en": "Spicy, woody, slightly sweet pink pepper oil",
+        "description_ar": "توابلي, خشبي, قليلاً حلو pink pepper oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 175,
+        "name_en": "Green Pepper Absolute Distillate",
+        "name_ar": "مقطر Green Pepper Absolute",
+        "description_en": "Fresh, spicy, slightly woody green pepper oil",
+        "description_ar": "منعش, توابلي, قليلاً خشبي أخضر pepper oil",
+        "category_en": "Green Aldehydic Marine",
+        "category_ar": "عشبي ألدهيدي بحري"
+    },
+    {
+        "id": 101,
+        "name_en": "Musk Absolute",
+        "name_ar": "خلاصة المسك مطلقة",
+        "description_en": "Rich, animalic, powdery musk",
+        "description_ar": "غني, حيواني, بودري musk",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 102,
+        "name_en": "Civet Absolute",
+        "name_ar": "خلاصة الزباد مطلقة",
+        "description_en": "Intense, animalic, exotic civet",
+        "description_ar": "Intense, حيواني, exotic civet",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 103,
+        "name_en": "Castoreum Absolute",
+        "name_ar": "خلاصة القندس (كاستوريوم) مطلقة",
+        "description_en": "Sweet, animalic, slightly woody castoreum",
+        "description_ar": "حلو, حيواني, قليلاً خشبي castoreum",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 104,
+        "name_en": "Ambergris Absolute",
+        "name_ar": "خلاصة عنبر الحوت مطلقة",
+        "description_en": "Earthy, oceanic, animalic ambergris",
+        "description_ar": "ترابي, oceanic, حيواني ambergris",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 105,
+        "name_en": "Hyraceum Absolute",
+        "name_ar": "خلاصة صخر الوبار مطلقة",
+        "description_en": "Rich, animalic, earthy hyraceum",
+        "description_ar": "غني, حيواني, ترابي hyraceum",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 106,
+        "name_en": "Sperm Whale Oil",
+        "name_ar": "زيت حوت العنبر",
+        "description_en": "Deep, oceanic, animalic sperm whale oil",
+        "description_ar": "Deep, oceanic, حيواني sperm whale oil",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 107,
+        "name_en": "Ixora Essential Oil",
+        "name_ar": "زيت إكسورا العطري",
+        "description_en": "Sweet, spicy, slightly musky ixora",
+        "description_ar": "حلو, توابلي, قليلاً musky ixora",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 108,
+        "name_en": "Ambrette Seed Absolute",
+        "name_ar": "خلاصة بذور الأمبريت مطلقة",
+        "description_en": "Spicy, musky, slightly sweet ambrette seed",
+        "description_ar": "توابلي, musky, قليلاً حلو ambrette seed",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 109,
+        "name_en": "Tolu Balsam",
+        "name_ar": "بلسم تولو",
+        "description_en": "Sweet, balsamic, slightly musky tolu balsam",
+        "description_ar": "حلو, balsamic, قليلاً musky tolu balsam",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 110,
+        "name_en": "Myrtenol",
+        "name_ar": "Myrtenol",
+        "description_en": "Sweet, floral, slightly musky myrtenol",
+        "description_ar": "حلو, زهري, قليلاً musky myrtenol",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 111,
+        "name_en": "Tricyclene",
+        "name_ar": "Tricyclene",
+        "description_en": "Citrusy, green, slightly musky tricyclene",
+        "description_ar": "حمضي, أخضر, قليلاً musky tricyclene",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 112,
+        "name_en": "Galaxolide",
+        "name_ar": "جالاكسوليد",
+        "description_en": "Sweet, powdery, musky galaxolide",
+        "description_ar": "حلو, بودري, musky galaxolide",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 113,
+        "name_en": "Amaryl",
+        "name_ar": "Amaryl",
+        "description_en": "Sweet, floral, musky amaryl",
+        "description_ar": "حلو, زهري, musky amaryl",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 114,
+        "name_en": "Phenyl Acetate",
+        "name_ar": "Phenyl Acetate",
+        "description_en": "Sweet, ethereal, slightly musky phenyl acetate",
+        "description_ar": "حلو, ethereal, قليلاً musky phenyl acetate",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 115,
+        "name_en": "Hydroxycitronellal",
+        "name_ar": "هيدروكسي سيترونيلال",
+        "description_en": "Sweet, floral, slightly musky hydroxycitronellal",
+        "description_ar": "حلو, زهري, قليلاً musky hydroxycitronellal",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 116,
+        "name_en": "Cinnamaldehyde",
+        "name_ar": "سينامالدهيد",
+        "description_en": "Spicy, sweet, slightly musky cinnamaldehyde",
+        "description_ar": "توابلي, حلو, قليلاً musky cinnamaldehyde",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 117,
+        "name_en": "Ebanol",
+        "name_ar": "إيبانول",
+        "description_en": "Rich, woody, slightly musky ebanol",
+        "description_ar": "غني, خشبي, قليلاً musky ebanol",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 118,
+        "name_en": "Zestanolide",
+        "name_ar": "Zestanolide",
+        "description_en": "Fruity, sweet, slightly musky zestanolide",
+        "description_ar": "Fruity, حلو, قليلاً musky zestanolide",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 119,
+        "name_en": "Velvione",
+        "name_ar": "فلفيون",
+        "description_en": "Soft, warm, slightly musky velvione",
+        "description_ar": "Soft, دافئ, قليلاً musky velvione",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 120,
+        "name_en": "Drimane",
+        "name_ar": "Drimane",
+        "description_en": "Fresh, green, slightly musky drimane",
+        "description_ar": "منعش, أخضر, قليلاً musky drimane",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 121,
+        "name_en": "Ionone Gamma",
+        "name_ar": "Ionone Gamma",
+        "description_en": "Spicy, floral, slightly musky ionone gamma",
+        "description_ar": "توابلي, زهري, قليلاً musky ionone gamma",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 122,
+        "name_en": "Cetalox",
+        "name_ar": "سيتالوكس",
+        "description_en": "Sweet, powdery, musky cetalox",
+        "description_ar": "حلو, بودري, musky cetalox",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 123,
+        "name_en": "Myrcene",
+        "name_ar": "Myrcene",
+        "description_en": "Earthy, spicy, slightly musky myrcene",
+        "description_ar": "ترابي, توابلي, قليلاً musky myrcene",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 124,
+        "name_en": "Pulegone",
+        "name_ar": "Pulegone",
+        "description_en": "Fresh, minty, slightly musky pulegone",
+        "description_ar": "منعش, minty, قليلاً musky pulegone",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 125,
+        "name_en": "Vanillin",
+        "name_ar": "فانيلين",
+        "description_en": "Sweet, creamy, slightly musky vanillin",
+        "description_ar": "حلو, creamy, قليلاً musky vanillin",
+        "category_en": "Musky Animalic",
+        "category_ar": "مسكي حيواني"
+    },
+    {
+        "id": 126,
+        "name_en": "Cumin Essential Oil",
+        "name_ar": "زيت الكمون العطري",
+        "description_en": "Earthy, spicy, slightly woody cumin oil",
+        "description_ar": "ترابي, توابلي, قليلاً خشبي cumin oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 127,
+        "name_en": "Coriander Essential Oil",
+        "name_ar": "زيت الكزبرة العطري",
+        "description_en": "Spicy, earthy, slightly citrusy coriander oil",
+        "description_ar": "توابلي, ترابي, قليلاً حمضي coriander oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 128,
+        "name_en": "Cardamom Essential Oil",
+        "name_ar": "زيت الهيل العطري",
+        "description_en": "Sweet, spicy, slightly woody cardamom oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي cardamom oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 129,
+        "name_en": "Nutmeg Essential Oil",
+        "name_ar": "زيت جوزة الطيب العطري",
+        "description_en": "Warm, sweet, slightly woody nutmeg oil",
+        "description_ar": "دافئ, حلو, قليلاً خشبي nutmeg oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 130,
+        "name_en": "Clove Essential Oil",
+        "name_ar": "زيت القرنفل العطري",
+        "description_en": "Spicy, warm, slightly woody clove oil",
+        "description_ar": "توابلي, دافئ, قليلاً خشبي clove oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 131,
+        "name_en": "Vanilla Absolute",
+        "name_ar": "خلاصة الفانيليا مطلقة",
+        "description_en": "Sweet, creamy, slightly woody vanilla oil",
+        "description_ar": "حلو, creamy, قليلاً خشبي vanilla oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 132,
+        "name_en": "Tonka Bean Absolute",
+        "name_ar": "خلاصة Tonka Bean مطلقة",
+        "description_en": "Sweet, spicy, slightly woody tonka bean oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tonka bean oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 133,
+        "name_en": "Cade Essential Oil",
+        "name_ar": "زيت Cade العطري",
+        "description_en": "Smoky, woody, dry with slight citrus undertones",
+        "description_ar": "دخاني, خشبي, جاف with slight citrus undertones",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 134,
+        "name_en": "Orris Root Distillate",
+        "name_ar": "مقطر جذر السوسن",
+        "description_en": "Powdery, floral, earthy iris root distillate",
+        "description_ar": "بودري, زهري, ترابي iris root distillate",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 135,
+        "name_en": "Moss Absolute",
+        "name_ar": "خلاصة الطحلب مطلقة",
+        "description_en": "Earthy, damp, mossy forest floor distillate",
+        "description_ar": "ترابي, damp, mossy forest floor distillate",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 136,
+        "name_en": "Usnea Lichen Essential Oil",
+        "name_ar": "زيت Usnea Lichen العطري",
+        "description_en": "Fresh, earthy, slightly woody usnea lichen oil",
+        "description_ar": "منعش, ترابي, قليلاً خشبي usnea lichen oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 137,
+        "name_en": "Balsam Fir Essential Oil",
+        "name_ar": "زيت بلسم الفير العطري",
+        "description_en": "Fresh, woody, resinous fir tree oil",
+        "description_ar": "منعش, خشبي, راتنجي fir tree oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 138,
+        "name_en": "Pine Needle Essential Oil",
+        "name_ar": "زيت إبر الصنوبر العطري",
+        "description_en": "Fresh, crisp, woody pine needles oil",
+        "description_ar": "منعش, crisp, خشبي pine needles oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 139,
+        "name_en": "Rosemary Essential Oil",
+        "name_ar": "زيت إكليل الجبل العطري",
+        "description_en": "Herbal, woody, slightly spicy rosemary oil",
+        "description_ar": "Herbal, خشبي, قليلاً توابلي rosemary oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 140,
+        "name_en": "Thyme Essential Oil",
+        "name_ar": "زيت الزعتر العطري",
+        "description_en": "Spicy, herbal, slightly woody thyme oil",
+        "description_ar": "توابلي, herbal, قليلاً خشبي thyme oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 141,
+        "name_en": "Basil Essential Oil",
+        "name_ar": "زيت الريحان العطري",
+        "description_en": "Sweet, spicy, slightly woody basil oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي basil oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 142,
+        "name_en": "Oregano Essential Oil",
+        "name_ar": "زيت الأوريغانو العطري",
+        "description_en": "Spicy, earthy, slightly woody oregano oil",
+        "description_ar": "توابلي, ترابي, قليلاً خشبي oregano oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 143,
+        "name_en": "Marjoram Essential Oil",
+        "name_ar": "زيت المردقوش العطري",
+        "description_en": "Sweet, spicy, slightly woody marjoram oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي marjoram oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 144,
+        "name_en": "Lavender Essential Oil",
+        "name_ar": "زيت الخزامى (لافندر) العطري",
+        "description_en": "Floral, woody, slightly sweet lavender oil",
+        "description_ar": "زهري, خشبي, قليلاً حلو lavender oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 145,
+        "name_en": "Clary Sage Essential Oil",
+        "name_ar": "زيت الميرمية العطري",
+        "description_en": "Herbal, woody, slightly floral clary sage oil",
+        "description_ar": "Herbal, خشبي, قليلاً زهري clary sage oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 146,
+        "name_en": "Yarrow Absolute",
+        "name_ar": "خلاصة الأخيليا مطلقة",
+        "description_en": "Fresh, earthy, slightly woody yarrow absolute",
+        "description_ar": "منعش, ترابي, قليلاً خشبي yarrow absolute",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 147,
+        "name_en": "Mugwort Absolute",
+        "name_ar": "خلاصة الشيح مطلقة",
+        "description_en": "Spicy, earthy, slightly woody mugwort absolute",
+        "description_ar": "توابلي, ترابي, قليلاً خشبي mugwort absolute",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 148,
+        "name_en": "Tarragon Essential Oil",
+        "name_ar": "زيت طرخون العطري",
+        "description_en": "Sweet, spicy, slightly woody tarragon oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tarragon oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 149,
+        "name_en": "Anise Essential Oil",
+        "name_ar": "زيت اليانسون العطري",
+        "description_en": "Sweet, spicy, slightly woody anise oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي anise oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 150,
+        "name_en": "Fennel Essential Oil",
+        "name_ar": "زيت الشمر العطري",
+        "description_en": "Sweet, spicy, slightly woody fennel oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي fennel oil",
+        "category_en": "Spicy Aromatic Herbs",
+        "category_ar": "توابل وأعشاب عطرية"
+    },
+    {
+        "id": 51,
+        "name_en": "Sandalwood Essential Oil",
+        "name_ar": "زيت خشب الصندل العطري",
+        "description_en": "Warm, woody, slightly sweet sandalwood oil",
+        "description_ar": "دافئ, خشبي, قليلاً حلو sandalwood oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 52,
+        "name_en": "Cedarwood Essential Oil",
+        "name_ar": "زيت خشب الأرز العطري",
+        "description_en": "Rich, dry, woody cedar aroma oil",
+        "description_ar": "غني, جاف, خشبي cedar aroma oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 53,
+        "name_en": "Cypress Essential Oil",
+        "name_ar": "زيت السرو العطري",
+        "description_en": "Fresh, woody, slightly herbal cypress oil",
+        "description_ar": "منعش, خشبي, قليلاً herbal cypress oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 54,
+        "name_en": "Juniper Berry Essential Oil",
+        "name_ar": "زيت Juniper Berry العطري",
+        "description_en": "Piney, woody, slightly spicy juniper oil",
+        "description_ar": "Piney, خشبي, قليلاً توابلي juniper oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 55,
+        "name_en": "Amyris Essential Oil",
+        "name_ar": "زيت Amyris العطري",
+        "description_en": "Sweet, woody, slightly smoky amyris oil",
+        "description_ar": "حلو, خشبي, قليلاً دخاني amyris oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 56,
+        "name_en": "Guaiac Wood Essential Oil",
+        "name_ar": "زيت Guaiac Wood العطري",
+        "description_en": "Smoky, woody, medicinal guaiac oil",
+        "description_ar": "دخاني, خشبي, طبي guaiac oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 57,
+        "name_en": "Storax Resinoid Absolute",
+        "name_ar": "خلاصة Storax Resinoid مطلقة",
+        "description_en": "Sweet, woody, spicy storax absolute",
+        "description_ar": "حلو, خشبي, توابلي storax absolute",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 58,
+        "name_en": "Dracopax Absolute",
+        "name_ar": "خلاصة دراكوپاكس مطلقة",
+        "description_en": "Earthy, woody, slightly smoky dracopax absolute",
+        "description_ar": "ترابي, خشبي, قليلاً دخاني dracopax absolute",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 59,
+        "name_en": "Hiba Wood Essential Oil",
+        "name_ar": "زيت خشب الهيبا العطري",
+        "description_en": "Fresh, woody, slightly floral hiba wood oil",
+        "description_ar": "منعش, خشبي, قليلاً زهري hiba wood oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 60,
+        "name_en": "Blue Tansy Essential Oil",
+        "name_ar": "زيت التانزي الأزرق العطري",
+        "description_en": "Smoky, woody, slightly animalic blue tansy oil",
+        "description_ar": "دخاني, خشبي, قليلاً حيواني blue tansy oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 61,
+        "name_en": "Pink Pepper Essential Oil",
+        "name_ar": "زيت الفلفل الوردي العطري",
+        "description_en": "Spicy, woody, slightly sweet pink pepper oil",
+        "description_ar": "توابلي, خشبي, قليلاً حلو pink pepper oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 62,
+        "name_en": "Green Pepper Absolute",
+        "name_ar": "خلاصة الفلفل الأخضر مطلقة",
+        "description_en": "Fresh, spicy, slightly woody green pepper oil",
+        "description_ar": "منعش, توابلي, قليلاً خشبي أخضر pepper oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 63,
+        "name_en": "Cumin Essential Oil",
+        "name_ar": "زيت الكمون العطري",
+        "description_en": "Earthy, spicy, slightly woody cumin oil",
+        "description_ar": "ترابي, توابلي, قليلاً خشبي cumin oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 64,
+        "name_en": "Coriander Essential Oil",
+        "name_ar": "زيت الكزبرة العطري",
+        "description_en": "Spicy, earthy, slightly citrusy coriander oil",
+        "description_ar": "توابلي, ترابي, قليلاً حمضي coriander oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 65,
+        "name_en": "Cardamom Essential Oil",
+        "name_ar": "زيت الهيل العطري",
+        "description_en": "Sweet, spicy, slightly woody cardamom oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي cardamom oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 66,
+        "name_en": "Nutmeg Essential Oil",
+        "name_ar": "زيت جوزة الطيب العطري",
+        "description_en": "Warm, sweet, slightly woody nutmeg oil",
+        "description_ar": "دافئ, حلو, قليلاً خشبي nutmeg oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 67,
+        "name_en": "Clove Essential Oil",
+        "name_ar": "زيت القرنفل العطري",
+        "description_en": "Spicy, warm, slightly woody clove oil",
+        "description_ar": "توابلي, دافئ, قليلاً خشبي clove oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 68,
+        "name_en": "Vanilla Absolute",
+        "name_ar": "خلاصة الفانيليا مطلقة",
+        "description_en": "Sweet, creamy, slightly woody vanilla oil",
+        "description_ar": "حلو, creamy, قليلاً خشبي vanilla oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 69,
+        "name_en": "Tonka Bean Absolute",
+        "name_ar": "خلاصة Tonka Bean مطلقة",
+        "description_en": "Sweet, spicy, slightly woody tonka bean oil",
+        "description_ar": "حلو, توابلي, قليلاً خشبي tonka bean oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 70,
+        "name_en": "Cade Essential Oil",
+        "name_ar": "زيت Cade العطري",
+        "description_en": "Smoky, woody, dry with slight citrus undertones",
+        "description_ar": "دخاني, خشبي, جاف with slight citrus undertones",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 71,
+        "name_en": "Orris Root Distillate",
+        "name_ar": "مقطر جذر السوسن",
+        "description_en": "Powdery, floral, earthy iris root distillate",
+        "description_ar": "بودري, زهري, ترابي iris root distillate",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 72,
+        "name_en": "Moss Absolute",
+        "name_ar": "خلاصة الطحلب مطلقة",
+        "description_en": "Earthy, damp, mossy forest floor distillate",
+        "description_ar": "ترابي, damp, mossy forest floor distillate",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 73,
+        "name_en": "Usnea Lichen Essential Oil",
+        "name_ar": "زيت Usnea Lichen العطري",
+        "description_en": "Fresh, earthy, slightly woody usnea lichen oil",
+        "description_ar": "منعش, ترابي, قليلاً خشبي usnea lichen oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 74,
+        "name_en": "Balsam Fir Essential Oil",
+        "name_ar": "زيت بلسم الفير العطري",
+        "description_en": "Fresh, woody, resinous fir tree oil",
+        "description_ar": "منعش, خشبي, راتنجي fir tree oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    },
+    {
+        "id": 75,
+        "name_en": "Pine Needle Essential Oil",
+        "name_ar": "زيت إبر الصنوبر العطري",
+        "description_en": "Fresh, crisp, woody pine needles oil",
+        "description_ar": "منعش, crisp, خشبي pine needles oil",
+        "category_en": "Woody Earthy Mossy",
+        "category_ar": "خشبي ترابي طحلبي"
+    }
+]

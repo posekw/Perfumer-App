@@ -1,0 +1,199 @@
+﻿id,name_ar,name_en,description_ar,description_en,category_ar,category_en
+76,خلاصة أمبروكسان مطلقة,Ambroxan Absolute,"دخاني, خشبي, حيواني ambroxan absolute","Smoky, woody, animalic ambroxan absolute",عنبري شرقي,Ambery Oriental
+77,خلاصة كاشميران مطلقة,Cashmeran Absolute,"Soft, خشبي, قليلاً حلو cashmeran absolute","Soft, woody, slightly sweet cashmeran absolute",عنبري شرقي,Ambery Oriental
+78,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",عنبري شرقي,Ambery Oriental
+79,زيت خشب الهيبا العطري,Hiba Wood Essential Oil,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",عنبري شرقي,Ambery Oriental
+80,زيت التانزي الأزرق العطري,Blue Tansy Essential Oil,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",عنبري شرقي,Ambery Oriental
+81,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",عنبري شرقي,Ambery Oriental
+82,خلاصة الفلفل الأخضر مطلقة,Green Pepper Absolute,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",عنبري شرقي,Ambery Oriental
+83,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",عنبري شرقي,Ambery Oriental
+84,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",عنبري شرقي,Ambery Oriental
+85,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",عنبري شرقي,Ambery Oriental
+86,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",عنبري شرقي,Ambery Oriental
+87,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",عنبري شرقي,Ambery Oriental
+88,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",عنبري شرقي,Ambery Oriental
+89,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",عنبري شرقي,Ambery Oriental
+90,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",عنبري شرقي,Ambery Oriental
+91,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",عنبري شرقي,Ambery Oriental
+92,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",عنبري شرقي,Ambery Oriental
+93,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",عنبري شرقي,Ambery Oriental
+94,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",عنبري شرقي,Ambery Oriental
+95,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",عنبري شرقي,Ambery Oriental
+96,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",عنبري شرقي,Ambery Oriental
+97,زيت الزعتر العطري,Thyme Essential Oil,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",عنبري شرقي,Ambery Oriental
+98,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",عنبري شرقي,Ambery Oriental
+99,زيت الأوريغانو العطري,Oregano Essential Oil,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",عنبري شرقي,Ambery Oriental
+100,زيت المردقوش العطري,Marjoram Essential Oil,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",عنبري شرقي,Ambery Oriental
+76,خلاصة أمبروكسان مطلقة,Ambroxan Absolute,"دخاني, خشبي, حيواني ambroxan absolute","Smoky, woody, animalic ambroxan absolute",خلاصات حيوانية,Animalic Absolutes
+77,خلاصة كاشميران مطلقة,Cashmeran Absolute,"Soft, خشبي, قليلاً حلو cashmeran absolute","Soft, woody, slightly sweet cashmeran absolute",خلاصات حيوانية,Animalic Absolutes
+78,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",خلاصات حيوانية,Animalic Absolutes
+1,زيت برغموت العطري,Bergamot Essential Oil,"ساطع, حمضي, قليلاً زهري bergamot","Bright, citrusy, slightly floral bergamot",حمضيات حمضية,Citrus Hesperidic
+2,زيت ليمون العطري,Lemon Essential Oil,"منعش, لاذع, حمضي lemon oil","Fresh, tangy, acidic lemon oil",حمضيات حمضية,Citrus Hesperidic
+3,زيت ليمون بنزهير العطري,Lime Essential Oil,"فواح, ساطع, قليلاً حلو lime oil","Zesty, bright, slightly sweet lime oil",حمضيات حمضية,Citrus Hesperidic
+4,زيت برتقال العطري,Orange Essential Oil,"حلو, عصاري, لاذع orange oil","Sweet, juicy, tangy orange oil",حمضيات حمضية,Citrus Hesperidic
+5,زيت جريب فروت العطري,Grapefruit Essential Oil,"منعش, لاذع, قليلاً مر grapefruit oil","Fresh, tart, slightly bitter grapefruit oil",حمضيات حمضية,Citrus Hesperidic
+6,زيت يوسفي العطري,Tangerine Essential Oil,"حلو, لاذع, قليلاً توابلي tangerine oil","Sweet, tangy, slightly spicy tangerine oil",حمضيات حمضية,Citrus Hesperidic
+7,زيت مندارين العطري,Mandarin Essential Oil,"ساطع, حمضي, قليلاً حلو mandarin oil","Bright, citrusy, slightly sweet mandarin oil",حمضيات حمضية,Citrus Hesperidic
+8,زيت يوزو العطري,Yuzu Essential Oil,"معقد, لاذع, قليلاً زهري yuzu oil","Complex, tart, slightly floral yuzu oil",حمضيات حمضية,Citrus Hesperidic
+9,زيت Kumquat العطري,Kumquat Essential Oil,"لاذع, لاذع, قليلاً مر kumquat oil","Tart, tangy, slightly bitter kumquat oil",حمضيات حمضية,Citrus Hesperidic
+10,زيت نيرولي العطري,Neroli Essential Oil,"حلو, زهري, قليلاً حمضي neroli (مر orange flower)","Sweet, floral, slightly citrusy neroli (bitter orange flower)",حمضيات حمضية,Citrus Hesperidic
+11,زيت Petitgrain العطري,Petitgrain Essential Oil,"منعش, أخضر, قليلاً حمضي petitgrain oil","Fresh, green, slightly citrusy petitgrain oil",حمضيات حمضية,Citrus Hesperidic
+12,خلاصة Lime Blossom مطلقة,Lime Blossom Absolute,"زهري, بودري, قليلاً حمضي lime blossom absolute","Floral, powdery, slightly citrusy lime blossom absolute",حمضيات حمضية,Citrus Hesperidic
+13,Bergaptene,Bergaptene,"ساطع, لاذع, قليلاً زهري bergaptene (bergamot derivative)","Bright, tangy, slightly floral bergaptene (bergamot derivative)",حمضيات حمضية,Citrus Hesperidic
+14,Cedrol,Cedrol,"خشبي, منعش, قليلاً حمضي cedrol","Woody, fresh, slightly citrusy cedrol",حمضيات حمضية,Citrus Hesperidic
+15,Exaltolide,Exaltolide,"حلو, أخضر, قليلاً حمضي exaltolide","Sweet, green, slightly citrusy exaltolide",حمضيات حمضية,Citrus Hesperidic
+16,Carvone,Carvone,"توابلي, منعش, قليلاً حمضي carvone","Spicy, fresh, slightly citrusy carvone",حمضيات حمضية,Citrus Hesperidic
+17,Menthol,Menthol,"بارد, reمنعشing, قليلاً minty menthol","Cool, refreshing, slightly minty menthol",حمضيات حمضية,Citrus Hesperidic
+18,Citronellol,Citronellol,"منعش, زهري, قليلاً حمضي citronellol","Fresh, floral, slightly citrusy citronellol",حمضيات حمضية,Citrus Hesperidic
+19,Geraniol,Geraniol,"زهري, حلو, قليلاً حمضي geraniol","Floral, sweet, slightly citrusy geraniol",حمضيات حمضية,Citrus Hesperidic
+20,Linalool,Linalool,"حلو, زهري, قليلاً حمضي linalool","Sweet, floral, slightly citrusy linalool",حمضيات حمضية,Citrus Hesperidic
+26,زيت الورد العطري,Rose Essential Oil,"غني, زهري, قليلاً حلو rose oil","Rich, floral, slightly sweet rose oil",زهري,Floral
+27,زيت الياسمين العطري,Jasmine Essential Oil,"حلو, heady, قليلاً توابلي jasmine oil","Sweet, heady, slightly spicy jasmine oil",زهري,Floral
+28,زيت الخزامى (لافندر) العطري,Lavender Essential Oil,"منعش, زهري, قليلاً خشبي lavender oil","Fresh, floral, slightly woody lavender oil",زهري,Floral
+29,زيت الجيرانيوم العطري,Geranium Essential Oil,"زهري, حلو, قليلاً حمضي geranium oil","Floral, sweet, slightly citrusy geranium oil",زهري,Floral
+30,Ylang,Ylang,"Ylang Essential Oil - حلو, tropical, قليلاً توابلي ylang-ylang oil","Ylang Essential Oil - Sweet, tropical, slightly spicy ylang-ylang oil",زهري,Floral
+31,خلاصة مسك الروم مطلقة,Tuberose Absolute,"غني, heady, قليلاً waxy tuberose absolute","Rich, heady, slightly waxy tuberose absolute",زهري,Floral
+32,خلاصة Orris جذور مطلقة,Orris Root Absolute,"بودري, زهري, ترابي orris root absolute","Powdery, floral, earthy orris root absolute",زهري,Floral
+33,خلاصة Violet أوراق مطلقة,Violet Leaf Absolute,"منعش, زهري, قليلاً حلو violet leaf absolute","Fresh, floral, slightly sweet violet leaf absolute",زهري,Floral
+34,خلاصة زنبق الوادي مطلقة,Lily of the Valley Absolute,"حلو, delicate, قليلاً أخضر lily of the valley absolute","Sweet, delicate, slightly green lily of the valley absolute",زهري,Floral
+35,خلاصة الغاردينيا مطلقة,Gardenia Absolute,"حلو, tropical, قليلاً jasmine-like gardenia absolute","Sweet, tropical, slightly jasmine-like gardenia absolute",زهري,Floral
+36,خلاصة النرجس مطلقة,Narcissus Absolute,"غني, زهري, قليلاً honeyed narcissus absolute","Rich, floral, slightly honeyed narcissus absolute",زهري,Floral
+37,خلاصة الميموزا مطلقة,Mimosa Absolute,"Soft, زهري, قليلاً حلو mimosa absolute","Soft, floral, slightly sweet mimosa absolute",زهري,Floral
+38,خلاصة الأوسمانثوس مطلقة,Osmanthus Absolute,"حلو, زهري, قليلاً nutty osmanthus absolute","Sweet, floral, slightly nutty osmanthus absolute",زهري,Floral
+39,خلاصة لونيسيرا (شب الليل) مطلقة,Honeysuckle Absolute,"منعش, زهري, قليلاً حلو honeysuckle absolute","Fresh, floral, slightly sweet honeysuckle absolute",زهري,Floral
+40,زيت البابونج العطري,Chamomile Essential Oil,"زهري, حلو, قليلاً توابلي chamomile oil","Floral, sweet, slightly spicy chamomile oil",زهري,Floral
+41,زيت الميموزا العطري,Mimosa Essential Oil,"Light, زهري, قليلاً حمضي mimosa oil","Light, floral, slightly citrusy mimosa oil",زهري,Floral
+42,زيت طرخون العطري,Tarragon Essential Oil,"حلو, توابلي, قليلاً زهري tarragon oil","Sweet, spicy, slightly floral tarragon oil",زهري,Floral
+43,زيت الشمر العطري,Fennel Essential Oil,"حلو, توابلي, قليلاً زهري fennel oil","Sweet, spicy, slightly floral fennel oil",زهري,Floral
+44,زيت اليانسون العطري,Anise Essential Oil,"حلو, توابلي, قليلاً زهري anise oil","Sweet, spicy, slightly floral anise oil",زهري,Floral
+45,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً زهري clove oil","Spicy, warm, slightly floral clove oil",زهري,Floral
+46,زيت القرفة العطري,Cinnamon Essential Oil,"دافئ, حلو, قليلاً زهري cinnamon oil","Warm, sweet, slightly floral cinnamon oil",زهري,Floral
+47,زيت اليانسون النجمي العطري,Star Anise Essential Oil,"توابلي, دافئ, قليلاً زهري star anise oil","Spicy, warm, slightly floral star anise oil",زهري,Floral
+48,زيت البهار الحلو العطري,Allspice Essential Oil,"توابلي, دافئ, قليلاً زهري allspice oil","Spicy, warm, slightly floral allspice oil",زهري,Floral
+49,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"دخاني, خشبي, قليلاً حلو pink pepper oil","Smoky, woody, slightly sweet pink pepper oil",زهري,Floral
+50,زيت الفلفل الأسود العطري,Black Pepper Essential Oil,"منعش, توابلي, قليلاً خشبي black pepper oil","Fresh, spicy, slightly woody black pepper oil",زهري,Floral
+176,مقطر Vanilla Absolute,Vanilla Absolute Distillate,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",فانيليا وفواكه,Fruit Gourmand Others
+177,مقطر Tonka Bean Absolute,Tonka Bean Absolute Distillate,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",فانيليا وفواكه,Fruit Gourmand Others
+178,زيت Cade  Distillate العطري,Cade Essential Oil Distillate,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",فانيليا وفواكه,Fruit Gourmand Others
+179,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",فانيليا وفواكه,Fruit Gourmand Others
+180,مقطر Moss Absolute,Moss Absolute Distillate,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",فانيليا وفواكه,Fruit Gourmand Others
+181,زيت Usnea Lichen  Distillate العطري,Usnea Lichen Essential Oil Distillate,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",فانيليا وفواكه,Fruit Gourmand Others
+182,زيت Balsam Fir  Distillate العطري,Balsam Fir Essential Oil Distillate,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",فانيليا وفواكه,Fruit Gourmand Others
+183,زيت Pine Needle  Distillate العطري,Pine Needle Essential Oil Distillate,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",فانيليا وفواكه,Fruit Gourmand Others
+184,زيت Rosemary  Distillate العطري,Rosemary Essential Oil Distillate,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",فانيليا وفواكه,Fruit Gourmand Others
+185,زيت Thyme  Distillate العطري,Thyme Essential Oil Distillate,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",فانيليا وفواكه,Fruit Gourmand Others
+186,زيت Basil  Distillate العطري,Basil Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",فانيليا وفواكه,Fruit Gourmand Others
+187,زيت Oregano  Distillate العطري,Oregano Essential Oil Distillate,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",فانيليا وفواكه,Fruit Gourmand Others
+188,زيت Marjoram  Distillate العطري,Marjoram Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",فانيليا وفواكه,Fruit Gourmand Others
+189,زيت Lavender  Distillate العطري,Lavender Essential Oil Distillate,"زهري, خشبي, قليلاً حلو lavender oil","Floral, woody, slightly sweet lavender oil",فانيليا وفواكه,Fruit Gourmand Others
+190,زيت Clary Sage  Distillate العطري,Clary Sage Essential Oil Distillate,"Herbal, خشبي, قليلاً زهري clary sage oil","Herbal, woody, slightly floral clary sage oil",فانيليا وفواكه,Fruit Gourmand Others
+191,مقطر Yarrow Absolute,Yarrow Absolute Distillate,"منعش, ترابي, قليلاً خشبي yarrow absolute","Fresh, earthy, slightly woody yarrow absolute",فانيليا وفواكه,Fruit Gourmand Others
+192,مقطر Mugwort Absolute,Mugwort Absolute Distillate,"توابلي, ترابي, قليلاً خشبي mugwort absolute","Spicy, earthy, slightly woody mugwort absolute",فانيليا وفواكه,Fruit Gourmand Others
+193,زيت Tarragon  Distillate العطري,Tarragon Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي tarragon oil","Sweet, spicy, slightly woody tarragon oil",فانيليا وفواكه,Fruit Gourmand Others
+194,زيت Anise  Distillate العطري,Anise Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي anise oil","Sweet, spicy, slightly woody anise oil",فانيليا وفواكه,Fruit Gourmand Others
+195,زيت Fennel  Distillate العطري,Fennel Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي fennel oil","Sweet, spicy, slightly woody fennel oil",فانيليا وفواكه,Fruit Gourmand Others
+196,زيت Cinnamon  Distillate العطري,Cinnamon Essential Oil Distillate,"دافئ, حلو, قليلاً خشبي cinnamon oil","Warm, sweet, slightly woody cinnamon oil",فانيليا وفواكه,Fruit Gourmand Others
+197,زيت Star Anise  Distillate العطري,Star Anise Essential Oil Distillate,"توابلي, دافئ, قليلاً خشبي star anise oil","Spicy, warm, slightly woody star anise oil",فانيليا وفواكه,Fruit Gourmand Others
+198,زيت Allspice  Distillate العطري,Allspice Essential Oil Distillate,"توابلي, دافئ, قليلاً خشبي allspice oil","Spicy, warm, slightly woody allspice oil",فانيليا وفواكه,Fruit Gourmand Others
+199,مقطر Black Pepper Absolute,Black Pepper Absolute Distillate,"منعش, توابلي, قليلاً خشبي black pepper oil","Fresh, spicy, slightly woody black pepper oil",فانيليا وفواكه,Fruit Gourmand Others
+200,مقطر Pink Pepper Absolute,Pink Pepper Absolute Distillate,"دخاني, خشبي, قليلاً حلو pink pepper oil","Smoky, woody, slightly sweet pink pepper oil",فانيليا وفواكه,Fruit Gourmand Others
+151,زيت Fresh Mint العطري,Fresh Mint Essential Oil,"بارد, reمنعشing mint","Cool, refreshing mint",عشبي ألدهيدي بحري,Green Aldehydic Marine
+152,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي basil","Sweet, spicy basil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+153,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي rosemary","Herbal, woody rosemary",عشبي ألدهيدي بحري,Green Aldehydic Marine
+154,خلاصة الخيار مطلقة,Cucumber Absolute,"Reمنعشing, أخضر cucumber","Refreshing, green cucumber",عشبي ألدهيدي بحري,Green Aldehydic Marine
+155,خلاصة Bamboo Shoot مطلقة,Bamboo Shoot Absolute,"منعش, grassy bamboo","Fresh, grassy bamboo",عشبي ألدهيدي بحري,Green Aldehydic Marine
+156,زيت Eucalyptus العطري,Eucalyptus Essential Oil,"بارد, طبي eucalyptus","Cool, medicinal eucalyptus",عشبي ألدهيدي بحري,Green Aldehydic Marine
+157,خلاصة Green Tea مطلقة,Green Tea Absolute,"منعش, ترابي أخضر tea","Fresh, earthy green tea",عشبي ألدهيدي بحري,Green Aldehydic Marine
+158,خلاصة Oolong Tea مطلقة,Oolong Tea Absolute,"غني, ترابي oolong tea","Rich, earthy oolong tea",عشبي ألدهيدي بحري,Green Aldehydic Marine
+159,خلاصة القهوة مطلقة,Coffee Absolute,"ترابي, محمص coffee","Earthy, roasted coffee",عشبي ألدهيدي بحري,Green Aldehydic Marine
+160,خلاصة الكاكاو مطلقة,Cocoa Absolute,"حلو, ترابي cocoa","Sweet, earthy cocoa",عشبي ألدهيدي بحري,Green Aldehydic Marine
+161,خلاصة التبغ مطلقة,Tobacco Absolute,"دخاني, ترابي tobacco","Smoky, earthy tobacco",عشبي ألدهيدي بحري,Green Aldehydic Marine
+162,زيت Patchouli  Distillate العطري,Patchouli Essential Oil Distillate,"ترابي, deep, قليلاً حلو patchouli oil","Earthy, deep, slightly sweet patchouli oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+163,زيت Vetiver  Distillate العطري,Vetiver Essential Oil Distillate,"خشبي, ترابي, دخاني vetiver root oil","Woody, earthy, smoky vetiver root oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+164,زيت Sandalwood  Distillate العطري,Sandalwood Essential Oil Distillate,"دافئ, خشبي, قليلاً حلو sandalwood oil","Warm, woody, slightly sweet sandalwood oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+165,زيت Cedarwood  Distillate العطري,Cedarwood Essential Oil Distillate,"غني, جاف, خشبي cedar aroma oil","Rich, dry, woody cedar aroma oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+166,زيت Cypress  Distillate العطري,Cypress Essential Oil Distillate,"منعش, خشبي, قليلاً herbal cypress oil","Fresh, woody, slightly herbal cypress oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+167,زيت Juniper Berry  Distillate العطري,Juniper Berry Essential Oil Distillate,"Piney, خشبي, قليلاً توابلي juniper oil","Piney, woody, slightly spicy juniper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+168,زيت Amyris  Distillate العطري,Amyris Essential Oil Distillate,"حلو, خشبي, قليلاً دخاني amyris oil","Sweet, woody, slightly smoky amyris oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+169,زيت Guaiac Wood  Distillate العطري,Guaiac Wood Essential Oil Distillate,"دخاني, خشبي, طبي guaiac oil","Smoky, woody, medicinal guaiac oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+170,خلاصة Storax Resinoid مطلقة,Storax Resinoid Absolute,"حلو, خشبي, توابلي storax absolute","Sweet, woody, spicy storax absolute",عشبي ألدهيدي بحري,Green Aldehydic Marine
+171,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",عشبي ألدهيدي بحري,Green Aldehydic Marine
+172,زيت Hiba Wood  Distillate العطري,Hiba Wood Essential Oil Distillate,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+173,زيت Blue Tansy  Distillate العطري,Blue Tansy Essential Oil Distillate,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+174,زيت Pink Pepper  Distillate العطري,Pink Pepper Essential Oil Distillate,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+175,مقطر Green Pepper Absolute,Green Pepper Absolute Distillate,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
+101,خلاصة المسك مطلقة,Musk Absolute,"غني, حيواني, بودري musk","Rich, animalic, powdery musk",مسكي حيواني,Musky Animalic
+102,خلاصة الزباد مطلقة,Civet Absolute,"Intense, حيواني, exotic civet","Intense, animalic, exotic civet",مسكي حيواني,Musky Animalic
+103,خلاصة القندس (كاستوريوم) مطلقة,Castoreum Absolute,"حلو, حيواني, قليلاً خشبي castoreum","Sweet, animalic, slightly woody castoreum",مسكي حيواني,Musky Animalic
+104,خلاصة عنبر الحوت مطلقة,Ambergris Absolute,"ترابي, oceanic, حيواني ambergris","Earthy, oceanic, animalic ambergris",مسكي حيواني,Musky Animalic
+105,خلاصة صخر الوبار مطلقة,Hyraceum Absolute,"غني, حيواني, ترابي hyraceum","Rich, animalic, earthy hyraceum",مسكي حيواني,Musky Animalic
+106,زيت حوت العنبر,Sperm Whale Oil,"Deep, oceanic, حيواني sperm whale oil","Deep, oceanic, animalic sperm whale oil",مسكي حيواني,Musky Animalic
+107,زيت إكسورا العطري,Ixora Essential Oil,"حلو, توابلي, قليلاً musky ixora","Sweet, spicy, slightly musky ixora",مسكي حيواني,Musky Animalic
+108,خلاصة بذور الأمبريت مطلقة,Ambrette Seed Absolute,"توابلي, musky, قليلاً حلو ambrette seed","Spicy, musky, slightly sweet ambrette seed",مسكي حيواني,Musky Animalic
+109,بلسم تولو,Tolu Balsam,"حلو, balsamic, قليلاً musky tolu balsam","Sweet, balsamic, slightly musky tolu balsam",مسكي حيواني,Musky Animalic
+110,Myrtenol,Myrtenol,"حلو, زهري, قليلاً musky myrtenol","Sweet, floral, slightly musky myrtenol",مسكي حيواني,Musky Animalic
+111,Tricyclene,Tricyclene,"حمضي, أخضر, قليلاً musky tricyclene","Citrusy, green, slightly musky tricyclene",مسكي حيواني,Musky Animalic
+112,جالاكسوليد,Galaxolide,"حلو, بودري, musky galaxolide","Sweet, powdery, musky galaxolide",مسكي حيواني,Musky Animalic
+113,Amaryl,Amaryl,"حلو, زهري, musky amaryl","Sweet, floral, musky amaryl",مسكي حيواني,Musky Animalic
+114,Phenyl Acetate,Phenyl Acetate,"حلو, ethereal, قليلاً musky phenyl acetate","Sweet, ethereal, slightly musky phenyl acetate",مسكي حيواني,Musky Animalic
+115,هيدروكسي سيترونيلال,Hydroxycitronellal,"حلو, زهري, قليلاً musky hydroxycitronellal","Sweet, floral, slightly musky hydroxycitronellal",مسكي حيواني,Musky Animalic
+116,سينامالدهيد,Cinnamaldehyde,"توابلي, حلو, قليلاً musky cinnamaldehyde","Spicy, sweet, slightly musky cinnamaldehyde",مسكي حيواني,Musky Animalic
+117,إيبانول,Ebanol,"غني, خشبي, قليلاً musky ebanol","Rich, woody, slightly musky ebanol",مسكي حيواني,Musky Animalic
+118,Zestanolide,Zestanolide,"Fruity, حلو, قليلاً musky zestanolide","Fruity, sweet, slightly musky zestanolide",مسكي حيواني,Musky Animalic
+119,فلفيون,Velvione,"Soft, دافئ, قليلاً musky velvione","Soft, warm, slightly musky velvione",مسكي حيواني,Musky Animalic
+120,Drimane,Drimane,"منعش, أخضر, قليلاً musky drimane","Fresh, green, slightly musky drimane",مسكي حيواني,Musky Animalic
+121,Ionone Gamma,Ionone Gamma,"توابلي, زهري, قليلاً musky ionone gamma","Spicy, floral, slightly musky ionone gamma",مسكي حيواني,Musky Animalic
+122,سيتالوكس,Cetalox,"حلو, بودري, musky cetalox","Sweet, powdery, musky cetalox",مسكي حيواني,Musky Animalic
+123,Myrcene,Myrcene,"ترابي, توابلي, قليلاً musky myrcene","Earthy, spicy, slightly musky myrcene",مسكي حيواني,Musky Animalic
+124,Pulegone,Pulegone,"منعش, minty, قليلاً musky pulegone","Fresh, minty, slightly musky pulegone",مسكي حيواني,Musky Animalic
+125,فانيلين,Vanillin,"حلو, creamy, قليلاً musky vanillin","Sweet, creamy, slightly musky vanillin",مسكي حيواني,Musky Animalic
+126,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+127,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+128,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+129,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+130,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+131,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+132,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+133,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+134,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+135,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+136,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+137,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+138,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+139,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+140,زيت الزعتر العطري,Thyme Essential Oil,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+141,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+142,زيت الأوريغانو العطري,Oregano Essential Oil,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+143,زيت المردقوش العطري,Marjoram Essential Oil,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+144,زيت الخزامى (لافندر) العطري,Lavender Essential Oil,"زهري, خشبي, قليلاً حلو lavender oil","Floral, woody, slightly sweet lavender oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+145,زيت الميرمية العطري,Clary Sage Essential Oil,"Herbal, خشبي, قليلاً زهري clary sage oil","Herbal, woody, slightly floral clary sage oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+146,خلاصة الأخيليا مطلقة,Yarrow Absolute,"منعش, ترابي, قليلاً خشبي yarrow absolute","Fresh, earthy, slightly woody yarrow absolute",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+147,خلاصة الشيح مطلقة,Mugwort Absolute,"توابلي, ترابي, قليلاً خشبي mugwort absolute","Spicy, earthy, slightly woody mugwort absolute",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+148,زيت طرخون العطري,Tarragon Essential Oil,"حلو, توابلي, قليلاً خشبي tarragon oil","Sweet, spicy, slightly woody tarragon oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+149,زيت اليانسون العطري,Anise Essential Oil,"حلو, توابلي, قليلاً خشبي anise oil","Sweet, spicy, slightly woody anise oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+150,زيت الشمر العطري,Fennel Essential Oil,"حلو, توابلي, قليلاً خشبي fennel oil","Sweet, spicy, slightly woody fennel oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
+51,زيت خشب الصندل العطري,Sandalwood Essential Oil,"دافئ, خشبي, قليلاً حلو sandalwood oil","Warm, woody, slightly sweet sandalwood oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+52,زيت خشب الأرز العطري,Cedarwood Essential Oil,"غني, جاف, خشبي cedar aroma oil","Rich, dry, woody cedar aroma oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+53,زيت السرو العطري,Cypress Essential Oil,"منعش, خشبي, قليلاً herbal cypress oil","Fresh, woody, slightly herbal cypress oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+54,زيت Juniper Berry العطري,Juniper Berry Essential Oil,"Piney, خشبي, قليلاً توابلي juniper oil","Piney, woody, slightly spicy juniper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+55,زيت Amyris العطري,Amyris Essential Oil,"حلو, خشبي, قليلاً دخاني amyris oil","Sweet, woody, slightly smoky amyris oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+56,زيت Guaiac Wood العطري,Guaiac Wood Essential Oil,"دخاني, خشبي, طبي guaiac oil","Smoky, woody, medicinal guaiac oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+57,خلاصة Storax Resinoid مطلقة,Storax Resinoid Absolute,"حلو, خشبي, توابلي storax absolute","Sweet, woody, spicy storax absolute",خشبي ترابي طحلبي,Woody Earthy Mossy
+58,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",خشبي ترابي طحلبي,Woody Earthy Mossy
+59,زيت خشب الهيبا العطري,Hiba Wood Essential Oil,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+60,زيت التانزي الأزرق العطري,Blue Tansy Essential Oil,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+61,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+62,خلاصة الفلفل الأخضر مطلقة,Green Pepper Absolute,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+63,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+64,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+65,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+66,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+67,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+68,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+69,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+70,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",خشبي ترابي طحلبي,Woody Earthy Mossy
+71,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",خشبي ترابي طحلبي,Woody Earthy Mossy
+72,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",خشبي ترابي طحلبي,Woody Earthy Mossy
+73,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+74,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+75,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",خشبي ترابي طحلبي,Woody Earthy Mossy

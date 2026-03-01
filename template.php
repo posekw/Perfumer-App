@@ -1,0 +1,126 @@
+<div class="perfumer-plugin-container">
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+        <header>
+            <div class="logo">الخبير العطري</div>
+            <div class="header-tools" style="display: flex; gap: 1rem; align-items: center;">
+                <button id="info-btn"
+                    style="background: rgba(212, 175, 55, 0.1); color: var(--accent-color); border: 1px solid var(--accent-color); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; cursor: pointer; transition: 0.3s; color: #d4af37 !important;">كيف
+                    يعمل الخبير؟ 💡</button>
+                <span id="current-date" style="color: #a0a0a0; font-size: 0.9rem;"></span>
+            </div>
+        </header>
+
+        <main class="main-grid">
+            <!-- مكتبة المكونات -->
+            <section class="library-section glass">
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <h2 class="card-title">مكتبة المكونات</h2>
+                    <span id="total-ingredients" style="color: #a0a0a0; font-size: 0.9rem;"></span>
+                </div>
+                <input type="text" id="ingredient-search" class="search-box"
+                    placeholder="بحث عن مكون (مثلاً: ورد، صندل)...">
+                <div id="ingredient-list" class="ingredient-list">
+                    <!-- ستتم إضافة المكونات هنا بواسطة JavaScript -->
+                </div>
+            </section>
+
+            <!-- مختبر التركيب -->
+            <section class="lab-section">
+                <div class="glass">
+                    <h2 class="card-title">مختبر التركيب</h2>
+                    <div class="control-group">
+                        <div class="input-field">
+                            <label for="perfume-weight">الوزن الكلي للعطر (جرام)</label>
+                            <input type="number" id="perfume-weight" value="100" min="1">
+                        </div>
+                        <div class="input-field">
+                            <label for="concentration">تركيز الزيت العطري (%) <span class="calc-icon">⚖️</span></label>
+                            <input type="number" id="concentration" value="20" min="1" max="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass">
+                    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                        <h3 class="card-title">صيغة العطر</h3>
+                        <button id="ai-suggest-btn"
+                            style="background: #d4af37; color: #000; border: none; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: 0.3s;">مقترح
+                            الذكاء الاصطناعي (أوزان آمنة)</button>
+                    </div>
+                    <div id="ai-tips"
+                        style="background: rgba(212, 175, 55, 0.05); border-right: 3px solid #d4af37; padding: 0.8rem; margin: 0.8rem 0; font-size: 0.85rem; color: #a0a0a0; display: none;">
+                    </div>
+
+                    <table class="formula-table">
+                        <thead>
+                            <tr>
+                                <th>المكون</th>
+                                <th>التصنيف</th>
+                                <th>طاغٍ ⭐</th>
+                                <th>الوزن (جرام)</th>
+                                <th>النسبة (%)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="formula-body">
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Scent Pyramid Visualization -->
+                <div class="glass pyramid-section" style="margin-bottom: 1.5rem;">
+                    <h3 class="card-title" style="font-size: 0.9rem; margin-bottom: 1rem;">هرم العطر (توزيع النوتات)</h3>
+                    <div class="pyramid-container" style="display: flex; height: 30px; border-radius: 15px; overflow: hidden; background: rgba(255,255,255,0.05); border: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div id="pyramid-top" style="width: 0%; background: #ffd700; transition: width 0.5s ease; position: relative;"></div>
+                        <div id="pyramid-heart" style="width: 0%; background: #ff6b6b; transition: width 0.5s ease; position: relative;"></div>
+                        <div id="pyramid-base" style="width: 0%; background: #4a90e2; transition: width 0.5s ease; position: relative;"></div>
+                    </div>
+                    <div class="pyramid-legend" style="display: flex; justify-content: space-around; margin-top: 0.8rem; font-size: 0.75rem; color: #a0a0a0;">
+                        <span><span style="color:#ffd700;">●</span> قمة: <span id="top-pct">0</span>%</span>
+                        <span><span style="color:#ff6b6b;">●</span> قلب: <span id="heart-pct">0</span>%</span>
+                        <span><span style="color:#4a90e2;">●</span> قاعدة: <span id="base-pct">0</span>%</span>
+                    </div>
+                </div>
+
+                <div class="summary-grid">
+                    <div class="summary-card">
+                        <span>إجمالي الزيوت</span>
+                        <strong id="total-oil-weight">0 جرام</strong>
+                    </div>
+                    <div class="summary-card">
+                        <span>المذيب المطلوب</span>
+                        <strong id="solvent-weight">0 جرام</strong>
+                    </div>
+                    <div class="summary-card">
+                        <span>حالة IFRA</span>
+                        <strong id="ifra-status" style="color: #4cd137;">آمن</strong>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer style="text-align: center; padding: 1rem; color: #a0a0a0; font-size: 0.8rem; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.05);">
+            تطوير وبرمجة: <strong>ضاري التميمي</strong>
+        </footer>
+    </div>
+
+    <!-- Modal: How it Works -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <h2 class="card-title">دليل الخبير العطري الذكي</h2>
+            <div class="info-body" style="text-align: right; line-height: 1.8;">
+                <p>يعمل هذا النظام بناءً على قواعد كيميائية وعطرية عالمية لضمان توازن الرائحة وسلامة المستخدم:</p>
+                <ul style="margin-top: 1rem; list-style: none;">
+                    <li>🎯 <strong>توزيع الهرم العطري:</strong> يتم تقسيم المكونات إلى (قمة، قلب، قاعدة) بناءً على سرعة تطايرها.</li>
+                    <li>🛡️ <strong>معامل الأمان الكيميائي:</strong> يتم مراقبة المكونات القوية (مثلاً القرفة) وتقليل حصتها تلقائياً.</li>
+                    <li>⭐ <strong>نظام السيادة (Dominance):</strong> يسمح لك بتحديد قوة بروز مكون معين بـ 3 مستويات.</li>
+                    <li>📂 <strong>قاعدة بيانات مرنة:</strong> يمكنك التعديل عبر ملف <code>ingredients_db.csv</code>.</li>
+                </ul>
+                <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(212, 175, 55, 0.05); border-radius: 8px; font-size: 0.9rem;">
+                    <strong>ملاحظة:</strong> يتم تشغيل البرنامج محلياً بالكامل لضمان الخصوصية.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
