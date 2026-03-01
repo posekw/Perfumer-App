@@ -1,4 +1,26 @@
 const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/data/ingredients_db.csv';
+const STATUS_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/status.txt';
+
+async function checkLicense() {
+    try {
+        const response = await fetch(`${STATUS_URL}?t=${Date.now()}`);
+        const statusText = await response.text();
+        if (!statusText.includes('STATUS=ACTIVE')) {
+            document.body.innerHTML = `
+                <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; background:#0d0d0d; color:#d4af37; font-family:sans-serif; text-align:center; padding:2rem;">
+                    <h1 style="font-size:3rem; margin-bottom:1rem;">⚠️</h1>
+                    <h2>عذراً، لقد تم إيقاف هذه النسخة من قبل المطور.</h2>
+                    <p style="color:#a0a0a0; margin-top:1rem;">يرجى مراجعة المطور للحصول على التحديثات.</p>
+                </div>
+            `;
+            throw new Error('License deactivated');
+        }
+    } catch (error) {
+        console.error('License check failed:', error);
+        // Optionally allow offline/error for better UX, or block. 
+        // Let's allow if error (e.g. no internet) but block if explicitly DISABLED.
+    }
+}
 
 async function loadIngredients() {
     try {
@@ -383,6 +405,7 @@ window.addEventListener('click', (e) => {
 });
 
 document.addEventListener('DOMContentLoaded', async () => {
+    await checkLicense();
     allIngredients = await loadIngredients();
     renderIngredients(allIngredients);
 
