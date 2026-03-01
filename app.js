@@ -3,9 +3,15 @@ async function loadIngredients() {
         // Use the plugin URL passed from WordPress
         const baseUrl = typeof perfumerData !== 'undefined' ? perfumerData.pluginUrl : '';
         const response = await fetch(baseUrl + 'data/ingredients_db.csv');
-        const csvText = await response.text();
+        let csvText = await response.text();
 
-        const lines = csvText.trim().split('\n');
+        // Strip BOM if present
+        if (csvText.charCodeAt(0) === 0xFEFF) {
+            csvText = csvText.slice(1);
+        }
+
+        // Handle both CRLF and LF line endings
+        const lines = csvText.trim().split(/\r?\n/);
 
         if (!lines || lines.length < 2 || lines[0].includes('<html') || lines[0].includes('<!DOCTYPE')) {
             console.error('Invalid CSV format. Path might be incorrect returning a 404 page.', lines[0]);
@@ -13,7 +19,8 @@ async function loadIngredients() {
             return [];
         }
 
-        const headers = lines[0].split(',').map(h => h.trim());
+        // Clean headers specifically removing any hidden characters
+        const headers = lines[0].split(',').map(h => h.replace(/[\r\n\uFEFF]/g, '').trim());
 
         // Robust CSV row parser for quoted fields
         const parseRow = (row) => {
