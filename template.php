@@ -11,8 +11,23 @@
         </header>
 
         <main class="main-grid">
-            <!-- مكتبة المكونات -->
-            <section class="library-section glass">
+            <!-- 1. مختبر التركيب (المدخلات) -->
+            <section class="lab-inputs glass" style="margin-bottom: 2rem;">
+                <h2 class="card-title">مختبر التركيب</h2>
+                <div class="control-group">
+                    <div class="input-field">
+                        <label for="perfume-weight">الوزن الكلي للعطر (جرام)</label>
+                        <input type="number" id="perfume-weight" value="100" min="1">
+                    </div>
+                    <div class="input-field">
+                        <label for="concentration">تركيز الزيت العطري (%) <span class="calc-icon">⚖️</span></label>
+                        <input type="number" id="concentration" value="20" min="1" max="100">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. مكتبة المكونات -->
+            <section class="library-section glass" style="margin-bottom: 2rem;">
                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                     <h2 class="card-title">مكتبة المكونات</h2>
                     <span id="total-ingredients" style="color: #a0a0a0; font-size: 0.9rem;"></span>
@@ -24,21 +39,8 @@
                 </div>
             </section>
 
-            <!-- مختبر التركيب -->
+            <!-- 3. صيغة العطر والنتائج -->
             <section class="lab-section">
-                <div class="glass">
-                    <h2 class="card-title">مختبر التركيب</h2>
-                    <div class="control-group">
-                        <div class="input-field">
-                            <label for="perfume-weight">الوزن الكلي للعطر (جرام)</label>
-                            <input type="number" id="perfume-weight" value="100" min="1">
-                        </div>
-                        <div class="input-field">
-                            <label for="concentration">تركيز الزيت العطري (%) <span class="calc-icon">⚖️</span></label>
-                            <input type="number" id="concentration" value="20" min="1" max="100">
-                        </div>
-                    </div>
-                </div>
 
                 <div class="glass">
                     <div style="display: flex; justify-content: space-between; align-items: baseline;">
