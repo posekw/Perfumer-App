@@ -37,8 +37,19 @@ h3 {
     letter-spacing: -0.02em;
 }
 
+.perfumer-plugin-container {
+    width: 100vw !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    background-color: var(--bg-color);
+}
+
 .container {
     max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -78,6 +89,10 @@ header {
 @media (max-width: 1024px) {
     .main-grid {
         grid-template-columns: 1fr;
+    }
+
+    .perfumer-plugin-container {
+        padding: 0 1rem;
     }
 }
 
