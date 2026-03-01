@@ -44,19 +44,28 @@
                     <div style="display: flex; justify-content: space-between; align-items: baseline;">
                         <h3 class="card-title">صيغة العطر</h3>
                         <button id="ai-suggest-btn"
-                            style="background: #d4af37; color: #000; border: none; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: 0.3s;">مقترح
+                            style="background: var(--accent-color); color: #000; border: none; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: var(--transition);">مقترح
                             الذكاء الاصطناعي (أوزان آمنة)</button>
                     </div>
                     <div id="ai-tips"
-                        style="background: rgba(212, 175, 55, 0.05); border-right: 3px solid #d4af37; padding: 0.8rem; margin: 0.8rem 0; font-size: 0.85rem; color: #a0a0a0; display: none;">
+                        style="background: rgba(212, 175, 55, 0.05); border-right: 3px solid var(--accent-color); padding: 0.8rem; margin: 0.8rem 0; font-size: 0.85rem; color: var(--text-secondary); display: none;">
+                        <!-- AI Tips will appear here -->
                     </div>
 
+                    <!-- Recipe Control Tools -->
+                    <div class="recipe-tools"
+                        style="display: flex; gap: 0.8rem; margin-bottom: 1rem; align-items: center;">
+                        <input type="text" id="recipe-name" placeholder="اسم الوصفة (مثلاً: عود ملكي)..."
+                            style="flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(212, 175, 55, 0.3); color: white; padding: 0.5rem 1rem; border-radius: 8px;">
+                        <button id="save-recipe-btn" class="secondary-btn" title="حفظ الوصفة">💾 حفظ</button>
+                        <button id="recipes-list-btn" class="secondary-btn" title="الوصفات المحفوظة">📂 الوصفات</button>
+                    </div>
                     <table class="formula-table">
                         <thead>
                             <tr>
-                                <th>المكون</th>
+                                <th>المكون (CAS/IFRA)</th>
                                 <th>التصنيف</th>
-                                <th>طاغٍ ⭐</th>
+                                <th title="اجعل هذا المكون طاغياً في الرائحة">طاغٍ ⭐</th>
                                 <th>الوزن (جرام)</th>
                                 <th>النسبة (%)</th>
                                 <th></th>
@@ -115,11 +124,19 @@
                     <li>🎯 <strong>توزيع الهرم العطري:</strong> يتم تقسيم المكونات إلى (قمة، قلب، قاعدة) بناءً على سرعة تطايرها.</li>
                     <li>🛡️ <strong>معامل الأمان الكيميائي:</strong> يتم مراقبة المكونات القوية (مثلاً القرفة) وتقليل حصتها تلقائياً.</li>
                     <li>⭐ <strong>نظام السيادة (Dominance):</strong> يسمح لك بتحديد قوة بروز مكون معين بـ 3 مستويات.</li>
-                    <li>📂 <strong>قاعدة بيانات مرنة:</strong> يمكنك التعديل عبر ملف <code>ingredients_db.csv</code>.</li>
+                    <li>📂 <strong>قاعدة بيانات مرنة:</strong> إضافة المكونات تتم عبر الملفات بكل سهولة.</li>
                 </ul>
-                <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(212, 175, 55, 0.05); border-radius: 8px; font-size: 0.9rem;">
-                    <strong>ملاحظة:</strong> يتم تشغيل البرنامج محلياً بالكامل لضمان الخصوصية.
-                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Saved Recipes -->
+    <div id="recipes-modal" class="modal">
+        <div class="modal-content glass" style="max-width: 600px;">
+            <span class="close-modal" id="close-recipes">&times;</span>
+            <h2 class="card-title">الوصفات المحفوظة</h2>
+            <div id="saved-recipes-container" style="max-height: 400px; overflow-y: auto; margin-top: 1rem;">
+                <!-- Saved recipes list will appear here -->
             </div>
         </div>
     </div>

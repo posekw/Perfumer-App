@@ -59,9 +59,12 @@ async function loadIngredients() {
     } catch (error) {
         console.warn('Falling back to local database...', error);
         try {
+            // Use WordPress pluginUrl if available, otherwise relative path
+            const basePath = (typeof perfumerData !== 'undefined' && perfumerData.pluginUrl) ? perfumerData.pluginUrl : '';
+
             // Try .csv first locally, then .txt
-            let localResponse = await fetch('data/ingredients_db.csv');
-            if (!localResponse.ok) localResponse = await fetch('data/ingredients_db.txt');
+            let localResponse = await fetch(basePath + 'data/ingredients_db.csv');
+            if (!localResponse.ok) localResponse = await fetch(basePath + 'data/ingredients_db.txt');
             if (!localResponse.ok) return [];
             const localCsvText = await localResponse.text();
             return parseCSV(localCsvText);
@@ -93,22 +96,29 @@ const infoBtn = document.getElementById('info-btn');
 const closeBtn = document.querySelector('.close-modal');
 
 function renderIngredients(ingredients) {
+    console.log("Rendering ingredients:", ingredients.length);
     ingredientList.innerHTML = '';
     ingredients.forEach(ing => {
         const div = document.createElement('div');
         div.className = 'ingredient-item';
-        const casLabel = ing.cas ? `<span style="background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; font-size: 0.65rem; border: 1px solid rgba(212,175,55,0.2);">CAS: ${ing.cas}</span>` : '';
-        const ifraLabel = `<span style="background: rgba(76, 209, 55, 0.1); color: #4cd137; padding: 2px 6px; border-radius: 4px; font-size: 0.65rem; border: 1px solid rgba(76, 209, 55, 0.3);">IFRA: ${ing.ifra}%</span>`;
+
+        const casLabel = ing.cas ? `<span class="badge cas-badge">CAS: ${ing.cas}</span>` : '';
+        const ifraLabel = `<span class="badge ifra-badge">IFRA: ${ing.ifra}%</span>`;
 
         div.innerHTML = `
             <div class="ingredient-info">
-                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
-                    <h4 style="margin: 0;">${ing.name_en}</h4>
-                    <span style="font-size:0.7rem; color:var(--accent-color); font-weight: 600;">[${ing.note_type}]</span>
-                    ${casLabel}
-                    ${ifraLabel}
+                <div class="ing-header-row">
+                    <h4 class="ing-name">${ing.name_en}</h4>
+                    <span class="note-tag">[${ing.note_type}]</span>
+                    <div class="badges-container">
+                        ${casLabel}
+                        ${ifraLabel}
+                    </div>
                 </div>
-                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en}</p>
+                <div class="ing-details">
+                    <span class="cat-tag">${ing.category_ar}</span>
+                    <span class="desc-text">${ing.description_en}</span>
+                </div>
             </div>
             <button class="add-btn" onclick="addToFormula(${ing.id})">+</button>
         `;
