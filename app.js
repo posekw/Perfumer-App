@@ -6,6 +6,13 @@ async function loadIngredients() {
         const csvText = await response.text();
 
         const lines = csvText.trim().split('\n');
+
+        if (!lines || lines.length < 2 || lines[0].includes('<html') || lines[0].includes('<!DOCTYPE')) {
+            console.error('Invalid CSV format. Path might be incorrect returning a 404 page.', lines[0]);
+            alert('تعذر تحميل قاعدة البيانات بشكل صحيح. يرجى التأكد من مسار الملف data/ingredients_db.csv.');
+            return [];
+        }
+
         const headers = lines[0].split(',').map(h => h.trim());
 
         // Robust CSV row parser for quoted fields
