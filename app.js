@@ -59,12 +59,9 @@ async function loadIngredients() {
     } catch (error) {
         console.warn('Falling back to local database...', error);
         try {
-            // Use WordPress pluginUrl if available, otherwise relative path
-            const basePath = (typeof perfumerData !== 'undefined' && perfumerData.pluginUrl) ? perfumerData.pluginUrl : '';
-
             // Try .csv first locally, then .txt
-            let localResponse = await fetch(basePath + 'data/ingredients_db.csv');
-            if (!localResponse.ok) localResponse = await fetch(basePath + 'data/ingredients_db.txt');
+            let localResponse = await fetch('data/ingredients_db.csv');
+            if (!localResponse.ok) localResponse = await fetch('data/ingredients_db.txt');
             if (!localResponse.ok) return [];
             const localCsvText = await localResponse.text();
             return parseCSV(localCsvText);
@@ -340,118 +337,7 @@ searchInput.addEventListener('input', (e) => {
 perfumeWeightInput.addEventListener('input', calculateTotals);
 concentrationInput.addEventListener('input', calculateTotals);
 
-// --- Recipe Management Logic ---
-const recipeNameInput = document.getElementById('recipe-name');
-const saveRecipeBtn = document.getElementById('save-recipe-btn');
-const recipesListBtn = document.getElementById('recipes-list-btn');
-const recipesModal = document.getElementById('recipes-modal');
-const closeRecipesBtn = document.getElementById('close-recipes');
-const savedRecipesContainer = document.getElementById('saved-recipes-container');
-
-function saveRecipe() {
-    const name = recipeNameInput.value.trim();
-    if (!name) {
-        alert('برجاء إدخال اسم للوصفة');
-        return;
-    }
-    if (currentFormula.length === 0) {
-        alert('لا توجد مكونات لحفظها');
-        return;
-    }
-
-    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
-    const newRecipe = {
-        id: Date.now(),
-        name: name,
-        date: new Date().toLocaleDateString('ar-EG'),
-        totalWeight: perfumeWeightInput.value,
-        concentration: concentrationInput.value,
-        items: currentFormula.map(i => ({
-            id: i.id,
-            weight: i.weight,
-            dominanceLevel: i.dominanceLevel
-        }))
-    };
-
-    recipes.push(newRecipe);
-    localStorage.setItem('perfumer_recipes', JSON.stringify(recipes));
-    recipeNameInput.value = '';
-    alert('تم حفظ الوصفة بنجاح! ✅');
-}
-
-function renderSavedRecipes() {
-    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
-    savedRecipesContainer.innerHTML = '';
-
-    if (recipes.length === 0) {
-        savedRecipesContainer.innerHTML = '<p style="text-align:center; color:var(--text-secondary);">لا توجد وصفات محفوظة بعد.</p>';
-        return;
-    }
-
-    recipes.forEach(recipe => {
-        const div = document.createElement('div');
-        div.className = 'recipe-item';
-        div.innerHTML = `
-            <div class="recipe-info">
-                <h4>${recipe.name}</h4>
-                <p>${recipe.date} • ${recipe.items.length} مكونات</p>
-            </div>
-            <div class="recipe-actions">
-                <button class="load-btn" onclick="loadRecipe(${recipe.id})">تحميل</button>
-                <button class="del-btn" onclick="deleteRecipe(${recipe.id})">حذف</button>
-            </div>
-        `;
-        savedRecipesContainer.appendChild(div);
-    });
-}
-
-window.loadRecipe = (id) => {
-    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
-    const recipe = recipes.find(r => r.id === id);
-    if (!recipe) return;
-
-    if (confirm(`هل تريد تحميل الوصفة "${recipe.name}"؟ سيتم مسح العمل الحالي.`)) {
-        perfumeWeightInput.value = recipe.totalWeight;
-        concentrationInput.value = recipe.concentration;
-        currentFormula = [];
-
-        recipe.items.forEach(itemData => {
-            const ing = allIngredients.find(i => i.id === itemData.id);
-            if (ing) {
-                currentFormula.push({
-                    ...ing,
-                    weight: itemData.weight,
-                    dominanceLevel: itemData.dominanceLevel,
-                    percentage: 0
-                });
-            }
-        });
-
-        renderFormula();
-        calculateTotals();
-        recipesModal.style.display = 'none';
-    }
-};
-
-window.deleteRecipe = (id) => {
-    if (confirm('هل أنت متأكد من حذف هذه الوصفة؟')) {
-        let recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
-        recipes = recipes.filter(r => r.id !== id);
-        localStorage.setItem('perfumer_recipes', JSON.stringify(recipes));
-        renderSavedRecipes();
-    }
-};
-
-saveRecipeBtn.addEventListener('click', saveRecipe);
-recipesListBtn.addEventListener('click', () => {
-    renderSavedRecipes();
-    recipesModal.style.display = 'block';
-});
-closeRecipesBtn.onclick = () => recipesModal.style.display = 'none';
-
-window.addEventListener('click', (e) => {
-    if (e.target == recipesModal) recipesModal.style.display = 'none';
-});
+// Removed recipe management
 
 document.addEventListener('DOMContentLoaded', async () => {
     await checkLicense();

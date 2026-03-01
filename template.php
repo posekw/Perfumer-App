@@ -52,14 +52,6 @@
                         <!-- AI Tips will appear here -->
                     </div>
 
-                    <!-- Recipe Control Tools -->
-                    <div class="recipe-tools"
-                        style="display: flex; gap: 0.8rem; margin-bottom: 1rem; align-items: center;">
-                        <input type="text" id="recipe-name" placeholder="اسم الوصفة (مثلاً: عود ملكي)..."
-                            style="flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(212, 175, 55, 0.3); color: white; padding: 0.5rem 1rem; border-radius: 8px;">
-                        <button id="save-recipe-btn" class="secondary-btn" title="حفظ الوصفة">💾 حفظ</button>
-                        <button id="recipes-list-btn" class="secondary-btn" title="الوصفات المحفوظة">📂 الوصفات</button>
-                    </div>
                     <table class="formula-table">
                         <thead>
                             <tr>
@@ -126,17 +118,6 @@
                     <li>⭐ <strong>نظام السيادة (Dominance):</strong> يسمح لك بتحديد قوة بروز مكون معين بـ 3 مستويات.</li>
                     <li>📂 <strong>قاعدة بيانات مرنة:</strong> إضافة المكونات تتم عبر الملفات بكل سهولة.</li>
                 </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal: Saved Recipes -->
-    <div id="recipes-modal" class="modal">
-        <div class="modal-content glass" style="max-width: 600px;">
-            <span class="close-modal" id="close-recipes">&times;</span>
-            <h2 class="card-title">الوصفات المحفوظة</h2>
-            <div id="saved-recipes-container" style="max-height: 400px; overflow-y: auto; margin-top: 1rem;">
-                <!-- Saved recipes list will appear here -->
             </div>
         </div>
     </div>
