@@ -1,4 +1,4 @@
-const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/data/ingredients_db.csv';
+const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/data/ingredients_db.txt';
 const STATUS_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/status.txt';
 
 async function checkLicense() {
@@ -17,51 +17,56 @@ async function checkLicense() {
         }
     } catch (error) {
         console.error('License check failed:', error);
-        // Optionally allow offline/error for better UX, or block. 
-        // Let's allow if error (e.g. no internet) but block if explicitly DISABLED.
     }
+}
+
+function parseCSV(csvText) {
+    if (csvText.charCodeAt(0) === 0xFEFF) {
+        csvText = csvText.slice(1);
+    }
+    const lines = csvText.trim().split(/\r?\n/);
+    if (lines.length < 2) return [];
+
+    const headers = lines[0].split(',').map(h => h.replace(/[\r\n\uFEFF]/g, '').trim());
+    const parseRow = (row) => {
+        const matches = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
+        return matches ? matches.map(m => m.replace(/^"|"$/g, '').trim()) : [];
+    };
+
+    return lines.slice(1).map(line => {
+        const values = parseRow(line);
+        const ing = {};
+        headers.forEach((header, i) => ing[header] = values[i]);
+        return {
+            id: parseInt(ing.id),
+            name_en: ing.name_en,
+            category_ar: ing.category_ar,
+            description_en: ing.description_en,
+            note_type: ing.note_type,
+            intensity: parseInt(ing.intensity_1_10) || 5
+        };
+    });
 }
 
 async function loadIngredients() {
     try {
-        // Fetch from GitHub with cache-busting
         const response = await fetch(`${GITHUB_CSV_URL}?t=${Date.now()}`);
+        if (!response.ok) throw new Error('Remote fetch failed');
         const csvText = await response.text();
-
-        // Strip BOM if present
-        if (csvText.charCodeAt(0) === 0xFEFF) {
-            csvText = csvText.slice(1);
-        }
-
-        const lines = csvText.trim().split(/\r?\n/);
-        const headers = lines[0].split(',').map(h => h.replace(/[\r\n\uFEFF]/g, '').trim());
-
-        // Robust CSV row parser for quoted fields
-        const parseRow = (row) => {
-            const matches = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
-            return matches ? matches.map(m => m.replace(/^"|"$/g, '').trim()) : [];
-        };
-
-        return lines.slice(1).map(line => {
-            const values = parseRow(line);
-            const ing = {};
-            headers.forEach((header, i) => ing[header] = values[i]);
-            return {
-                id: parseInt(ing.id),
-                name_en: ing.name_en,
-                category_ar: ing.category_ar,
-                description_en: ing.description_en,
-                note_type: ing.note_type,
-                intensity: parseInt(ing.intensity_1_10) || 5
-            };
-        });
+        return parseCSV(csvText);
     } catch (error) {
-        console.error('Error loading Remote CSV database:', error);
-        // Fallback to local if offline or error
+        console.warn('Falling back to local database...', error);
         try {
-            const localResponse = await fetch('data/ingredients_db.csv');
-            return await localResponse.text().then(text => /* parse logic here or just return empty */[]);
-        } catch (e) { return []; }
+            // Try .csv first locally, then .txt
+            let localResponse = await fetch('data/ingredients_db.csv');
+            if (!localResponse.ok) localResponse = await fetch('data/ingredients_db.txt');
+            if (!localResponse.ok) return [];
+            const localCsvText = await localResponse.text();
+            return parseCSV(localCsvText);
+        } catch (e) {
+            console.error('Local fallback failed:', e);
+            return [];
+        }
     }
 }
 
