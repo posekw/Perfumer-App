@@ -43,7 +43,8 @@ function parseCSV(csvText) {
             category_ar: ing.category_ar,
             description_en: ing.description_en,
             note_type: ing.note_type,
-            intensity: parseInt(ing.intensity_1_10) || 5
+            intensity: parseInt(ing.intensity_1_10) || 5,
+            cas: ing.cas_number || ''
         };
     });
 }
@@ -95,10 +96,11 @@ function renderIngredients(ingredients) {
     ingredients.forEach(ing => {
         const div = document.createElement('div');
         div.className = 'ingredient-item';
+        const casHtml = ing.cas ? `<span style="font-size:0.7rem; color:var(--text-secondary); margin-right:5px;">CAS: ${ing.cas}</span>` : '';
         div.innerHTML = `
             <div class="ingredient-info">
                 <h4>${ing.name_en} <span style="font-size:0.7rem; color:var(--accent-color);">[${ing.note_type}]</span></h4>
-                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en}</p>
+                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en} ${casHtml}</p>
             </div>
             <button class="add-btn" onclick="addToFormula(${ing.id})">+</button>
         `;
@@ -151,6 +153,7 @@ function renderFormula() {
         const stars = '⭐'.repeat(item.dominanceLevel) || '☆';
         row.innerHTML = `
             <td>${item.name_en}</td>
+            <td style="font-size:0.7rem; color:var(--text-secondary); text-align:center;">${item.cas || '-'}</td>
             <td>${item.category_ar}</td>
             <td style="text-align:center;">
                 <span class="dominant-star ${item.dominanceLevel > 0 ? 'active' : ''}" 
