@@ -378,6 +378,135 @@ header {
     font-weight: bold;
 }
 
+/* New Ingredient Item Layout */
+.ingredient-item {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Put button on left, content on right */
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.2s ease;
+    margin-bottom: 12px;
+    gap: 15px;
+}
+
+.ingredient-item:hover {
+    background: rgba(212, 175, 55, 0.05);
+    border-color: rgba(212, 175, 55, 0.3);
+    transform: translateY(-2px);
+}
+
+.ingredient-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: right;
+    /* Arabic Alignment */
+    direction: rtl;
+}
+
+.ing-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ing-name {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.note-tag {
+    font-size: 0.65rem;
+    color: var(--accent-color);
+    font-weight: 800;
+    background: rgba(212, 175, 55, 0.1);
+    padding: 2px 7px;
+    border-radius: 4px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.badges-container {
+    display: flex;
+    gap: 5px;
+    direction: ltr;
+    /* Force LTR for English acronyms */
+}
+
+.badge {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    direction: ltr;
+}
+
+.cas-badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #999;
+}
+
+.ifra-badge {
+    background: rgba(76, 209, 55, 0.12);
+    border: 1px solid rgba(76, 209, 55, 0.3);
+    color: #4cd137;
+}
+
+.ing-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cat-tag {
+    font-size: 0.82rem;
+    color: var(--accent-color);
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.desc-text {
+    font-size: 0.78rem;
+    color: #999;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+/* Add Button Style */
+.add-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    color: #000;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.add-btn:hover {
+    transform: scale(1.1) rotate(90deg);
+}
+
 /* Secondary Buttons */
 .secondary-btn {
     background: rgba(212, 175, 55, 0.1);
