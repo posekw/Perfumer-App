@@ -1,5 +1,11 @@
 <?php
-/* Plugin Name: الخبير العطري | Perfumer App Description: تطبيق احترافي لحساب نسب العطور وتصميم التركيبات بناءً على قواعد علمية. Version: 1.6 Author: ضاري التميمي Text Domain: perfumer-app License: GPL2 */
+/**
+ * Plugin Name: الخبير العطري | Perfumer App
+ * Description: تطبيق احترافي لحساب نسب العطور وتصميم التركيبات بناءً على قواعد علمية.
+ * Version: 1.6.1
+ * Author: ضاري التميمي
+ * Text Domain: perfumer-app
+ */
 
 if (!defined('ABSPATH')) {
     exit;
@@ -13,7 +19,7 @@ function perfumer_app_enqueue_assets()
 
         wp_enqueue_style('perfumer-app-style', plugins_url('style.css', __FILE__));
 
-        wp_enqueue_script('perfumer-app-js', plugins_url('app.js', __FILE__), array(), '1.5', true);
+        wp_enqueue_script('perfumer-app-js', plugins_url('app.js', __FILE__), array(), '1.6.1', true);
 
         // Pass the plugin directory URL to JavaScript
         wp_localize_script('perfumer-app-js', 'perfumerData', array(
