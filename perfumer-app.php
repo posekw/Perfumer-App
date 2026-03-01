@@ -1,9 +1,11 @@
 <?php
-/**
- * Plugin Name: الخبير العطري | Perfumer App
+/*
+ * Plugin Name: Perfumer App
+ * Plugin URI: https://github.com/posekw/Perfumer-App
  * Description: تطبيق احترافي لحساب نسب العطور وتصميم التركيبات بناءً على قواعد علمية.
- * Version: 1.6.1
- * Author: ضاري التميمي
+ * Version: 1.6.2
+ * Author: Dhari Al-Tamimi
+ * Author URI: https://github.com/posekw
  * Text Domain: perfumer-app
  */
 
