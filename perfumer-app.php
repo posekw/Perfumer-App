@@ -17,9 +17,9 @@ function perfumer_app_enqueue_assets()
     global $post;
     if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'perfumer_app')) {
 
-        wp_enqueue_style('perfumer-app-style', plugins_url('style.css', __FILE__));
+        wp_enqueue_style('perfumer-app-style', plugins_url('style.css', __FILE__), array(), time());
 
-        wp_enqueue_script('perfumer-app-js', plugins_url('app.js', __FILE__), array(), '1.6.1', true);
+        wp_enqueue_script('perfumer-app-js', plugins_url('app.js', __FILE__), array(), time(), true);
 
         // Pass the plugin directory URL to JavaScript
         wp_localize_script('perfumer-app-js', 'perfumerData', array(

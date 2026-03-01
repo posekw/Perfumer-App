@@ -2,7 +2,7 @@ async function loadIngredients() {
     try {
         // Use the plugin URL passed from WordPress
         const baseUrl = typeof perfumerData !== 'undefined' ? perfumerData.pluginUrl : '';
-        const response = await fetch(baseUrl + 'data/ingredients_db.csv');
+        const response = await fetch(baseUrl + 'data/ingredients_db.txt');
         let csvText = await response.text();
 
         // Strip BOM if present
@@ -14,8 +14,8 @@ async function loadIngredients() {
         const lines = csvText.trim().split(/\r?\n/);
 
         if (!lines || lines.length < 2 || lines[0].includes('<html') || lines[0].includes('<!DOCTYPE')) {
-            console.error('Invalid CSV format. Path might be incorrect returning a 404 page.', lines[0]);
-            alert('تعذر تحميل قاعدة البيانات بشكل صحيح. يرجى التأكد من مسار الملف data/ingredients_db.csv.');
+            console.error('Invalid Data format. Path might be incorrect returning a 404 page.', lines[0]);
+            alert('تعذر تحميل قاعدة البيانات بشكل صحيح. يرجى التأكد من المجلدات.');
             return [];
         }
 
