@@ -1,8 +1,10 @@
-/* Scoped Styles for Perfumer Plugin */
-.perfumer-plugin-container {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap');
+
+:root {
     --bg-color: #0d0d0d;
     --surface-color: #1a1a1a;
     --accent-color: #d4af37;
+    /* Gold */
     --accent-hover: #b8962e;
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
@@ -10,21 +12,39 @@
     --glass-border: rgba(255, 255, 255, 0.1);
     --border-radius: 12px;
     --transition: all 0.3s ease;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
     direction: rtl;
-    padding: 1rem;
-    border-radius: 15px;
+    /* Arabic support */
 }
 
-.perfumer-plugin-container * {
-    box-sizing: border-box;
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
-.perfumer-plugin-container .glass {
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Glassmorphism utility */
+.glass {
     background: var(--glass-bg);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
@@ -32,120 +52,405 @@
     padding: 1.5rem;
 }
 
-.perfumer-plugin-container header {
+/* Header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 0;
 }
 
-.perfumer-plugin-container .logo {
-    font-size: 1.8rem;
+.logo {
+    font-size: 2rem;
     color: var(--accent-color);
-    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
-.perfumer-plugin-container .main-grid {
+/* Main Layout */
+.main-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 @media (max-width: 1024px) {
-    .perfumer-plugin-container .main-grid {
+    .main-grid {
         grid-template-columns: 1fr;
     }
 }
 
-.perfumer-plugin-container .library-section {
-    max-height: 600px;
+/* Ingredient Library */
+.library-section {
+    position: sticky;
+    top: 2rem;
+    height: calc(100vh - 8rem);
     display: flex;
     flex-direction: column;
 }
 
-.perfumer-plugin-container .search-box {
+.search-box {
     width: 100%;
     background: var(--surface-color);
     border: 1px solid var(--glass-border);
     border-radius: var(--border-radius);
-    padding: 0.8rem;
-    color: #fff;
+    padding: 0.8rem 1rem;
+    color: var(--text-primary);
     margin-bottom: 1rem;
+    outline: none;
+    transition: var(--transition);
 }
 
-.perfumer-plugin-container .ingredient-list {
+.search-box:focus {
+    border-color: var(--accent-color);
+}
+
+.ingredient-list {
     flex-grow: 1;
     overflow-y: auto;
+    padding-right: 0.5rem;
 }
 
-.perfumer-plugin-container .ingredient-item {
-    padding: 0.8rem;
+.ingredient-item {
+    padding: 1rem;
     border-bottom: 1px solid var(--glass-border);
+    cursor: pointer;
+    transition: var(--transition);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.perfumer-plugin-container .add-btn {
+.ingredient-item:hover {
+    background: var(--glass-bg);
+    border-radius: 8px;
+}
+
+.ingredient-info h4 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.ingredient-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.add-btn {
     background: var(--accent-color);
     color: #000;
     border: none;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
 }
 
-.perfumer-plugin-container .formula-table {
+.add-btn:hover {
+    transform: scale(1.1);
+    background: var(--accent-hover);
+}
+
+/* Lab Calculator */
+.lab-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.control-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-end;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.input-field label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.input-field input {
+    background: var(--surface-color);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius);
+    padding: 0.8rem;
+    color: var(--text-primary);
+    outline: none;
+}
+
+/* Formula Table */
+.formula-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.perfumer-plugin-container .formula-table th,
-.perfumer-plugin-container .formula-table td {
-    padding: 0.8rem;
-    border-bottom: 1px solid var(--glass-border);
+.formula-table th,
+.formula-table td {
     text-align: right;
+    padding: 1rem;
+    border-bottom: 1px solid var(--glass-border);
 }
 
-.perfumer-plugin-container .weight-input {
-    width: 70px;
-    background: #000;
+.formula-table th {
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.weight-input {
+    width: 80px;
+    background: transparent;
     border: 1px solid var(--glass-border);
-    color: #fff;
+    color: var(--text-primary);
     padding: 0.3rem;
-}
-
-.perfumer-plugin-container .summary-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-}
-
-.perfumer-plugin-container .summary-card {
-    background: rgba(212, 175, 55, 0.1);
-    border: 1px solid var(--accent-color);
-    padding: 0.8rem;
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: center;
 }
 
-/* Modal */
-.perfumer-plugin-container .modal {
+/* Summary Section */
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.summary-card {
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid var(--accent-color);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.summary-card span {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+}
+
+.summary-card strong {
+    font-size: 1.5rem;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--glass-border);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+}
+
+/* Dominant Star */
+.dominant-star {
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.dominant-star:hover {
+    transform: scale(1.3);
+}
+
+.dominant-star.active {
+    filter: none !important;
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
+/* Concentration Gauge */
+.calc-icon {
+    display: inline-block;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Modal Styles */
+.modal {
     display: none;
     position: fixed;
-    z-index: 10000;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
 }
 
-.perfumer-plugin-container .modal-content {
-    background: #1a1a1a;
-    margin: 10% auto;
-    padding: 2rem;
-    max-width: 500px;
-    border-radius: 12px;
+.modal-content {
+    position: relative;
+    margin: 5% auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 2.5rem;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-modal {
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+    color: var(--text-secondary);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.close-modal:hover {
+    color: var(--accent-color);
+}
+
+.info-body p {
+    margin-bottom: 1rem;
+}
+
+.info-body li {
+    margin-bottom: 0.8rem;
+    padding-right: 1.5rem;
+    position: relative;
+}
+
+.info-body li::before {
+    content: "•";
+    color: var(--accent-color);
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+}
+
+/* Secondary Buttons */
+.secondary-btn {
+    background: rgba(212, 175, 55, 0.1);
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.secondary-btn:hover {
+    background: var(--accent-color);
+    color: #000;
+}
+
+/* Saved Recipes List */
+.recipe-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.recipe-item:hover {
+    border-color: var(--accent-color);
+    background: rgba(212, 175, 55, 0.05);
+}
+
+.recipe-info h4 {
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.recipe-info p {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.recipe-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.load-btn {
+    background: var(--accent-color);
+    color: #000;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.del-btn {
+    background: transparent;
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.del-btn:hover {
+    background: #ff4d4d;
+    color: white;
 }

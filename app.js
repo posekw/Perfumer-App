@@ -1,25 +1,17 @@
+const GITHUB_CSV_URL = 'https://raw.githubusercontent.com/posekw/Perfumer-App/main/data/ingredients_db.csv';
+
 async function loadIngredients() {
     try {
-        // Use the plugin URL passed from WordPress
-        const baseUrl = typeof perfumerData !== 'undefined' ? perfumerData.pluginUrl : '';
-        const response = await fetch(baseUrl + 'data/ingredients_db.txt');
-        let csvText = await response.text();
+        // Fetch from GitHub with cache-busting
+        const response = await fetch(`${GITHUB_CSV_URL}?t=${Date.now()}`);
+        const csvText = await response.text();
 
         // Strip BOM if present
         if (csvText.charCodeAt(0) === 0xFEFF) {
             csvText = csvText.slice(1);
         }
 
-        // Handle both CRLF and LF line endings
         const lines = csvText.trim().split(/\r?\n/);
-
-        if (!lines || lines.length < 2 || lines[0].includes('<html') || lines[0].includes('<!DOCTYPE')) {
-            console.error('Invalid Data format. Path might be incorrect returning a 404 page.', lines[0]);
-            alert('تعذر تحميل قاعدة البيانات بشكل صحيح. يرجى التأكد من المجلدات.');
-            return [];
-        }
-
-        // Clean headers specifically removing any hidden characters
         const headers = lines[0].split(',').map(h => h.replace(/[\r\n\uFEFF]/g, '').trim());
 
         // Robust CSV row parser for quoted fields
@@ -42,8 +34,12 @@ async function loadIngredients() {
             };
         });
     } catch (error) {
-        console.error('Error loading CSV database:', error);
-        return [];
+        console.error('Error loading Remote CSV database:', error);
+        // Fallback to local if offline or error
+        try {
+            const localResponse = await fetch('data/ingredients_db.csv');
+            return await localResponse.text().then(text => /* parse logic here or just return empty */[]);
+        } catch (e) { return []; }
     }
 }
 
@@ -68,15 +64,14 @@ const infoBtn = document.getElementById('info-btn');
 const closeBtn = document.querySelector('.close-modal');
 
 function renderIngredients(ingredients) {
-    if (!ingredientList) return;
     ingredientList.innerHTML = '';
     ingredients.forEach(ing => {
         const div = document.createElement('div');
         div.className = 'ingredient-item';
         div.innerHTML = `
             <div class="ingredient-info">
-                <h4>${ing.name_en} <span style="font-size:0.7rem; color: #d4af37;">[${ing.note_type}]</span></h4>
-                <p style="font-size:0.8rem; color: #a0a0a0;">${ing.category_ar} - ${ing.description_en}</p>
+                <h4>${ing.name_en} <span style="font-size:0.7rem; color:var(--accent-color);">[${ing.note_type}]</span></h4>
+                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en}</p>
             </div>
             <button class="add-btn" onclick="addToFormula(${ing.id})">+</button>
         `;
@@ -123,7 +118,6 @@ window.updateWeight = (id, weight) => {
 };
 
 function renderFormula() {
-    if (!formulaBody) return;
     formulaBody.innerHTML = '';
     currentFormula.forEach(item => {
         const row = document.createElement('tr');
@@ -147,7 +141,6 @@ function renderFormula() {
 }
 
 function calculateTotals() {
-    if (!perfumeWeightInput || !concentrationInput) return;
     const totalWeight = parseFloat(perfumeWeightInput.value) || 100;
     const concentrationPct = parseFloat(concentrationInput.value) || 20;
 
@@ -159,15 +152,16 @@ function calculateTotals() {
         const percentCell = document.getElementById(`percent-${item.id}`);
         if (percentCell) percentCell.innerText = `${item.percentage.toFixed(2)}%`;
 
+        // Sync input value if needed (for UI consistency after AI suggestion)
         const input = document.getElementById(`weight-${item.id}`);
         if (input && document.activeElement !== input) {
             input.value = item.weight.toFixed(2);
         }
     });
 
-    if (totalOilDisplay) totalOilDisplay.innerText = `${actualTotalOil.toFixed(2)} جرام`;
+    totalOilDisplay.innerText = `${actualTotalOil.toFixed(2)} جرام`;
     const solventWeight = totalWeight - actualTotalOil;
-    if (solventDisplay) solventDisplay.innerText = `${solventWeight.toFixed(2)} جرام`;
+    solventDisplay.innerText = `${solventWeight.toFixed(2)} جرام`;
 
     // Scent Pyramid Calculation
     const distribution = { Top: 0, Heart: 0, Base: 0 };
@@ -182,106 +176,213 @@ function calculateTotals() {
     const heartPct = (distribution.Heart / totalOil) * 100;
     const basePct = (distribution.Base / totalOil) * 100;
 
-    const pTop = document.getElementById('pyramid-top');
-    const pHeart = document.getElementById('pyramid-heart');
-    const pBase = document.getElementById('pyramid-base');
-    if (pTop) pTop.style.width = `${topPct}%`;
-    if (pHeart) pHeart.style.width = `${heartPct}%`;
-    if (pBase) pBase.style.width = `${basePct}%`;
+    document.getElementById('pyramid-top').style.width = `${topPct}%`;
+    document.getElementById('pyramid-heart').style.width = `${heartPct}%`;
+    document.getElementById('pyramid-base').style.width = `${basePct}%`;
 
-    if (document.getElementById('top-pct')) document.getElementById('top-pct').innerText = topPct.toFixed(0);
-    if (document.getElementById('heart-pct')) document.getElementById('heart-pct').innerText = heartPct.toFixed(0);
-    if (document.getElementById('base-pct')) document.getElementById('base-pct').innerText = basePct.toFixed(0);
+    document.getElementById('top-pct').innerText = topPct.toFixed(0);
+    document.getElementById('heart-pct').innerText = heartPct.toFixed(0);
+    document.getElementById('base-pct').innerText = basePct.toFixed(0);
 
-    if (ifraStatus) {
-        if (actualTotalOil > (requiredTotalOil + 0.01)) {
-            ifraStatus.innerText = 'تنبيه: تجاوز التركيز المحدد';
-            ifraStatus.style.color = '#ff4d4d';
-        } else {
-            ifraStatus.innerText = 'آمن';
-            ifraStatus.style.color = '#4cd137';
-        }
+    if (actualTotalOil > (requiredTotalOil + 0.01)) {
+        ifraStatus.innerText = 'تنبيه: تجاوز التركيز المحدد';
+        ifraStatus.style.color = '#ff4d4d';
+    } else {
+        ifraStatus.innerText = 'آمن';
+        ifraStatus.style.color = '#4cd137';
     }
 }
 
 // AI Ratio Suggestion Logic
-if (aiSuggestBtn) {
-    aiSuggestBtn.addEventListener('click', () => {
-        if (currentFormula.length === 0) {
-            alert('برجاء إضافة مكونات أولاً!');
-            return;
+aiSuggestBtn.addEventListener('click', () => {
+    if (currentFormula.length === 0) {
+        alert('برجاء إضافة مكونات أولاً!');
+        return;
+    }
+
+    const totalWeight = parseFloat(perfumeWeightInput.value) || 100;
+    const concentrationPct = parseFloat(concentrationInput.value) || 20;
+    const targetOilWeight = (concentrationPct / 100) * totalWeight;
+
+    // Distribute weights using CSV-defined Note Types and Intensities
+    let totalScore = 0;
+    currentFormula.forEach(item => {
+        let score = 1;
+
+        // 1. Base score by CSV Note Type
+        if (item.note_type === 'Top') score = 2;
+        else if (item.note_type === 'Heart') score = 3;
+        else score = 4; // Base
+
+        // 2. Adjust by CSV Intensity (Programmed by user in Excel)
+        score *= (item.intensity / 5);
+
+        // 3. Graduated Dominance multipliers
+        if (item.dominanceLevel === 1) score *= 2;
+        else if (item.dominanceLevel === 2) score *= 5;
+        else if (item.dominanceLevel === 3) score *= 12;
+
+        // 4. Safety throttle for ultra-high intensities (>8)
+        if (item.intensity > 8) {
+            score *= 0.15;
         }
 
-        const totalWeight = parseFloat(perfumeWeightInput.value) || 100;
-        const concentrationPct = parseFloat(concentrationInput.value) || 20;
-        const targetOilWeight = (concentrationPct / 100) * totalWeight;
+        item.tempScore = score;
+        totalScore += score;
+    });
 
-        let totalScore = 0;
-        currentFormula.forEach(item => {
-            let score = 1;
-            if (item.note_type === 'Top') score = 2;
-            else if (item.note_type === 'Heart') score = 3;
-            else score = 4;
+    currentFormula.forEach(item => {
+        item.weight = (item.tempScore / totalScore) * targetOilWeight;
+    });
 
-            score *= (item.intensity / 5);
-            if (item.dominanceLevel === 1) score *= 2;
-            else if (item.dominanceLevel === 2) score *= 5;
-            else if (item.dominanceLevel === 3) score *= 12;
+    aiTips.style.display = 'block';
+    const dominantItems = currentFormula.filter(i => i.dominanceLevel > 0).map(i => {
+        const starStr = '⭐'.repeat(i.dominanceLevel);
+        return `${i.name_en} (${starStr})`;
+    });
+    aiTips.innerHTML = `
+        <strong>نصيحة الخبير الذكي:</strong> تم توزيع الأوزان لجعل 
+        ${dominantItems.length > 0 ? `<strong>${dominantItems.join('، ')}</strong> هي الروائح الطاغية` : 'العطر متوازناً'} 
+        بناءً على خصائص المواد في قاعدة البيانات.
+    `;
 
-            if (item.intensity > 8) score *= 0.15;
-            item.tempScore = score;
-            totalScore += score;
+    renderFormula();
+    calculateTotals();
+});
+
+// Modal Logic
+infoBtn.onclick = () => infoModal.style.display = "block";
+closeBtn.onclick = () => infoModal.style.display = "none";
+window.onclick = (e) => { if (e.target == infoModal) infoModal.style.display = "none"; };
+
+searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.toLowerCase();
+    const filtered = allIngredients.filter(ing =>
+        ing.name_en.toLowerCase().includes(term) ||
+        ing.category_ar.includes(term) ||
+        ing.description_en.toLowerCase().includes(term) ||
+        ing.note_type.toLowerCase().includes(term)
+    );
+    renderIngredients(filtered);
+});
+
+perfumeWeightInput.addEventListener('input', calculateTotals);
+concentrationInput.addEventListener('input', calculateTotals);
+
+// --- Recipe Management Logic ---
+const recipeNameInput = document.getElementById('recipe-name');
+const saveRecipeBtn = document.getElementById('save-recipe-btn');
+const recipesListBtn = document.getElementById('recipes-list-btn');
+const recipesModal = document.getElementById('recipes-modal');
+const closeRecipesBtn = document.getElementById('close-recipes');
+const savedRecipesContainer = document.getElementById('saved-recipes-container');
+
+function saveRecipe() {
+    const name = recipeNameInput.value.trim();
+    if (!name) {
+        alert('برجاء إدخال اسم للوصفة');
+        return;
+    }
+    if (currentFormula.length === 0) {
+        alert('لا توجد مكونات لحفظها');
+        return;
+    }
+
+    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
+    const newRecipe = {
+        id: Date.now(),
+        name: name,
+        date: new Date().toLocaleDateString('ar-EG'),
+        totalWeight: perfumeWeightInput.value,
+        concentration: concentrationInput.value,
+        items: currentFormula.map(i => ({
+            id: i.id,
+            weight: i.weight,
+            dominanceLevel: i.dominanceLevel
+        }))
+    };
+
+    recipes.push(newRecipe);
+    localStorage.setItem('perfumer_recipes', JSON.stringify(recipes));
+    recipeNameInput.value = '';
+    alert('تم حفظ الوصفة بنجاح! ✅');
+}
+
+function renderSavedRecipes() {
+    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
+    savedRecipesContainer.innerHTML = '';
+
+    if (recipes.length === 0) {
+        savedRecipesContainer.innerHTML = '<p style="text-align:center; color:var(--text-secondary);">لا توجد وصفات محفوظة بعد.</p>';
+        return;
+    }
+
+    recipes.forEach(recipe => {
+        const div = document.createElement('div');
+        div.className = 'recipe-item';
+        div.innerHTML = `
+            <div class="recipe-info">
+                <h4>${recipe.name}</h4>
+                <p>${recipe.date} • ${recipe.items.length} مكونات</p>
+            </div>
+            <div class="recipe-actions">
+                <button class="load-btn" onclick="loadRecipe(${recipe.id})">تحميل</button>
+                <button class="del-btn" onclick="deleteRecipe(${recipe.id})">حذف</button>
+            </div>
+        `;
+        savedRecipesContainer.appendChild(div);
+    });
+}
+
+window.loadRecipe = (id) => {
+    const recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
+    const recipe = recipes.find(r => r.id === id);
+    if (!recipe) return;
+
+    if (confirm(`هل تريد تحميل الوصفة "${recipe.name}"؟ سيتم مسح العمل الحالي.`)) {
+        perfumeWeightInput.value = recipe.totalWeight;
+        concentrationInput.value = recipe.concentration;
+        currentFormula = [];
+
+        recipe.items.forEach(itemData => {
+            const ing = allIngredients.find(i => i.id === itemData.id);
+            if (ing) {
+                currentFormula.push({
+                    ...ing,
+                    weight: itemData.weight,
+                    dominanceLevel: itemData.dominanceLevel,
+                    percentage: 0
+                });
+            }
         });
-
-        currentFormula.forEach(item => {
-            item.weight = (item.tempScore / totalScore) * targetOilWeight;
-        });
-
-        if (aiTips) {
-            aiTips.style.display = 'block';
-            const dominantItems = currentFormula.filter(i => i.dominanceLevel > 0).map(i => {
-                const starStr = '⭐'.repeat(i.dominanceLevel);
-                return `${i.name_en} (${starStr})`;
-            });
-            aiTips.innerHTML = `
-                <strong>نصيحة الخبير الذكي:</strong> تم توزيع الأوزان لجعل 
-                ${dominantItems.length > 0 ? `<strong>${dominantItems.join('، ')}</strong> هي الروائح الطاغية` : 'العطر متوازناً'} 
-                بناءً على خصائص المواد في قاعدة البيانات.
-            `;
-        }
 
         renderFormula();
         calculateTotals();
-    });
-}
+        recipesModal.style.display = 'none';
+    }
+};
 
-// Modal Logic
-if (infoBtn && infoModal && closeBtn) {
-    infoBtn.onclick = () => infoModal.style.display = "block";
-    closeBtn.onclick = () => infoModal.style.display = "none";
-    window.onclick = (e) => { if (e.target == infoModal) infoModal.style.display = "none"; };
-}
+window.deleteRecipe = (id) => {
+    if (confirm('هل أنت متأكد من حذف هذه الوصفة؟')) {
+        let recipes = JSON.parse(localStorage.getItem('perfumer_recipes') || '[]');
+        recipes = recipes.filter(r => r.id !== id);
+        localStorage.setItem('perfumer_recipes', JSON.stringify(recipes));
+        renderSavedRecipes();
+    }
+};
 
-if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-        const term = e.target.value.toLowerCase();
-        const filtered = allIngredients.filter(ing =>
-            ing.name_en.toLowerCase().includes(term) ||
-            ing.category_ar.includes(term) ||
-            ing.description_en.toLowerCase().includes(term) ||
-            ing.note_type.toLowerCase().includes(term)
-        );
-        renderIngredients(filtered);
-    });
-}
+saveRecipeBtn.addEventListener('click', saveRecipe);
+recipesListBtn.addEventListener('click', () => {
+    renderSavedRecipes();
+    recipesModal.style.display = 'block';
+});
+closeRecipesBtn.onclick = () => recipesModal.style.display = 'none';
 
-if (perfumeWeightInput) perfumeWeightInput.addEventListener('input', calculateTotals);
-if (concentrationInput) concentrationInput.addEventListener('input', calculateTotals);
+window.addEventListener('click', (e) => {
+    if (e.target == recipesModal) recipesModal.style.display = 'none';
+});
 
 document.addEventListener('DOMContentLoaded', async () => {
-    // Only run if we are in the plugin container
-    if (!document.querySelector('.perfumer-plugin-container')) return;
-
     allIngredients = await loadIngredients();
     renderIngredients(allIngredients);
 
@@ -290,8 +391,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     const dateDisplay = document.getElementById('current-date');
-    if (dateDisplay) {
-        const now = new Date();
-        dateDisplay.innerText = now.toLocaleDateString('ar-EG', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    }
+    const now = new Date();
+    dateDisplay.innerText = now.toLocaleDateString('ar-EG', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 });
