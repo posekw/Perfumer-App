@@ -1,22 +1,22 @@
 ﻿id,name_en,category_ar,description_en,note_type,intensity_1_10,cas_number,ifra_limit
 76,Ambroxan Absolute,عنبري شرقي,"Smoky, woody, animalic ambroxan absolute",Base,10,6790-58-5,100
-77,Cashmeran Absolute,عنبري شرقي,"Soft, woody, slightly sweet cashmeran absolute",Base,5,33704-61-9,100
+77,Cashmeran Absolute,عنبري شرقي,"Soft, woody, slightly sweet cashmeran absolute",Base,5,33704-61-9,3.8
 78,Dracopax Absolute,عنبري شرقي,"Earthy, woody, slightly smoky dracopax absolute",Base,5,144020-22-4,100
 79,Hiba Wood Essential Oil,عنبري شرقي,"Fresh, woody, slightly floral hiba wood oil",Base,5,54380-39-6,100
 80,Blue Tansy Essential Oil,عنبري شرقي,"Smoky, woody, slightly animalic blue tansy oil",Base,5,8159-24-6,100
-81,Pink Pepper Essential Oil,عنبري شرقي,"Spicy, woody, slightly sweet pink pepper oil",Base,5,22612-56-9,100
+81,Pink Pepper Essential Oil,عنبري شرقي,"Spicy, woody, slightly sweet pink pepper oil",Base,5,22612-56-9,3.2
 82,Green Pepper Absolute,عنبري شرقي,"Fresh, spicy, slightly woody green pepper oil",Base,5,20601-55-7,100
-83,Cumin Essential Oil,عنبري شرقي,"Earthy, spicy, slightly woody cumin oil",Base,5,19651-85-9,100
+83,Cumin Essential Oil,عنبري شرقي,"Earthy, spicy, slightly woody cumin oil",Base,5,19651-85-9,0.4
 84,Coriander Essential Oil,عنبري شرقي,"Spicy, earthy, slightly citrusy coriander oil",Base,5,26024-70-6,100
-85,Cardamom Essential Oil,عنبري شرقي,"Sweet, spicy, slightly woody cardamom oil",Base,5,92021-41-6,100
-86,Nutmeg Essential Oil,عنبري شرقي,"Warm, sweet, slightly woody nutmeg oil",Base,5,40582-77-7,100
-87,Clove Essential Oil,عنبري شرقي,"Spicy, warm, slightly woody clove oil",Base,10,84772-61-2,100
+85,Cardamom Essential Oil,عنبري شرقي,"Sweet, spicy, slightly woody cardamom oil",Base,5,92021-41-6,4.0
+86,Nutmeg Essential Oil,عنبري شرقي,"Warm, sweet, slightly woody nutmeg oil",Base,5,40582-77-7,0.8
+87,Clove Essential Oil,عنبري شرقي,"Spicy, warm, slightly woody clove oil",Base,10,84772-61-2,0.5
 88,Vanilla Absolute,عنبري شرقي,"Sweet, creamy, slightly woody vanilla oil",Base,5,8024-06-4,100
-89,Tonka Bean Absolute,عنبري شرقي,"Sweet, spicy, slightly woody tonka bean oil",Base,5,72270-33-3,100
+89,Tonka Bean Absolute,عنبري شرقي,"Sweet, spicy, slightly woody tonka bean oil",Base,5,72270-33-3,1.6
 90,Cade Essential Oil,عنبري شرقي,"Smoky, woody, dry with slight citrus undertones",Base,5,62839-43-0,100
 91,Orris Root Distillate,عنبري شرقي,"Powdery, floral, earthy iris root distillate",Base,5,86679-00-1,100
-92,Moss Absolute,عنبري شرقي,"Earthy, damp, mossy forest floor distillate",Base,10,79418-01-6,100
-93,Usnea Lichen Essential Oil,عنبري شرقي,"Fresh, earthy, slightly woody usnea lichen oil",Base,5,23190-02-5,100
+92,Moss Absolute,عنبري شرقي,"Earthy, damp, mossy forest floor distillate",Base,10,79418-01-6,0.1
+93,Usnea Lichen Essential Oil,عنبري شرقي,"Fresh, earthy, slightly woody usnea lichen oil",Base,5,23190-02-5,0.1
 94,Balsam Fir Essential Oil,عنبري شرقي,"Fresh, woody, resinous fir tree oil",Base,5,82665-88-0,100
 95,Pine Needle Essential Oil,عنبري شرقي,"Fresh, crisp, woody pine needles oil",Base,5,49207-39-6,100
 96,Rosemary Essential Oil,عنبري شرقي,"Herbal, woody, slightly spicy rosemary oil",Base,5,60349-82-9,100
@@ -25,38 +25,38 @@
 99,Oregano Essential Oil,عنبري شرقي,"Spicy, earthy, slightly woody oregano oil",Base,5,42505-37-4,100
 100,Marjoram Essential Oil,عنبري شرقي,"Sweet, spicy, slightly woody marjoram oil",Base,5,75854-68-3,100
 76,Ambroxan Absolute,خلاصات حيوانية,"Smoky, woody, animalic ambroxan absolute",Base,10,6790-58-5,100
-77,Cashmeran Absolute,خلاصات حيوانية,"Soft, woody, slightly sweet cashmeran absolute",Base,5,33704-61-9,100
+77,Cashmeran Absolute,خلاصات حيوانية,"Soft, woody, slightly sweet cashmeran absolute",Base,5,33704-61-9,3.8
 78,Dracopax Absolute,خلاصات حيوانية,"Earthy, woody, slightly smoky dracopax absolute",Base,5,144020-22-4,100
-1,Bergamot Essential Oil,حمضيات حمضية,"Bright, citrusy, slightly floral bergamot",Top,3,8007-75-8,100
-2,Lemon Essential Oil,حمضيات حمضية,"Fresh, tangy, acidic lemon oil",Top,3,8008-56-8,100
-3,Lime Essential Oil,حمضيات حمضية,"Zesty, bright, slightly sweet lime oil",Top,3,8008-26-2,100
+1,Bergamot Essential Oil,حمضيات حمضية,"Bright, citrusy, slightly floral bergamot",Top,3,8007-75-8,0.4
+2,Lemon Essential Oil,حمضيات حمضية,"Fresh, tangy, acidic lemon oil",Top,3,8008-56-8,2.0
+3,Lime Essential Oil,حمضيات حمضية,"Zesty, bright, slightly sweet lime oil",Top,3,8008-26-2,0.7
 4,Orange Essential Oil,حمضيات حمضية,"Sweet, juicy, tangy orange oil",Top,3,8008-57-9,100
-5,Grapefruit Essential Oil,حمضيات حمضية,"Fresh, tart, slightly bitter grapefruit oil",Top,3,8016-20-4,100
+5,Grapefruit Essential Oil,حمضيات حمضية,"Fresh, tart, slightly bitter grapefruit oil",Top,3,8016-20-4,4.0
 6,Tangerine Essential Oil,حمضيات حمضية,"Sweet, tangy, slightly spicy tangerine oil",Top,3,8016-85-1,100
 7,Mandarin Essential Oil,حمضيات حمضية,"Bright, citrusy, slightly sweet mandarin oil",Top,3,8008-31-9,100
-8,Yuzu Essential Oil,حمضيات حمضية,"Complex, tart, slightly floral yuzu oil",Top,3,53124-34-6,100
+8,Yuzu Essential Oil,حمضيات حمضية,"Complex, tart, slightly floral yuzu oil",Top,3,53124-34-6,2.0
 9,Kumquat Essential Oil,حمضيات حمضية,"Tart, tangy, slightly bitter kumquat oil",Top,3,90884-98-3,100
 10,Neroli Essential Oil,حمضيات حمضية,"Sweet, floral, slightly citrusy neroli (bitter orange flower)",Top,3,8016-38-4,100
 11,Petitgrain Essential Oil,حمضيات حمضية,"Fresh, green, slightly citrusy petitgrain oil",Top,3,83618-46-1,100
-12,Lime Blossom Absolute,حمضيات حمضية,"Floral, powdery, slightly citrusy lime blossom absolute",Top,3,46276-83-8,100
+12,Lime Blossom Absolute,حمضيات حمضية,"Floral, powdery, slightly citrusy lime blossom absolute",Top,3,46276-83-8,0.7
 13,Bergaptene,حمضيات حمضية,"Bright, tangy, slightly floral bergaptene (bergamot derivative)",Top,3,57808-41-2,100
 14,Cedrol,حمضيات حمضية,"Woody, fresh, slightly citrusy cedrol",Top,3,28128-70-8,100
 15,Exaltolide,حمضيات حمضية,"Sweet, green, slightly citrusy exaltolide",Top,3,73334-03-9,100
 16,Carvone,حمضيات حمضية,"Spicy, fresh, slightly citrusy carvone",Top,3,87585-78-5,100
 17,Menthol,حمضيات حمضية,"Cool, refreshing, slightly minty menthol",Top,3,14769-80-4,100
-18,Citronellol,حمضيات حمضية,"Fresh, floral, slightly citrusy citronellol",Top,3,44003-08-6,100
-19,Geraniol,حمضيات حمضية,"Floral, sweet, slightly citrusy geraniol",Top,3,15573-43-3,100
-20,Linalool,حمضيات حمضية,"Sweet, floral, slightly citrusy linalool",Top,3,47506-24-0,100
-26,Rose Essential Oil,زهري,"Rich, floral, slightly sweet rose oil",Heart,5,8007-01-0,100
-27,Jasmine Essential Oil,زهري,"Sweet, heady, slightly spicy jasmine oil",Heart,5,8022-96-6,100
+18,Citronellol,حمضيات حمضية,"Fresh, floral, slightly citrusy citronellol",Top,3,44003-08-6,13.3
+19,Geraniol,حمضيات حمضية,"Floral, sweet, slightly citrusy geraniol",Top,3,15573-43-3,5.3
+20,Linalool,حمضيات حمضية,"Sweet, floral, slightly citrusy linalool",Top,3,47506-24-0,4.3
+26,Rose Essential Oil,زهري,"Rich, floral, slightly sweet rose oil",Heart,5,8007-01-0,4.8
+27,Jasmine Essential Oil,زهري,"Sweet, heady, slightly spicy jasmine oil",Heart,5,8022-96-6,0.6
 28,Lavender Essential Oil,زهري,"Fresh, floral, slightly woody lavender oil",Heart,5,8000-28-0,100
 29,Geranium Essential Oil,زهري,"Floral, sweet, slightly citrusy geranium oil",Heart,5,77451-36-0,100
-30,Ylang,زهري,"Ylang Essential Oil - Sweet, tropical, slightly spicy ylang-ylang oil",Heart,5,40749-74-7,100
-31,Tuberose Absolute,زهري,"Rich, heady, slightly waxy tuberose absolute",Heart,5,10450-28-0,100
+30,Ylang,زهري,"Ylang Essential Oil - Sweet, tropical, slightly spicy ylang-ylang oil",Heart,5,40749-74-7,0.8
+31,Tuberose Absolute,زهري,"Rich, heady, slightly waxy tuberose absolute",Heart,5,10450-28-0,4.5
 32,Orris Root Absolute,زهري,"Powdery, floral, earthy orris root absolute",Heart,5,57252-00-2,100
 33,Violet Leaf Absolute,زهري,"Fresh, floral, slightly sweet violet leaf absolute",Heart,5,62209-51-3,100
 34,Lily of the Valley Absolute,زهري,"Sweet, delicate, slightly green lily of the valley absolute",Heart,5,80907-86-5,100
-35,Gardenia Absolute,زهري,"Sweet, tropical, slightly jasmine-like gardenia absolute",Heart,5,87029-01-7,100
+35,Gardenia Absolute,زهري,"Sweet, tropical, slightly jasmine-like gardenia absolute",Heart,5,87029-01-7,2.0
 36,Narcissus Absolute,زهري,"Rich, floral, slightly honeyed narcissus absolute",Heart,5,56999-71-1,100
 37,Mimosa Absolute,زهري,"Soft, floral, slightly sweet mimosa absolute",Heart,5,57938-22-5,100
 38,Osmanthus Absolute,زهري,"Sweet, floral, slightly nutty osmanthus absolute",Heart,5,50235-97-9,100
@@ -66,18 +66,18 @@
 42,Tarragon Essential Oil,زهري,"Sweet, spicy, slightly floral tarragon oil",Heart,5,55857-47-1,100
 43,Fennel Essential Oil,زهري,"Sweet, spicy, slightly floral fennel oil",Heart,5,46125-97-7,100
 44,Anise Essential Oil,زهري,"Sweet, spicy, slightly floral anise oil",Heart,5,96331-97-6,100
-45,Clove Essential Oil,زهري,"Spicy, warm, slightly floral clove oil",Heart,10,84772-61-2,100
-46,Cinnamon Essential Oil,زهري,"Warm, sweet, slightly floral cinnamon oil",Heart,10,37685-68-3,100
+45,Clove Essential Oil,زهري,"Spicy, warm, slightly floral clove oil",Heart,10,84772-61-2,0.5
+46,Cinnamon Essential Oil,زهري,"Warm, sweet, slightly floral cinnamon oil",Heart,10,37685-68-3,0.1
 47,Star Anise Essential Oil,زهري,"Spicy, warm, slightly floral star anise oil",Heart,5,17225-75-1,100
 48,Allspice Essential Oil,زهري,"Spicy, warm, slightly floral allspice oil",Heart,5,38959-65-9,100
-49,Pink Pepper Essential Oil,زهري,"Smoky, woody, slightly sweet pink pepper oil",Heart,5,22612-56-9,100
-50,Black Pepper Essential Oil,زهري,"Fresh, spicy, slightly woody black pepper oil",Heart,5,90152-49-5,100
+49,Pink Pepper Essential Oil,زهري,"Smoky, woody, slightly sweet pink pepper oil",Heart,5,22612-56-9,3.2
+50,Black Pepper Essential Oil,زهري,"Fresh, spicy, slightly woody black pepper oil",Heart,5,90152-49-5,3.2
 176,Vanilla Absolute Distillate,فانيليا وفواكه,"Sweet, creamy, slightly woody vanilla oil",Heart,5,96731-37-6,100
-177,Tonka Bean Absolute Distillate,فانيليا وفواكه,"Sweet, spicy, slightly woody tonka bean oil",Heart,5,76948-79-3,100
+177,Tonka Bean Absolute Distillate,فانيليا وفواكه,"Sweet, spicy, slightly woody tonka bean oil",Heart,5,76948-79-3,1.6
 178,Cade Essential Oil Distillate,فانيليا وفواكه,"Smoky, woody, dry with slight citrus undertones",Heart,5,84089-90-1,100
 179,Orris Root Distillate,فانيليا وفواكه,"Powdery, floral, earthy iris root distillate",Heart,5,86679-00-1,100
-180,Moss Absolute Distillate,فانيليا وفواكه,"Earthy, damp, mossy forest floor distillate",Heart,10,83153-31-0,100
-181,Usnea Lichen Essential Oil Distillate,فانيليا وفواكه,"Fresh, earthy, slightly woody usnea lichen oil",Heart,5,80202-38-5,100
+180,Moss Absolute Distillate,فانيليا وفواكه,"Earthy, damp, mossy forest floor distillate",Heart,10,83153-31-0,0.1
+181,Usnea Lichen Essential Oil Distillate,فانيليا وفواكه,"Fresh, earthy, slightly woody usnea lichen oil",Heart,5,80202-38-5,0.1
 182,Balsam Fir Essential Oil Distillate,فانيليا وفواكه,"Fresh, woody, resinous fir tree oil",Heart,5,44231-81-2,100
 183,Pine Needle Essential Oil Distillate,فانيليا وفواكه,"Fresh, crisp, woody pine needles oil",Heart,5,26433-99-0,100
 184,Rosemary Essential Oil Distillate,فانيليا وفواكه,"Herbal, woody, slightly spicy rosemary oil",Heart,5,23826-77-2,100
@@ -147,17 +147,17 @@
 123,Myrcene,مسكي حيواني,"Earthy, spicy, slightly musky myrcene",Base,5,40096-86-0,100
 124,Pulegone,مسكي حيواني,"Fresh, minty, slightly musky pulegone",Base,5,51274-90-5,100
 125,Vanillin,مسكي حيواني,"Sweet, creamy, slightly musky vanillin",Base,5,22167-80-0,100
-126,Cumin Essential Oil,توابل وأعشاب عطرية,"Earthy, spicy, slightly woody cumin oil",Heart,5,19651-85-9,100
+126,Cumin Essential Oil,توابل وأعشاب عطرية,"Earthy, spicy, slightly woody cumin oil",Heart,5,19651-85-9,0.4
 127,Coriander Essential Oil,توابل وأعشاب عطرية,"Spicy, earthy, slightly citrusy coriander oil",Heart,5,26024-70-6,100
-128,Cardamom Essential Oil,توابل وأعشاب عطرية,"Sweet, spicy, slightly woody cardamom oil",Heart,5,92021-41-6,100
-129,Nutmeg Essential Oil,توابل وأعشاب عطرية,"Warm, sweet, slightly woody nutmeg oil",Heart,5,40582-77-7,100
-130,Clove Essential Oil,توابل وأعشاب عطرية,"Spicy, warm, slightly woody clove oil",Heart,10,84772-61-2,100
+128,Cardamom Essential Oil,توابل وأعشاب عطرية,"Sweet, spicy, slightly woody cardamom oil",Heart,5,92021-41-6,4.0
+129,Nutmeg Essential Oil,توابل وأعشاب عطرية,"Warm, sweet, slightly woody nutmeg oil",Heart,5,40582-77-7,0.8
+130,Clove Essential Oil,توابل وأعشاب عطرية,"Spicy, warm, slightly woody clove oil",Heart,10,84772-61-2,0.5
 131,Vanilla Absolute,توابل وأعشاب عطرية,"Sweet, creamy, slightly woody vanilla oil",Heart,5,8024-06-4,100
-132,Tonka Bean Absolute,توابل وأعشاب عطرية,"Sweet, spicy, slightly woody tonka bean oil",Heart,5,72270-33-3,100
+132,Tonka Bean Absolute,توابل وأعشاب عطرية,"Sweet, spicy, slightly woody tonka bean oil",Heart,5,72270-33-3,1.6
 133,Cade Essential Oil,توابل وأعشاب عطرية,"Smoky, woody, dry with slight citrus undertones",Heart,5,62839-43-0,100
 134,Orris Root Distillate,توابل وأعشاب عطرية,"Powdery, floral, earthy iris root distillate",Heart,5,86679-00-1,100
-135,Moss Absolute,توابل وأعشاب عطرية,"Earthy, damp, mossy forest floor distillate",Heart,10,79418-01-6,100
-136,Usnea Lichen Essential Oil,توابل وأعشاب عطرية,"Fresh, earthy, slightly woody usnea lichen oil",Heart,5,23190-02-5,100
+135,Moss Absolute,توابل وأعشاب عطرية,"Earthy, damp, mossy forest floor distillate",Heart,10,79418-01-6,0.1
+136,Usnea Lichen Essential Oil,توابل وأعشاب عطرية,"Fresh, earthy, slightly woody usnea lichen oil",Heart,5,23190-02-5,0.1
 137,Balsam Fir Essential Oil,توابل وأعشاب عطرية,"Fresh, woody, resinous fir tree oil",Heart,5,82665-88-0,100
 138,Pine Needle Essential Oil,توابل وأعشاب عطرية,"Fresh, crisp, woody pine needles oil",Heart,5,49207-39-6,100
 139,Rosemary Essential Oil,توابل وأعشاب عطرية,"Herbal, woody, slightly spicy rosemary oil",Heart,5,60349-82-9,100
@@ -182,18 +182,18 @@
 58,Dracopax Absolute,خشبي ترابي طحلبي,"Earthy, woody, slightly smoky dracopax absolute",Base,5,144020-22-4,100
 59,Hiba Wood Essential Oil,خشبي ترابي طحلبي,"Fresh, woody, slightly floral hiba wood oil",Base,5,54380-39-6,100
 60,Blue Tansy Essential Oil,خشبي ترابي طحلبي,"Smoky, woody, slightly animalic blue tansy oil",Base,5,8159-24-6,100
-61,Pink Pepper Essential Oil,خشبي ترابي طحلبي,"Spicy, woody, slightly sweet pink pepper oil",Base,5,22612-56-9,100
+61,Pink Pepper Essential Oil,خشبي ترابي طحلبي,"Spicy, woody, slightly sweet pink pepper oil",Base,5,22612-56-9,3.2
 62,Green Pepper Absolute,خشبي ترابي طحلبي,"Fresh, spicy, slightly woody green pepper oil",Base,5,20601-55-7,100
-63,Cumin Essential Oil,خشبي ترابي طحلبي,"Earthy, spicy, slightly woody cumin oil",Base,5,19651-85-9,100
+63,Cumin Essential Oil,خشبي ترابي طحلبي,"Earthy, spicy, slightly woody cumin oil",Base,5,19651-85-9,0.4
 64,Coriander Essential Oil,خشبي ترابي طحلبي,"Spicy, earthy, slightly citrusy coriander oil",Base,5,26024-70-6,100
-65,Cardamom Essential Oil,خشبي ترابي طحلبي,"Sweet, spicy, slightly woody cardamom oil",Base,5,92021-41-6,100
-66,Nutmeg Essential Oil,خشبي ترابي طحلبي,"Warm, sweet, slightly woody nutmeg oil",Base,5,40582-77-7,100
-67,Clove Essential Oil,خشبي ترابي طحلبي,"Spicy, warm, slightly woody clove oil",Base,10,84772-61-2,100
+65,Cardamom Essential Oil,خشبي ترابي طحلبي,"Sweet, spicy, slightly woody cardamom oil",Base,5,92021-41-6,4.0
+66,Nutmeg Essential Oil,خشبي ترابي طحلبي,"Warm, sweet, slightly woody nutmeg oil",Base,5,40582-77-7,0.8
+67,Clove Essential Oil,خشبي ترابي طحلبي,"Spicy, warm, slightly woody clove oil",Base,10,84772-61-2,0.5
 68,Vanilla Absolute,خشبي ترابي طحلبي,"Sweet, creamy, slightly woody vanilla oil",Base,5,8024-06-4,100
-69,Tonka Bean Absolute,خشبي ترابي طحلبي,"Sweet, spicy, slightly woody tonka bean oil",Base,5,72270-33-3,100
+69,Tonka Bean Absolute,خشبي ترابي طحلبي,"Sweet, spicy, slightly woody tonka bean oil",Base,5,72270-33-3,1.6
 70,Cade Essential Oil,خشبي ترابي طحلبي,"Smoky, woody, dry with slight citrus undertones",Base,5,62839-43-0,100
 71,Orris Root Distillate,خشبي ترابي طحلبي,"Powdery, floral, earthy iris root distillate",Base,5,86679-00-1,100
-72,Moss Absolute,خشبي ترابي طحلبي,"Earthy, damp, mossy forest floor distillate",Base,10,79418-01-6,100
-73,Usnea Lichen Essential Oil,خشبي ترابي طحلبي,"Fresh, earthy, slightly woody usnea lichen oil",Base,5,23190-02-5,100
+72,Moss Absolute,خشبي ترابي طحلبي,"Earthy, damp, mossy forest floor distillate",Base,10,79418-01-6,0.1
+73,Usnea Lichen Essential Oil,خشبي ترابي طحلبي,"Fresh, earthy, slightly woody usnea lichen oil",Base,5,23190-02-5,0.1
 74,Balsam Fir Essential Oil,خشبي ترابي طحلبي,"Fresh, woody, resinous fir tree oil",Base,5,82665-88-0,100
 75,Pine Needle Essential Oil,خشبي ترابي طحلبي,"Fresh, crisp, woody pine needles oil",Base,5,49207-39-6,100
