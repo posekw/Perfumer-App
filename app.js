@@ -97,11 +97,18 @@ function renderIngredients(ingredients) {
     ingredients.forEach(ing => {
         const div = document.createElement('div');
         div.className = 'ingredient-item';
-        const casHtml = ing.cas ? `<span style="font-size:0.7rem; color:var(--text-secondary); margin-right:5px;">CAS: ${ing.cas}</span>` : '';
+        const casLabel = ing.cas ? `<span style="background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; font-size: 0.65rem; border: 1px solid rgba(212,175,55,0.2);">CAS: ${ing.cas}</span>` : '';
+        const ifraLabel = `<span style="background: rgba(76, 209, 55, 0.1); color: #4cd137; padding: 2px 6px; border-radius: 4px; font-size: 0.65rem; border: 1px solid rgba(76, 209, 55, 0.3);">IFRA: ${ing.ifra}%</span>`;
+
         div.innerHTML = `
             <div class="ingredient-info">
-                <h4>${ing.name_en} <span style="font-size:0.7rem; color:var(--accent-color);">[${ing.note_type}]</span></h4>
-                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en} ${casHtml}</p>
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                    <h4 style="margin: 0;">${ing.name_en}</h4>
+                    <span style="font-size:0.7rem; color:var(--accent-color); font-weight: 600;">[${ing.note_type}]</span>
+                    ${casLabel}
+                    ${ifraLabel}
+                </div>
+                <p style="font-size:0.8rem; color:var(--text-secondary);">${ing.category_ar} - ${ing.description_en}</p>
             </div>
             <button class="add-btn" onclick="addToFormula(${ing.id})">+</button>
         `;
@@ -153,8 +160,14 @@ function renderFormula() {
         const row = document.createElement('tr');
         const stars = '⭐'.repeat(item.dominanceLevel) || '☆';
         row.innerHTML = `
-            <td>${item.name_en}</td>
-            <td style="font-size:0.7rem; color:var(--text-secondary); text-align:center;">${item.cas || '-'}</td>
+            <td>
+                <div style="font-weight: 600;">${item.name_en}</div>
+                <div style="font-size: 0.65rem; color: var(--text-secondary); display: flex; gap: 6px; margin-top: 2px;">
+                    <span>CAS: ${item.cas || '-'}</span>
+                    <span>|</span>
+                    <span style="${item.ifra < 100 ? 'color: #4cd137;' : ''}">IFRA: ${item.ifra}%</span>
+                </div>
+            </td>
             <td>${item.category_ar}</td>
             <td style="text-align:center;">
                 <span class="dominant-star ${item.dominanceLevel > 0 ? 'active' : ''}" 
@@ -165,7 +178,6 @@ function renderFormula() {
             </td>
             <td><input type="number" class="weight-input" id="weight-${item.id}" value="${item.weight.toFixed(2)}" onchange="updateWeight(${item.id}, this.value)"></td>
             <td id="percent-${item.id}">${item.percentage.toFixed(2)}%</td>
-            <td style="font-size:0.8rem; color:var(--text-secondary); text-align:center;">${item.ifra}%</td>
             <td><button style="background:transparent; border:none; color:#ff4d4d; cursor:pointer;" onclick="removeFromFormula(${item.id})">🗑️</button></td>
         `;
         formulaBody.appendChild(row);
