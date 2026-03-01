@@ -168,24 +168,28 @@ function renderFormula() {
         const stars = '⭐'.repeat(item.dominanceLevel) || '☆';
         row.innerHTML = `
             <td>
-                <div style="font-weight: 600;">${item.name_en}</div>
-                <div style="font-size: 0.65rem; color: var(--text-secondary); display: flex; gap: 6px; margin-top: 2px;">
-                    <span>CAS: ${item.cas || '-'}</span>
-                    <span>|</span>
-                    <span style="${item.ifra < 100 ? 'color: #4cd137;' : ''}">IFRA: ${item.ifra}%</span>
+                <div style="font-weight: 700; font-size: 1.05rem; color: #ffffff; letter-spacing: 0.3px;">${item.name_en}</div>
+                <div style="display: flex; gap: 8px; margin-top: 6px; align-items: center; justify-content: flex-start; direction: ltr;">
+                    <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 3px 8px; border-radius: 6px; font-size: 0.65rem; color: #b0b0b0; font-family: monospace; letter-spacing: 0.5px;">CAS: ${item.cas || '-'}</span>
+                    <span style="background: ${item.ifra < 100 ? 'rgba(76, 209, 55, 0.1)' : 'rgba(212, 175, 55, 0.05)'}; border: 1px solid ${item.ifra < 100 ? 'rgba(76, 209, 55, 0.3)' : 'rgba(212, 175, 55, 0.2)'}; padding: 3px 8px; border-radius: 6px; font-size: 0.65rem; color: ${item.ifra < 100 ? '#4cd137' : '#d4af37'}; font-weight: 700; letter-spacing: 0.5px;">IFRA: ${item.ifra}%</span>
                 </div>
             </td>
-            <td>${item.category_ar}</td>
+            <td style="color: var(--accent-color); font-weight: 500; font-size: 0.95rem;">${item.category_ar}</td>
             <td style="text-align:center;">
                 <span class="dominant-star ${item.dominanceLevel > 0 ? 'active' : ''}" 
                       onclick="toggleDominance(${item.id})" 
-                      style="cursor:pointer; font-size:1.1rem; filter: ${item.dominanceLevel > 0 ? 'none' : 'grayscale(1) opacity(0.3)'};">
+                      style="cursor:pointer; font-size:1.2rem; filter: ${item.dominanceLevel > 0 ? 'none' : 'grayscale(1) opacity(0.2)'};">
                       ${stars}
                 </span>
             </td>
-            <td><input type="number" class="weight-input" id="weight-${item.id}" value="${item.weight.toFixed(2)}" onchange="updateWeight(${item.id}, this.value)"></td>
-            <td id="percent-${item.id}">${item.percentage.toFixed(2)}%</td>
-            <td><button style="background:transparent; border:none; color:#ff4d4d; cursor:pointer;" onclick="removeFromFormula(${item.id})">🗑️</button></td>
+            <td><input type="number" step="0.01" class="weight-input" id="weight-${item.id}" value="${item.weight.toFixed(2)}" onchange="updateWeight(${item.id}, this.value)"></td>
+            <td id="percent-${item.id}" style="font-weight: 600; font-family: monospace; font-size: 1.05rem; color: #ffffff;">${item.percentage.toFixed(2)}%</td>
+            <td>
+                <button style="background: rgba(255, 77, 77, 0.05); border: 1px solid rgba(255, 77, 77, 0.2); color: #ff4d4d; border-radius: 8px; padding: 6px 10px; cursor:pointer; font-size: 0.9rem; transition: all 0.2s;" 
+                        onmouseover="this.style.background='#ff4d4d'; this.style.color='#fff';" 
+                        onmouseout="this.style.background='rgba(255, 77, 77, 0.05)'; this.style.color='#ff4d4d';" 
+                        onclick="removeFromFormula(${item.id})">✖</button>
+            </td>
         `;
         formulaBody.appendChild(row);
     });
