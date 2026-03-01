@@ -44,7 +44,8 @@ function parseCSV(csvText) {
             description_en: ing.description_en,
             note_type: ing.note_type,
             intensity: parseInt(ing.intensity_1_10) || 5,
-            cas: ing.cas_number || ''
+            cas: ing.cas_number || '',
+            ifra: parseFloat(ing.ifra_limit) || 100
         };
     });
 }
@@ -164,6 +165,7 @@ function renderFormula() {
             </td>
             <td><input type="number" class="weight-input" id="weight-${item.id}" value="${item.weight.toFixed(2)}" onchange="updateWeight(${item.id}, this.value)"></td>
             <td id="percent-${item.id}">${item.percentage.toFixed(2)}%</td>
+            <td style="font-size:0.8rem; color:var(--text-secondary); text-align:center;">${item.ifra}%</td>
             <td><button style="background:transparent; border:none; color:#ff4d4d; cursor:pointer;" onclick="removeFromFormula(${item.id})">🗑️</button></td>
         `;
         formulaBody.appendChild(row);
@@ -176,11 +178,28 @@ function calculateTotals() {
 
     const requiredTotalOil = (concentrationPct / 100) * totalWeight;
     let actualTotalOil = currentFormula.reduce((sum, item) => sum + item.weight, 0);
+    let ifraViolation = false;
 
     currentFormula.forEach(item => {
         item.percentage = actualTotalOil > 0 ? (item.weight / actualTotalOil) * 100 : 0;
+
+        // IFRA Safety Check
+        const ifraLimitOnFinalProduct = (item.ifra / 100) * totalWeight;
+        // Actually IFRA is usually % of the total final product
+        const currentPctInFinal = (item.weight / totalWeight) * 100;
+
         const percentCell = document.getElementById(`percent-${item.id}`);
-        if (percentCell) percentCell.innerText = `${item.percentage.toFixed(2)}%`;
+        if (percentCell) {
+            percentCell.innerText = `${item.percentage.toFixed(2)}%`;
+            if (currentPctInFinal > item.ifra) {
+                percentCell.style.color = '#ff4d4d';
+                percentCell.title = `تنبيه: تجاوز حد IFRA (${item.ifra}%)`;
+                ifraViolation = true;
+            } else {
+                percentCell.style.color = 'inherit';
+                percentCell.title = '';
+            }
+        }
 
         // Sync input value if needed (for UI consistency after AI suggestion)
         const input = document.getElementById(`weight-${item.id}`);
@@ -214,8 +233,8 @@ function calculateTotals() {
     document.getElementById('heart-pct').innerText = heartPct.toFixed(0);
     document.getElementById('base-pct').innerText = basePct.toFixed(0);
 
-    if (actualTotalOil > (requiredTotalOil + 0.01)) {
-        ifraStatus.innerText = 'تنبيه: تجاوز التركيز المحدد';
+    if (actualTotalOil > (requiredTotalOil + 0.01) || ifraViolation) {
+        ifraStatus.innerText = ifraViolation ? 'تنبيه: خرق حدود IFRA' : 'تنبيه: تجاوز التركيز المحدد';
         ifraStatus.style.color = '#ff4d4d';
     } else {
         ifraStatus.innerText = 'آمن';
