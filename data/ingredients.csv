@@ -1,199 +1,1092 @@
-﻿id,name_ar,name_en,description_ar,description_en,category_ar,category_en
-76,خلاصة أمبروكسان مطلقة,Ambroxan Absolute,"دخاني, خشبي, حيواني ambroxan absolute","Smoky, woody, animalic ambroxan absolute",عنبري شرقي,Ambery Oriental
-77,خلاصة كاشميران مطلقة,Cashmeran Absolute,"Soft, خشبي, قليلاً حلو cashmeran absolute","Soft, woody, slightly sweet cashmeran absolute",عنبري شرقي,Ambery Oriental
-78,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",عنبري شرقي,Ambery Oriental
-79,زيت خشب الهيبا العطري,Hiba Wood Essential Oil,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",عنبري شرقي,Ambery Oriental
-80,زيت التانزي الأزرق العطري,Blue Tansy Essential Oil,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",عنبري شرقي,Ambery Oriental
-81,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",عنبري شرقي,Ambery Oriental
-82,خلاصة الفلفل الأخضر مطلقة,Green Pepper Absolute,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",عنبري شرقي,Ambery Oriental
-83,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",عنبري شرقي,Ambery Oriental
-84,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",عنبري شرقي,Ambery Oriental
-85,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",عنبري شرقي,Ambery Oriental
-86,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",عنبري شرقي,Ambery Oriental
-87,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",عنبري شرقي,Ambery Oriental
-88,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",عنبري شرقي,Ambery Oriental
-89,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",عنبري شرقي,Ambery Oriental
-90,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",عنبري شرقي,Ambery Oriental
-91,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",عنبري شرقي,Ambery Oriental
-92,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",عنبري شرقي,Ambery Oriental
-93,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",عنبري شرقي,Ambery Oriental
-94,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",عنبري شرقي,Ambery Oriental
-95,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",عنبري شرقي,Ambery Oriental
-96,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",عنبري شرقي,Ambery Oriental
-97,زيت الزعتر العطري,Thyme Essential Oil,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",عنبري شرقي,Ambery Oriental
-98,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",عنبري شرقي,Ambery Oriental
-99,زيت الأوريغانو العطري,Oregano Essential Oil,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",عنبري شرقي,Ambery Oriental
-100,زيت المردقوش العطري,Marjoram Essential Oil,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",عنبري شرقي,Ambery Oriental
-76,خلاصة أمبروكسان مطلقة,Ambroxan Absolute,"دخاني, خشبي, حيواني ambroxan absolute","Smoky, woody, animalic ambroxan absolute",خلاصات حيوانية,Animalic Absolutes
-77,خلاصة كاشميران مطلقة,Cashmeran Absolute,"Soft, خشبي, قليلاً حلو cashmeran absolute","Soft, woody, slightly sweet cashmeran absolute",خلاصات حيوانية,Animalic Absolutes
-78,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",خلاصات حيوانية,Animalic Absolutes
-1,زيت برغموت العطري,Bergamot Essential Oil,"ساطع, حمضي, قليلاً زهري bergamot","Bright, citrusy, slightly floral bergamot",حمضيات حمضية,Citrus Hesperidic
-2,زيت ليمون العطري,Lemon Essential Oil,"منعش, لاذع, حمضي lemon oil","Fresh, tangy, acidic lemon oil",حمضيات حمضية,Citrus Hesperidic
-3,زيت ليمون بنزهير العطري,Lime Essential Oil,"فواح, ساطع, قليلاً حلو lime oil","Zesty, bright, slightly sweet lime oil",حمضيات حمضية,Citrus Hesperidic
-4,زيت برتقال العطري,Orange Essential Oil,"حلو, عصاري, لاذع orange oil","Sweet, juicy, tangy orange oil",حمضيات حمضية,Citrus Hesperidic
-5,زيت جريب فروت العطري,Grapefruit Essential Oil,"منعش, لاذع, قليلاً مر grapefruit oil","Fresh, tart, slightly bitter grapefruit oil",حمضيات حمضية,Citrus Hesperidic
-6,زيت يوسفي العطري,Tangerine Essential Oil,"حلو, لاذع, قليلاً توابلي tangerine oil","Sweet, tangy, slightly spicy tangerine oil",حمضيات حمضية,Citrus Hesperidic
-7,زيت مندارين العطري,Mandarin Essential Oil,"ساطع, حمضي, قليلاً حلو mandarin oil","Bright, citrusy, slightly sweet mandarin oil",حمضيات حمضية,Citrus Hesperidic
-8,زيت يوزو العطري,Yuzu Essential Oil,"معقد, لاذع, قليلاً زهري yuzu oil","Complex, tart, slightly floral yuzu oil",حمضيات حمضية,Citrus Hesperidic
-9,زيت Kumquat العطري,Kumquat Essential Oil,"لاذع, لاذع, قليلاً مر kumquat oil","Tart, tangy, slightly bitter kumquat oil",حمضيات حمضية,Citrus Hesperidic
-10,زيت نيرولي العطري,Neroli Essential Oil,"حلو, زهري, قليلاً حمضي neroli (مر orange flower)","Sweet, floral, slightly citrusy neroli (bitter orange flower)",حمضيات حمضية,Citrus Hesperidic
-11,زيت Petitgrain العطري,Petitgrain Essential Oil,"منعش, أخضر, قليلاً حمضي petitgrain oil","Fresh, green, slightly citrusy petitgrain oil",حمضيات حمضية,Citrus Hesperidic
-12,خلاصة Lime Blossom مطلقة,Lime Blossom Absolute,"زهري, بودري, قليلاً حمضي lime blossom absolute","Floral, powdery, slightly citrusy lime blossom absolute",حمضيات حمضية,Citrus Hesperidic
-13,Bergaptene,Bergaptene,"ساطع, لاذع, قليلاً زهري bergaptene (bergamot derivative)","Bright, tangy, slightly floral bergaptene (bergamot derivative)",حمضيات حمضية,Citrus Hesperidic
-14,Cedrol,Cedrol,"خشبي, منعش, قليلاً حمضي cedrol","Woody, fresh, slightly citrusy cedrol",حمضيات حمضية,Citrus Hesperidic
-15,Exaltolide,Exaltolide,"حلو, أخضر, قليلاً حمضي exaltolide","Sweet, green, slightly citrusy exaltolide",حمضيات حمضية,Citrus Hesperidic
-16,Carvone,Carvone,"توابلي, منعش, قليلاً حمضي carvone","Spicy, fresh, slightly citrusy carvone",حمضيات حمضية,Citrus Hesperidic
-17,Menthol,Menthol,"بارد, reمنعشing, قليلاً minty menthol","Cool, refreshing, slightly minty menthol",حمضيات حمضية,Citrus Hesperidic
-18,Citronellol,Citronellol,"منعش, زهري, قليلاً حمضي citronellol","Fresh, floral, slightly citrusy citronellol",حمضيات حمضية,Citrus Hesperidic
-19,Geraniol,Geraniol,"زهري, حلو, قليلاً حمضي geraniol","Floral, sweet, slightly citrusy geraniol",حمضيات حمضية,Citrus Hesperidic
-20,Linalool,Linalool,"حلو, زهري, قليلاً حمضي linalool","Sweet, floral, slightly citrusy linalool",حمضيات حمضية,Citrus Hesperidic
-26,زيت الورد العطري,Rose Essential Oil,"غني, زهري, قليلاً حلو rose oil","Rich, floral, slightly sweet rose oil",زهري,Floral
-27,زيت الياسمين العطري,Jasmine Essential Oil,"حلو, heady, قليلاً توابلي jasmine oil","Sweet, heady, slightly spicy jasmine oil",زهري,Floral
-28,زيت الخزامى (لافندر) العطري,Lavender Essential Oil,"منعش, زهري, قليلاً خشبي lavender oil","Fresh, floral, slightly woody lavender oil",زهري,Floral
-29,زيت الجيرانيوم العطري,Geranium Essential Oil,"زهري, حلو, قليلاً حمضي geranium oil","Floral, sweet, slightly citrusy geranium oil",زهري,Floral
-30,Ylang,Ylang,"Ylang Essential Oil - حلو, tropical, قليلاً توابلي ylang-ylang oil","Ylang Essential Oil - Sweet, tropical, slightly spicy ylang-ylang oil",زهري,Floral
-31,خلاصة مسك الروم مطلقة,Tuberose Absolute,"غني, heady, قليلاً waxy tuberose absolute","Rich, heady, slightly waxy tuberose absolute",زهري,Floral
-32,خلاصة Orris جذور مطلقة,Orris Root Absolute,"بودري, زهري, ترابي orris root absolute","Powdery, floral, earthy orris root absolute",زهري,Floral
-33,خلاصة Violet أوراق مطلقة,Violet Leaf Absolute,"منعش, زهري, قليلاً حلو violet leaf absolute","Fresh, floral, slightly sweet violet leaf absolute",زهري,Floral
-34,خلاصة زنبق الوادي مطلقة,Lily of the Valley Absolute,"حلو, delicate, قليلاً أخضر lily of the valley absolute","Sweet, delicate, slightly green lily of the valley absolute",زهري,Floral
-35,خلاصة الغاردينيا مطلقة,Gardenia Absolute,"حلو, tropical, قليلاً jasmine-like gardenia absolute","Sweet, tropical, slightly jasmine-like gardenia absolute",زهري,Floral
-36,خلاصة النرجس مطلقة,Narcissus Absolute,"غني, زهري, قليلاً honeyed narcissus absolute","Rich, floral, slightly honeyed narcissus absolute",زهري,Floral
-37,خلاصة الميموزا مطلقة,Mimosa Absolute,"Soft, زهري, قليلاً حلو mimosa absolute","Soft, floral, slightly sweet mimosa absolute",زهري,Floral
-38,خلاصة الأوسمانثوس مطلقة,Osmanthus Absolute,"حلو, زهري, قليلاً nutty osmanthus absolute","Sweet, floral, slightly nutty osmanthus absolute",زهري,Floral
-39,خلاصة لونيسيرا (شب الليل) مطلقة,Honeysuckle Absolute,"منعش, زهري, قليلاً حلو honeysuckle absolute","Fresh, floral, slightly sweet honeysuckle absolute",زهري,Floral
-40,زيت البابونج العطري,Chamomile Essential Oil,"زهري, حلو, قليلاً توابلي chamomile oil","Floral, sweet, slightly spicy chamomile oil",زهري,Floral
-41,زيت الميموزا العطري,Mimosa Essential Oil,"Light, زهري, قليلاً حمضي mimosa oil","Light, floral, slightly citrusy mimosa oil",زهري,Floral
-42,زيت طرخون العطري,Tarragon Essential Oil,"حلو, توابلي, قليلاً زهري tarragon oil","Sweet, spicy, slightly floral tarragon oil",زهري,Floral
-43,زيت الشمر العطري,Fennel Essential Oil,"حلو, توابلي, قليلاً زهري fennel oil","Sweet, spicy, slightly floral fennel oil",زهري,Floral
-44,زيت اليانسون العطري,Anise Essential Oil,"حلو, توابلي, قليلاً زهري anise oil","Sweet, spicy, slightly floral anise oil",زهري,Floral
-45,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً زهري clove oil","Spicy, warm, slightly floral clove oil",زهري,Floral
-46,زيت القرفة العطري,Cinnamon Essential Oil,"دافئ, حلو, قليلاً زهري cinnamon oil","Warm, sweet, slightly floral cinnamon oil",زهري,Floral
-47,زيت اليانسون النجمي العطري,Star Anise Essential Oil,"توابلي, دافئ, قليلاً زهري star anise oil","Spicy, warm, slightly floral star anise oil",زهري,Floral
-48,زيت البهار الحلو العطري,Allspice Essential Oil,"توابلي, دافئ, قليلاً زهري allspice oil","Spicy, warm, slightly floral allspice oil",زهري,Floral
-49,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"دخاني, خشبي, قليلاً حلو pink pepper oil","Smoky, woody, slightly sweet pink pepper oil",زهري,Floral
-50,زيت الفلفل الأسود العطري,Black Pepper Essential Oil,"منعش, توابلي, قليلاً خشبي black pepper oil","Fresh, spicy, slightly woody black pepper oil",زهري,Floral
-176,مقطر Vanilla Absolute,Vanilla Absolute Distillate,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",فانيليا وفواكه,Fruit Gourmand Others
-177,مقطر Tonka Bean Absolute,Tonka Bean Absolute Distillate,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",فانيليا وفواكه,Fruit Gourmand Others
-178,زيت Cade  Distillate العطري,Cade Essential Oil Distillate,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",فانيليا وفواكه,Fruit Gourmand Others
-179,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",فانيليا وفواكه,Fruit Gourmand Others
-180,مقطر Moss Absolute,Moss Absolute Distillate,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",فانيليا وفواكه,Fruit Gourmand Others
-181,زيت Usnea Lichen  Distillate العطري,Usnea Lichen Essential Oil Distillate,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",فانيليا وفواكه,Fruit Gourmand Others
-182,زيت Balsam Fir  Distillate العطري,Balsam Fir Essential Oil Distillate,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",فانيليا وفواكه,Fruit Gourmand Others
-183,زيت Pine Needle  Distillate العطري,Pine Needle Essential Oil Distillate,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",فانيليا وفواكه,Fruit Gourmand Others
-184,زيت Rosemary  Distillate العطري,Rosemary Essential Oil Distillate,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",فانيليا وفواكه,Fruit Gourmand Others
-185,زيت Thyme  Distillate العطري,Thyme Essential Oil Distillate,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",فانيليا وفواكه,Fruit Gourmand Others
-186,زيت Basil  Distillate العطري,Basil Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",فانيليا وفواكه,Fruit Gourmand Others
-187,زيت Oregano  Distillate العطري,Oregano Essential Oil Distillate,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",فانيليا وفواكه,Fruit Gourmand Others
-188,زيت Marjoram  Distillate العطري,Marjoram Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",فانيليا وفواكه,Fruit Gourmand Others
-189,زيت Lavender  Distillate العطري,Lavender Essential Oil Distillate,"زهري, خشبي, قليلاً حلو lavender oil","Floral, woody, slightly sweet lavender oil",فانيليا وفواكه,Fruit Gourmand Others
-190,زيت Clary Sage  Distillate العطري,Clary Sage Essential Oil Distillate,"Herbal, خشبي, قليلاً زهري clary sage oil","Herbal, woody, slightly floral clary sage oil",فانيليا وفواكه,Fruit Gourmand Others
-191,مقطر Yarrow Absolute,Yarrow Absolute Distillate,"منعش, ترابي, قليلاً خشبي yarrow absolute","Fresh, earthy, slightly woody yarrow absolute",فانيليا وفواكه,Fruit Gourmand Others
-192,مقطر Mugwort Absolute,Mugwort Absolute Distillate,"توابلي, ترابي, قليلاً خشبي mugwort absolute","Spicy, earthy, slightly woody mugwort absolute",فانيليا وفواكه,Fruit Gourmand Others
-193,زيت Tarragon  Distillate العطري,Tarragon Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي tarragon oil","Sweet, spicy, slightly woody tarragon oil",فانيليا وفواكه,Fruit Gourmand Others
-194,زيت Anise  Distillate العطري,Anise Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي anise oil","Sweet, spicy, slightly woody anise oil",فانيليا وفواكه,Fruit Gourmand Others
-195,زيت Fennel  Distillate العطري,Fennel Essential Oil Distillate,"حلو, توابلي, قليلاً خشبي fennel oil","Sweet, spicy, slightly woody fennel oil",فانيليا وفواكه,Fruit Gourmand Others
-196,زيت Cinnamon  Distillate العطري,Cinnamon Essential Oil Distillate,"دافئ, حلو, قليلاً خشبي cinnamon oil","Warm, sweet, slightly woody cinnamon oil",فانيليا وفواكه,Fruit Gourmand Others
-197,زيت Star Anise  Distillate العطري,Star Anise Essential Oil Distillate,"توابلي, دافئ, قليلاً خشبي star anise oil","Spicy, warm, slightly woody star anise oil",فانيليا وفواكه,Fruit Gourmand Others
-198,زيت Allspice  Distillate العطري,Allspice Essential Oil Distillate,"توابلي, دافئ, قليلاً خشبي allspice oil","Spicy, warm, slightly woody allspice oil",فانيليا وفواكه,Fruit Gourmand Others
-199,مقطر Black Pepper Absolute,Black Pepper Absolute Distillate,"منعش, توابلي, قليلاً خشبي black pepper oil","Fresh, spicy, slightly woody black pepper oil",فانيليا وفواكه,Fruit Gourmand Others
-200,مقطر Pink Pepper Absolute,Pink Pepper Absolute Distillate,"دخاني, خشبي, قليلاً حلو pink pepper oil","Smoky, woody, slightly sweet pink pepper oil",فانيليا وفواكه,Fruit Gourmand Others
-151,زيت Fresh Mint العطري,Fresh Mint Essential Oil,"بارد, reمنعشing mint","Cool, refreshing mint",عشبي ألدهيدي بحري,Green Aldehydic Marine
-152,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي basil","Sweet, spicy basil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-153,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي rosemary","Herbal, woody rosemary",عشبي ألدهيدي بحري,Green Aldehydic Marine
-154,خلاصة الخيار مطلقة,Cucumber Absolute,"Reمنعشing, أخضر cucumber","Refreshing, green cucumber",عشبي ألدهيدي بحري,Green Aldehydic Marine
-155,خلاصة Bamboo Shoot مطلقة,Bamboo Shoot Absolute,"منعش, grassy bamboo","Fresh, grassy bamboo",عشبي ألدهيدي بحري,Green Aldehydic Marine
-156,زيت Eucalyptus العطري,Eucalyptus Essential Oil,"بارد, طبي eucalyptus","Cool, medicinal eucalyptus",عشبي ألدهيدي بحري,Green Aldehydic Marine
-157,خلاصة Green Tea مطلقة,Green Tea Absolute,"منعش, ترابي أخضر tea","Fresh, earthy green tea",عشبي ألدهيدي بحري,Green Aldehydic Marine
-158,خلاصة Oolong Tea مطلقة,Oolong Tea Absolute,"غني, ترابي oolong tea","Rich, earthy oolong tea",عشبي ألدهيدي بحري,Green Aldehydic Marine
-159,خلاصة القهوة مطلقة,Coffee Absolute,"ترابي, محمص coffee","Earthy, roasted coffee",عشبي ألدهيدي بحري,Green Aldehydic Marine
-160,خلاصة الكاكاو مطلقة,Cocoa Absolute,"حلو, ترابي cocoa","Sweet, earthy cocoa",عشبي ألدهيدي بحري,Green Aldehydic Marine
-161,خلاصة التبغ مطلقة,Tobacco Absolute,"دخاني, ترابي tobacco","Smoky, earthy tobacco",عشبي ألدهيدي بحري,Green Aldehydic Marine
-162,زيت Patchouli  Distillate العطري,Patchouli Essential Oil Distillate,"ترابي, deep, قليلاً حلو patchouli oil","Earthy, deep, slightly sweet patchouli oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-163,زيت Vetiver  Distillate العطري,Vetiver Essential Oil Distillate,"خشبي, ترابي, دخاني vetiver root oil","Woody, earthy, smoky vetiver root oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-164,زيت Sandalwood  Distillate العطري,Sandalwood Essential Oil Distillate,"دافئ, خشبي, قليلاً حلو sandalwood oil","Warm, woody, slightly sweet sandalwood oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-165,زيت Cedarwood  Distillate العطري,Cedarwood Essential Oil Distillate,"غني, جاف, خشبي cedar aroma oil","Rich, dry, woody cedar aroma oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-166,زيت Cypress  Distillate العطري,Cypress Essential Oil Distillate,"منعش, خشبي, قليلاً herbal cypress oil","Fresh, woody, slightly herbal cypress oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-167,زيت Juniper Berry  Distillate العطري,Juniper Berry Essential Oil Distillate,"Piney, خشبي, قليلاً توابلي juniper oil","Piney, woody, slightly spicy juniper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-168,زيت Amyris  Distillate العطري,Amyris Essential Oil Distillate,"حلو, خشبي, قليلاً دخاني amyris oil","Sweet, woody, slightly smoky amyris oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-169,زيت Guaiac Wood  Distillate العطري,Guaiac Wood Essential Oil Distillate,"دخاني, خشبي, طبي guaiac oil","Smoky, woody, medicinal guaiac oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-170,خلاصة Storax Resinoid مطلقة,Storax Resinoid Absolute,"حلو, خشبي, توابلي storax absolute","Sweet, woody, spicy storax absolute",عشبي ألدهيدي بحري,Green Aldehydic Marine
-171,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",عشبي ألدهيدي بحري,Green Aldehydic Marine
-172,زيت Hiba Wood  Distillate العطري,Hiba Wood Essential Oil Distillate,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-173,زيت Blue Tansy  Distillate العطري,Blue Tansy Essential Oil Distillate,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-174,زيت Pink Pepper  Distillate العطري,Pink Pepper Essential Oil Distillate,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-175,مقطر Green Pepper Absolute,Green Pepper Absolute Distillate,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",عشبي ألدهيدي بحري,Green Aldehydic Marine
-101,خلاصة المسك مطلقة,Musk Absolute,"غني, حيواني, بودري musk","Rich, animalic, powdery musk",مسكي حيواني,Musky Animalic
-102,خلاصة الزباد مطلقة,Civet Absolute,"Intense, حيواني, exotic civet","Intense, animalic, exotic civet",مسكي حيواني,Musky Animalic
-103,خلاصة القندس (كاستوريوم) مطلقة,Castoreum Absolute,"حلو, حيواني, قليلاً خشبي castoreum","Sweet, animalic, slightly woody castoreum",مسكي حيواني,Musky Animalic
-104,خلاصة عنبر الحوت مطلقة,Ambergris Absolute,"ترابي, oceanic, حيواني ambergris","Earthy, oceanic, animalic ambergris",مسكي حيواني,Musky Animalic
-105,خلاصة صخر الوبار مطلقة,Hyraceum Absolute,"غني, حيواني, ترابي hyraceum","Rich, animalic, earthy hyraceum",مسكي حيواني,Musky Animalic
-106,زيت حوت العنبر,Sperm Whale Oil,"Deep, oceanic, حيواني sperm whale oil","Deep, oceanic, animalic sperm whale oil",مسكي حيواني,Musky Animalic
-107,زيت إكسورا العطري,Ixora Essential Oil,"حلو, توابلي, قليلاً musky ixora","Sweet, spicy, slightly musky ixora",مسكي حيواني,Musky Animalic
-108,خلاصة بذور الأمبريت مطلقة,Ambrette Seed Absolute,"توابلي, musky, قليلاً حلو ambrette seed","Spicy, musky, slightly sweet ambrette seed",مسكي حيواني,Musky Animalic
-109,بلسم تولو,Tolu Balsam,"حلو, balsamic, قليلاً musky tolu balsam","Sweet, balsamic, slightly musky tolu balsam",مسكي حيواني,Musky Animalic
-110,Myrtenol,Myrtenol,"حلو, زهري, قليلاً musky myrtenol","Sweet, floral, slightly musky myrtenol",مسكي حيواني,Musky Animalic
-111,Tricyclene,Tricyclene,"حمضي, أخضر, قليلاً musky tricyclene","Citrusy, green, slightly musky tricyclene",مسكي حيواني,Musky Animalic
-112,جالاكسوليد,Galaxolide,"حلو, بودري, musky galaxolide","Sweet, powdery, musky galaxolide",مسكي حيواني,Musky Animalic
-113,Amaryl,Amaryl,"حلو, زهري, musky amaryl","Sweet, floral, musky amaryl",مسكي حيواني,Musky Animalic
-114,Phenyl Acetate,Phenyl Acetate,"حلو, ethereal, قليلاً musky phenyl acetate","Sweet, ethereal, slightly musky phenyl acetate",مسكي حيواني,Musky Animalic
-115,هيدروكسي سيترونيلال,Hydroxycitronellal,"حلو, زهري, قليلاً musky hydroxycitronellal","Sweet, floral, slightly musky hydroxycitronellal",مسكي حيواني,Musky Animalic
-116,سينامالدهيد,Cinnamaldehyde,"توابلي, حلو, قليلاً musky cinnamaldehyde","Spicy, sweet, slightly musky cinnamaldehyde",مسكي حيواني,Musky Animalic
-117,إيبانول,Ebanol,"غني, خشبي, قليلاً musky ebanol","Rich, woody, slightly musky ebanol",مسكي حيواني,Musky Animalic
-118,Zestanolide,Zestanolide,"Fruity, حلو, قليلاً musky zestanolide","Fruity, sweet, slightly musky zestanolide",مسكي حيواني,Musky Animalic
-119,فلفيون,Velvione,"Soft, دافئ, قليلاً musky velvione","Soft, warm, slightly musky velvione",مسكي حيواني,Musky Animalic
-120,Drimane,Drimane,"منعش, أخضر, قليلاً musky drimane","Fresh, green, slightly musky drimane",مسكي حيواني,Musky Animalic
-121,Ionone Gamma,Ionone Gamma,"توابلي, زهري, قليلاً musky ionone gamma","Spicy, floral, slightly musky ionone gamma",مسكي حيواني,Musky Animalic
-122,سيتالوكس,Cetalox,"حلو, بودري, musky cetalox","Sweet, powdery, musky cetalox",مسكي حيواني,Musky Animalic
-123,Myrcene,Myrcene,"ترابي, توابلي, قليلاً musky myrcene","Earthy, spicy, slightly musky myrcene",مسكي حيواني,Musky Animalic
-124,Pulegone,Pulegone,"منعش, minty, قليلاً musky pulegone","Fresh, minty, slightly musky pulegone",مسكي حيواني,Musky Animalic
-125,فانيلين,Vanillin,"حلو, creamy, قليلاً musky vanillin","Sweet, creamy, slightly musky vanillin",مسكي حيواني,Musky Animalic
-126,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-127,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-128,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-129,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-130,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-131,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-132,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-133,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-134,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-135,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-136,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-137,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-138,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-139,زيت إكليل الجبل العطري,Rosemary Essential Oil,"Herbal, خشبي, قليلاً توابلي rosemary oil","Herbal, woody, slightly spicy rosemary oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-140,زيت الزعتر العطري,Thyme Essential Oil,"توابلي, herbal, قليلاً خشبي thyme oil","Spicy, herbal, slightly woody thyme oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-141,زيت الريحان العطري,Basil Essential Oil,"حلو, توابلي, قليلاً خشبي basil oil","Sweet, spicy, slightly woody basil oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-142,زيت الأوريغانو العطري,Oregano Essential Oil,"توابلي, ترابي, قليلاً خشبي oregano oil","Spicy, earthy, slightly woody oregano oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-143,زيت المردقوش العطري,Marjoram Essential Oil,"حلو, توابلي, قليلاً خشبي marjoram oil","Sweet, spicy, slightly woody marjoram oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-144,زيت الخزامى (لافندر) العطري,Lavender Essential Oil,"زهري, خشبي, قليلاً حلو lavender oil","Floral, woody, slightly sweet lavender oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-145,زيت الميرمية العطري,Clary Sage Essential Oil,"Herbal, خشبي, قليلاً زهري clary sage oil","Herbal, woody, slightly floral clary sage oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-146,خلاصة الأخيليا مطلقة,Yarrow Absolute,"منعش, ترابي, قليلاً خشبي yarrow absolute","Fresh, earthy, slightly woody yarrow absolute",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-147,خلاصة الشيح مطلقة,Mugwort Absolute,"توابلي, ترابي, قليلاً خشبي mugwort absolute","Spicy, earthy, slightly woody mugwort absolute",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-148,زيت طرخون العطري,Tarragon Essential Oil,"حلو, توابلي, قليلاً خشبي tarragon oil","Sweet, spicy, slightly woody tarragon oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-149,زيت اليانسون العطري,Anise Essential Oil,"حلو, توابلي, قليلاً خشبي anise oil","Sweet, spicy, slightly woody anise oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-150,زيت الشمر العطري,Fennel Essential Oil,"حلو, توابلي, قليلاً خشبي fennel oil","Sweet, spicy, slightly woody fennel oil",توابل وأعشاب عطرية,Spicy Aromatic Herbs
-51,زيت خشب الصندل العطري,Sandalwood Essential Oil,"دافئ, خشبي, قليلاً حلو sandalwood oil","Warm, woody, slightly sweet sandalwood oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-52,زيت خشب الأرز العطري,Cedarwood Essential Oil,"غني, جاف, خشبي cedar aroma oil","Rich, dry, woody cedar aroma oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-53,زيت السرو العطري,Cypress Essential Oil,"منعش, خشبي, قليلاً herbal cypress oil","Fresh, woody, slightly herbal cypress oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-54,زيت Juniper Berry العطري,Juniper Berry Essential Oil,"Piney, خشبي, قليلاً توابلي juniper oil","Piney, woody, slightly spicy juniper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-55,زيت Amyris العطري,Amyris Essential Oil,"حلو, خشبي, قليلاً دخاني amyris oil","Sweet, woody, slightly smoky amyris oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-56,زيت Guaiac Wood العطري,Guaiac Wood Essential Oil,"دخاني, خشبي, طبي guaiac oil","Smoky, woody, medicinal guaiac oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-57,خلاصة Storax Resinoid مطلقة,Storax Resinoid Absolute,"حلو, خشبي, توابلي storax absolute","Sweet, woody, spicy storax absolute",خشبي ترابي طحلبي,Woody Earthy Mossy
-58,خلاصة دراكوپاكس مطلقة,Dracopax Absolute,"ترابي, خشبي, قليلاً دخاني dracopax absolute","Earthy, woody, slightly smoky dracopax absolute",خشبي ترابي طحلبي,Woody Earthy Mossy
-59,زيت خشب الهيبا العطري,Hiba Wood Essential Oil,"منعش, خشبي, قليلاً زهري hiba wood oil","Fresh, woody, slightly floral hiba wood oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-60,زيت التانزي الأزرق العطري,Blue Tansy Essential Oil,"دخاني, خشبي, قليلاً حيواني blue tansy oil","Smoky, woody, slightly animalic blue tansy oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-61,زيت الفلفل الوردي العطري,Pink Pepper Essential Oil,"توابلي, خشبي, قليلاً حلو pink pepper oil","Spicy, woody, slightly sweet pink pepper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-62,خلاصة الفلفل الأخضر مطلقة,Green Pepper Absolute,"منعش, توابلي, قليلاً خشبي أخضر pepper oil","Fresh, spicy, slightly woody green pepper oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-63,زيت الكمون العطري,Cumin Essential Oil,"ترابي, توابلي, قليلاً خشبي cumin oil","Earthy, spicy, slightly woody cumin oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-64,زيت الكزبرة العطري,Coriander Essential Oil,"توابلي, ترابي, قليلاً حمضي coriander oil","Spicy, earthy, slightly citrusy coriander oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-65,زيت الهيل العطري,Cardamom Essential Oil,"حلو, توابلي, قليلاً خشبي cardamom oil","Sweet, spicy, slightly woody cardamom oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-66,زيت جوزة الطيب العطري,Nutmeg Essential Oil,"دافئ, حلو, قليلاً خشبي nutmeg oil","Warm, sweet, slightly woody nutmeg oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-67,زيت القرنفل العطري,Clove Essential Oil,"توابلي, دافئ, قليلاً خشبي clove oil","Spicy, warm, slightly woody clove oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-68,خلاصة الفانيليا مطلقة,Vanilla Absolute,"حلو, creamy, قليلاً خشبي vanilla oil","Sweet, creamy, slightly woody vanilla oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-69,خلاصة Tonka Bean مطلقة,Tonka Bean Absolute,"حلو, توابلي, قليلاً خشبي tonka bean oil","Sweet, spicy, slightly woody tonka bean oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-70,زيت Cade العطري,Cade Essential Oil,"دخاني, خشبي, جاف with slight citrus undertones","Smoky, woody, dry with slight citrus undertones",خشبي ترابي طحلبي,Woody Earthy Mossy
-71,مقطر جذر السوسن,Orris Root Distillate,"بودري, زهري, ترابي iris root distillate","Powdery, floral, earthy iris root distillate",خشبي ترابي طحلبي,Woody Earthy Mossy
-72,خلاصة الطحلب مطلقة,Moss Absolute,"ترابي, damp, mossy forest floor distillate","Earthy, damp, mossy forest floor distillate",خشبي ترابي طحلبي,Woody Earthy Mossy
-73,زيت Usnea Lichen العطري,Usnea Lichen Essential Oil,"منعش, ترابي, قليلاً خشبي usnea lichen oil","Fresh, earthy, slightly woody usnea lichen oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-74,زيت بلسم الفير العطري,Balsam Fir Essential Oil,"منعش, خشبي, راتنجي fir tree oil","Fresh, woody, resinous fir tree oil",خشبي ترابي طحلبي,Woody Earthy Mossy
-75,زيت إبر الصنوبر العطري,Pine Needle Essential Oil,"منعش, crisp, خشبي pine needles oil","Fresh, crisp, woody pine needles oil",خشبي ترابي طحلبي,Woody Earthy Mossy
+﻿id,name_en,name_ar,description_en,description_ar,category_en,category_ar
+8990,"1,3 Propanediol","1,3 Propanediol",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9430,5-Methyl-2-Phenyl-2-Hexenal,5-Methyl-2-Phenyl-2-Hexenal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9678,Acetal (Natural) **,Acetal (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6065,Acetaldehyde ethyl linalyl acetal a.k.a Elintaal,Acetaldehyde ethyl linalyl acetal a.k.a Elintaal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5980,Acetanisole Crystals,Acetanisole Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7658,Acetate C-8 (Octyl Acetate) (Natural),Acetate C-8 (Octyl Acetate) (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5981,Acetate C9 (Nonyl Acetate),Acetate C9 (Nonyl Acetate),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9637,Acetic Acid **,Acetic Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5983,Acetophenone (phenyl methyl ketone),Acetophenone (phenyl methyl ketone),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5986,Adoxal (Givaudan),Adoxal (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10239,Agrumen Aldehyde Light,Agrumen Aldehyde Light,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6387,Ajowan - India,Ajowan - India,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5987,Alcohol C-10,Alcohol C-10,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7664,Alcohol C-6 (Hexanol) (Natural) **,Alcohol C-6 (Hexanol) (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7663,Alcohol C-8 (Octanol) (Natural),Alcohol C-8 (Octanol) (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5989,Alcohol C-9,Alcohol C-9,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9941,Aldambre (Synarome),Aldambre (Synarome),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5990,Aldehyde C-10 (decanal)**,Aldehyde C-10 (decanal)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5991,Aldehyde C-11 Undecylenic,Aldehyde C-11 Undecylenic,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5992,Aldehyde C-12 Lauric,Aldehyde C-12 Lauric,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9570,Aldehyde C-12 MNA (10% in BB)**,Aldehyde C-12 MNA (10% in BB)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5993,Aldehyde C-12 MNA **,Aldehyde C-12 MNA **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5994,Aldehyde C-14 PEACH,Aldehyde C-14 PEACH,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5995,Aldehyde C-16 STRAWBERRY,Aldehyde C-16 STRAWBERRY,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5996,Aldehyde C-18 COCONUT,Aldehyde C-18 COCONUT,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8563,Aldehyde C-6 FCC (Hexanal) **,Aldehyde C-6 FCC (Hexanal) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5997,Aldehyde C-8 **,Aldehyde C-8 **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5998,Aldehyde C-9,Aldehyde C-9,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9225,Aldehyde Supra (Firmenich),Aldehyde Supra (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9357,Algenone (Synarome),Algenone (Synarome),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9363,Algix (Synarome),Algix (Synarome),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6388,Allspice (Pimento Berry) - Jamaica,Allspice (Pimento Berry) - Jamaica,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9761,Allspice Essence (Fragrance) **,Allspice Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5999,Allyl Amyl Glycolate (IFF),Allyl Amyl Glycolate (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6000,Allyl Caproate **,Allyl Caproate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6270,Almond Fragrance Oil**,Almond Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6300,Aloe Vera Fragrance Oil **,Aloe Vera Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8603,Alpha Bisabolol,Alpha Bisabolol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7680,Alpha Ionone (Natural),Alpha Ionone (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8079,Alpha Pinene (Natural) **,Alpha Pinene (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8604,Alpha Terpinene**,Alpha Terpinene**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5931,Amber - Key Accord**,Amber - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10010,Amber Dioxane,Amber Dioxane,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8321,Amber Fragrance Oil (Premium)**,Amber Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6311,Amber Fragrance Oil **,Amber Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7283,Amber Musk Fragrance Oil**,Amber Musk Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8055,Amber Xtreme™ (IFF) **,Amber Xtreme™ (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9375,Ambercore (KAO) **,Ambercore (KAO) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9315,Ambergris Artessence (Biolandes) **,Ambergris Artessence (Biolandes) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7370,Ambergris T Oliffac (IFF)**,Ambergris T Oliffac (IFF)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8935,Ambermax® (Givaudan) - 50% TPM,Ambermax® (Givaudan) - 50% TPM,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8413,Amberspice - Key Accord (Natural) **,Amberspice - Key Accord (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6017,Amberwood ® F (Symrise),Amberwood ® F (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8752,Ambreine (Natural) (Biolandes),Ambreine (Natural) (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9468,Ambrettex XNM 0512 (IFF) **,Ambrettex XNM 0512 (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6676,Ambrettolide (Givaudan),Ambrettolide (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9179,Ambrettolide (Natural),Ambrettolide (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8083,Ambrinol,Ambrinol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9393,Ambrocenide Crystals (Symrise),Ambrocenide Crystals (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7524,Ambrox® DL (Firmenich),Ambrox® DL (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8180,Ambroxan 10% (DPG),Ambroxan 10% (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6001,AMBROXAN®,AMBROXAN®,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8445,Amyl Acetate **,Amyl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8446,Amyl Butyrate,Amyl Butyrate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9686,Amyl Cinnamic Aldehyde **,Amyl Cinnamic Aldehyde **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9180,Amyl Salicylate FFC (Givaudan) **,Amyl Salicylate FFC (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6002,Amyl Vinyl Carbinol,Amyl Vinyl Carbinol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9173,Amyris Wood (Haiti),Amyris Wood (Haiti),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9366,Andrane (IFF),Andrane (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5959,Animalid**,Animalid**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9172,Animalis Hypo 27 TEC (Synarome) **,Animalis Hypo 27 TEC (Synarome) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6322,Anise Fragrance Oil**,Anise Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9472,Anise Myrtle Oil,Anise Myrtle Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9295,Anise Star,Anise Star,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6003,Anisic Aldehyde,Anisic Aldehyde,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6004,Anisyl Acetate,Anisyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9299,Anisyl Acetone,Anisyl Acetone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6190,Anisyl Alcohol FCC,Anisyl Alcohol FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8526,Anther (Givaudan),Anther (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9420,Apo Patchone Coeur (IFF),Apo Patchone Coeur (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8089,Apple Essence (Natural) w/o Acetaldehyde (Fragrance)**,Apple Essence (Natural) w/o Acetaldehyde (Fragrance)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6333,Apple Fragrance Oil**,Apple Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9452,Applelide (IFF) **,Applelide (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8416,Apprentice Fixative Base**,Apprentice Fixative Base**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7700,Apricot Essence (Natural) - Fragrance**,Apricot Essence (Natural) - Fragrance**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9290,Aprifloren® (Symrise),Aprifloren® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9327,Apritone (Bedoukian) **,Apritone (Bedoukian) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8962,Aquaflora™ (IFF),Aquaflora™ (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8187,Aquamate® (DRT),Aquamate® (DRT),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6354,Arabian Sandalwood Fragrance Oil**,Arabian Sandalwood Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9613,Aromatic Woods **,Aromatic Woods **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6005,Auralva (IFF),Auralva (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5933,Auranone (Firmenich),Auranone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5934,Auratouch (Firmenich),Auratouch (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8537,Aurelione® (Symrise),Aurelione® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8471,Azarbre (Givaudan),Azarbre (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9237,Bacdanol **,Bacdanol **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9378,Balsam Fir Needle **,Balsam Fir Needle **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9319,Barley Roasted Extract 40% ETH (Biolandes) **,Barley Roasted Extract 40% ETH (Biolandes) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9312,Base de Parfum (Bulk)**,Base de Parfum (Bulk)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9064,Base de Parfum**,Base de Parfum**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6392,Basil Holy (Tulsi) - India,Basil Holy (Tulsi) - India,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6394,Basil Sweet - Vietnam,Basil Sweet - Vietnam,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6398,Bay Leaf - India **,Bay Leaf - India **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6365,Bay Rum Fragrance Oil,Bay Rum Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9191,Beard Oil Base,Beard Oil Base,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9365,Beeswax Absolute (Robertet),خلاصة Beeswax  (Robertet) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9521,Benzaldehyde 50% in BB,Benzaldehyde 50% in BB,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7732,Benzoin (Styrax tonkinensis) 50% Alc **,Benzoin (Styrax tonkinensis) 50% Alc **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6400,Benzoin Essence,Benzoin Essence,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8930,Benzoin Oliffac 63 (DEPR) IFF**,Benzoin Oliffac 63 (DEPR) IFF**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6399,Benzoin Resin (Pure),Benzoin Resin (Pure),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9502,Benzoin Resinoid (Sumatra),Benzoin  (Sumatra) (راتنجي),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9353,Benzoin Siam Resin 50% BB **,Benzoin Siam Resin 50% BB **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6006,Benzophenone (crystals) **,Benzophenone (crystals) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6007,Benzyl Acetate,Benzyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7707,Benzyl Acetate (Natural),Benzyl Acetate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6008,Benzyl Alcohol FCC,Benzyl Alcohol FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8282,Benzyl Benzoate (Natural) **,Benzyl Benzoate (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6009,Benzyl Benzoate **,Benzyl Benzoate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6011,Benzyl Cinnamate **,Benzyl Cinnamate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10033,Benzyl Phenyl Acetate FCC,Benzyl Phenyl Acetate FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6012,Benzyl Propionate,Benzyl Propionate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6013,Benzyl Salicylate,Benzyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8054,Bergamal (IFF),Bergamal (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6401,"Bergamot - Essential Oil (BF) - Calabria, IT **","زيت Bergamot -  (BF) - Calabria, IT ** العطري",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8322,Bergamot Fragrance Oil (Premium),Bergamot Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6376,Bergamot Fragrance Oil **,Bergamot Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5935,Bergamot Givco 104 - Fragrance**,Bergamot Givco 104 - Fragrance**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9377,Bergamot Mint,Bergamot Mint,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6014,Berryflor® (Givaudan),Berryflor® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8092,Beta Pinene (Natural) **,Beta Pinene (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9463,BHT Crystals,BHT Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6016,Bicyclononalactone (IFF),Bicyclononalactone (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9568,BioNonanal™,BioNonanal™,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5936,Birch Leaf Givco 166/2,Birch Leaf Givco 166/2,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9567,Birch Tar (Rectified) **,Birch Tar (Rectified) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9566,Birch Tar (Rectified) @ 10% BB **,Birch Tar (Rectified) @ 10% BB **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9344,Bisabolene (Givaudan),Bisabolene (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5937,Black Agar Givco 215/2,Black Agar Givco 215/2,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6271,Black Cherry Fragrance Oil**,Black Cherry Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8352,Black Hemlock (Absolute),خلاصة Black Hemlock () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6408,Black Pepper-India **,Black Pepper-India **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8582,Black Tea - Natural (Colorless),Black Tea - Natural (Colorless),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8324,Black Tea Fragrance Oil (Premium)**,Black Tea Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6289,Black Tea Fragrance Oil**,Black Tea Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6293,Blackberry Fragrance Oil**,Blackberry Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9307,Blackcurrant Absolute **,خلاصة Blackcurrant  ** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9455,Blackwood Base (Firmenich),Blackwood Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9305,Blue Tansy - Morocco (Robertet) **,Blue Tansy - Morocco (Robertet) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6294,Blueberry Fragrance Oil**,Blueberry Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7704,Bois d'Encense (Incense) Essence (Natural),Bois d'Encense (Incense) Essence (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7703,Bois des Landes (Woodland) Essence (Natural)**,Bois des Landes (Woodland) Essence (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8527,Boisiris® (Givaudan),Boisiris® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10241,Bornafix (IFF) **,Bornafix (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6018,Borneol crystals***,Borneol crystals***,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6019,Boronal (Symrise),Boronal (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9614,Botanical Musk**,Botanical Musk**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9373,Bourgeonal (Givaudan),Bourgeonal (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8938,Brahmanol® (Symrise),Brahmanol® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9495,Bran Absolute,خلاصة Bran مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9397,Broom Absolute,خلاصة Broom مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6296,Brown Sugar Fragrance Oil,Brown Sugar Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10242,Buccoxime Crystals (Symrise) **,Buccoxime Crystals (Symrise) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6020,Butyl Butyro Lactate,Butyl Butyro Lactate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6021,Calone 1951® (Firmenich),Calone 1951® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8228,Calone® 10% (Firmenich) (DPG),Calone® 10% (Firmenich) (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8543,Camphene (Natural)***,Camphene (Natural)***,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8494,Camphor**,Camphor**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6297,Cantaloupe Fragrance Oil **,Cantaloupe Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8285,Canthoxal,Canthoxal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6298,Caramel Fragrance Oil,Caramel Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9645,Caraway Oil - Multi Origin **,Caraway Oil - Multi Origin **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6058,Carbinol Muguet,Carbinol Muguet,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8305,Cardamom (Guatemala)**,Cardamom (Guatemala)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9425,Cardamom Aldehyde (Bedoukian),Cardamom Aldehyde (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8483,Carene-3 Delta (Natural) **,Carene-3 Delta (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5938,Carnation - Key Accord,Carnation - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9762,Carnation Essence **,Carnation Essence **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6299,Carnation Fragrance Oil,Carnation Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6417,Carrot Seed - India,Carrot Seed - India,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8511,Carvacrol FCC,Carvacrol FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8490,Carvone-D (Natural),Carvone-D (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9903,Carvone-L (Natural),Carvone-L (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8488,Caryophyllene Acetate,Caryophyllene Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8629,Caryophyllene Beta (Natural),Caryophyllene Beta (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6925,Caryophyllene oxide - 1% in PG,Caryophyllene oxide - 1% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8426,Caryophyllene Oxide (Crystals),Caryophyllene Oxide (Crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9518,Cascalone® (Firmenich),Cascalone® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10072,Cascarilla Bark Oil **,Cascarilla Bark Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6022,Cashmeran® (IFF) **,Cashmeran® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6419,Cassia - China,Cassia - China,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9328,Cassie Absolute (Egyptian),خلاصة Cassie  (Egyptian) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8056,Cassiffix® (IFF) **,Cassiffix® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9369,Cassione 921189 (Firmenich) Crystals,Cassione 921189 (Firmenich) Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6301,Cassis (Black Currant) Fragrance Oil**,Cassis (Black Currant) Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9700,Cassis 345B (Firmenich) **,Cassis 345B (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5939,Cassis Givco 149/2,Cassis Givco 149/2,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9548,Castoreum Absolute,خلاصة القندس (كاستوريوم) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5940,Castoreum Blend (50% BB) **,Castoreum Blend (50% BB) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8460,Castoreum Blend (Natural)**,Castoreum Blend (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9746,Castoreum Givco 116/6 (Synthetic),Castoreum Givco 116/6 (Synthetic),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6302,Cedar Fragrance Oil,Cedar Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8320,Cedar Fragrance Oil (Premium),Cedar Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8427,Cedar Leaf (Red) Western**,Cedar Leaf (Red) Western**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9362,Cedarmoss (Synarome) **,Cedarmoss (Synarome) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9471,Cedarwood (China) **,Cedarwood (China) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9202,Cedarwood (Texas) **,Cedarwood (Texas) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8021,Cedarwood Atlas Oil P&N**,Cedarwood Atlas Oil P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9477,Cedarwood Terpenes,Cedarwood Terpenes,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6421,Cedarwood Virginia **,Cedarwood Virginia **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9810,Cedrat Heart (Natural) **,Cedrat Heart (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9345,Cedrene **,Cedrene **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6024,Cedrol crystals **,Cedrol crystals **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8520,Cedroxyde® (Firmenich),Cedroxyde® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6025,Cedryl Acetate (EOA)**,Cedryl Acetate (EOA)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6023,Cedryl Methyl Ether,Cedryl Methyl Ether,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6424,Celery Seed - India **,Celery Seed - India **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6026,Celestolide (crystals) (IFF),Celestolide (crystals) (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6027,Cetalox® (Firmenich) (crystals),Cetalox® (Firmenich) (crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8229,Cetalox® 10% (Firmenich) (DPG),Cetalox® 10% (Firmenich) (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9301,Cetylia Base (Firmenich) **,Cetylia Base (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9811,Chamomile (Roman) **,Chamomile (Roman) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8288,Cherry Blossom Fragrance Oil,Cherry Blossom Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6303,Cherry Fragrance Oil**,Cherry Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8345,Chocolate Brownie Fragrance Oil (Premium)**,Chocolate Brownie Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6304,Chocolate Fragrance Oil,Chocolate Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8337,Chocolate Fragrance Oil (Premium),Chocolate Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9014,Chocovan TEC (Givaudan),Chocovan TEC (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9528,Choya Loban,Choya Loban,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9527,Choya Nakh,Choya Nakh,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9529,Choya Raal,Choya Raal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8415,Chypre - Key Accord (Natural),Chypre - Key Accord (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8518,Chypre Essence **,Chypre Essence **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6028,Cinnamic alcohol,Cinnamic alcohol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6029,Cinnamic Aldehyde FCC,Cinnamic Aldehyde FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8302,Cinnamon Bark**,Cinnamon Bark**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8346,Cinnamon Bun Fragrance Oil (Premium),Cinnamon Bun Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6305,Cinnamon Fragrance Oil,Cinnamon Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8301,Cinnamon Leaf,Cinnamon Leaf,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6030,Cinnamyl Acetate,Cinnamyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9426,Cis-3 Hexenyl Tiglate (Bedoukian),Cis-3 Hexenyl Tiglate (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9313,Cistus Oil **,Cistus Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6031,Citral (Natural),Citral (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9476,Citral Dimethyl Acetal (IFF),Citral Dimethyl Acetal (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7682,Citronellal,Citronellal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6032,Citronellal (Natural),Citronellal (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6033,Citronellol,Citronellol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8074,Citronellol (Natural),Citronellol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6034,Citronellyl acetate **,Citronellyl acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6035,Citronellyl Formate (IFF),Citronellyl Formate (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9498,Citronellyl Nitrile,Citronellyl Nitrile,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9571,Citropol® 1A,Citropol® 1A,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9615,Citropol® F,Citropol® F,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9596,Citrus A **,Citrus A **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9600,Citrus Floral,Citrus Floral,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+6306,Citrus Fragrance Oil**,Citrus Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9803,Citrylal (Symrise) **,Citrylal (Symrise) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9325,Civet Absolute (Synthetic),خلاصة Civet  (Synthetic) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5942,Civet Essence **,Civet Essence **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9456,Civette Synthetic (Firmenich),Civette Synthetic (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8981,Civettone (Firmenich),Civettone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6429,Clary Sage (France),Clary Sage (France),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8022,"Clary Sage Oil, Russian P&N**","Clary Sage Oil, Russian P&N**",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9407,Clarycet (IFF),Clarycet (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9453,Clean Musk Fragrance Oil **,Clean Musk Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8574,Clearwood® (Firmenich),Clearwood® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6431,Clementine - Italy**,Clementine - Italy**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9957,Clonal (IFF) **,Clonal (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6434,Clove Bud Indonesia,Clove Bud Indonesia,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6307,Clove Fragrance Oil**,Clove Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8121,Clove Stem Madagascar,Clove Stem Madagascar,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9451,Cocoa Colorless DM,Cocoa Colorless DM,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6436,Cocoa Essence (Natural)**,Cocoa Essence (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9314,Cocoa Roasted Extract 10% MPG,Cocoa Roasted Extract 10% MPG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8326,Coconut Fragrance Oil (Premium),Coconut Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6308,Coconut Fragrance Oil**,Coconut Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8336,Coffee Fragrance Oil (Premium),Coffee Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8898,Cognac - Key Accord,Cognac - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8665,Cognac (Green) - Romania,Cognac (Green) - Romania,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5943,Cologne - Key Accord,Cologne - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6309,Colombian Coffee Fragrance Oil,Colombian Coffee Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9417,Coniferan Pure **,Coniferan Pure **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9607,Cool Spice A,Cool Spice A,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6438,Copaiba Balsam Brazil,Copaiba Balsam Brazil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9389,Coranol (Firmenich),Coranol (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6442,Coriander Seed Russia **,Coriander Seed Russia **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9364,Corps Iris 4720 (Synarome),Corps Iris 4720 (Synarome),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6036,Cosmone® (Givaudan),Cosmone® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6037,Costausol™ (PFW),Costausol™ (PFW),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8934,Costus Oliffac (IFF),Costus Oliffac (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8343,Cotton Fragrance Oil (Premium),Cotton Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9465,Coumarex DB (IFF) **,Coumarex DB (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6038,Coumarin  (crystalline powder) **,Coumarin  (crystalline powder) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8091,Coumarin (Natural) - Crystalline Powder **,Coumarin (Natural) - Crystalline Powder **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8230,Coumarin 10% (DPG),Coumarin 10% (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6310,Cranberry Fragrance Oil,Cranberry Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8959,Cremophor® RH 40,Cremophor® RH 40,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9333,Cucumber (Fresh) Essence (Fragrance) **,Cucumber (Fresh) Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7660,Cucumber Extract (Natural),Cucumber Extract (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8339,Cucumber Fragrance Oil (Premium),Cucumber Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6312,Cucumber Fragrance Oil**,Cucumber Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8107,Cuir Vitessence,Cuir Vitessence,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9409,Cuminyl Acetate (IFF),Cuminyl Acetate (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6039,Cyclabute (IFF),Cyclabute (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6040,Cyclal C,Cyclal C,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6041,Cyclamen Aldehyde **,Cyclamen Aldehyde **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9401,Cyclemax™ (IFF) **,Cyclemax™ (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6042,Cyclogalbanate (Glycoflor),Cyclogalbanate (Glycoflor),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9589,Cyclohexyl Salicylate,Cyclohexyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9790,Cyclomethylene Citronellol (Firmenich),Cyclomethylene Citronellol (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6043,Cyclopidene,Cyclopidene,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8308,Cypress (Blue),Cypress (Blue),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6445,Cypress (Spain) **,Cypress (Spain) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8023,Cypress Oil (Spain) P&N**,Cypress Oil (Spain) P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9296,Cypriol,Cypriol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8666,Cypriol Heart (Natural),Cypriol Heart (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9226,Damascenone Total (Firmenich),Damascenone Total (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9404,Damascol (IFF) **,Damascol (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8072,Damascone Alpha,Damascone Alpha,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7278,Damascone Beta,Damascone Beta,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6046,Damascone Delta **,Damascone Delta **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9625,Damascone Gamma,Damascone Gamma,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7279,Datilat (Symrise),Datilat (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9492,Davana (India),Davana (India),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9371,Delphol HC (Firmenich),Delphol HC (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9342,Delta Decalactone,Delta Decalactone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5944,Dewfruit,Dewfruit,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9632,Diethyl Malonate,Diethyl Malonate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6048,Dihydro Ambrate (Givaudan),Dihydro Ambrate (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6049,Dihydro Eugenol **,Dihydro Eugenol **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6050,Dihydro Ionone Beta (Givaudan),Dihydro Ionone Beta (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6051,Dihydro Myrcenol,Dihydro Myrcenol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8095,Dihydroanethole,Dihydroanethole,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7734,Dihydrocoumarin,Dihydrocoumarin,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6837,Dihydrocoumarin - 10% in PG,Dihydrocoumarin - 10% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6447,Dill Seed (Hungary),Dill Seed (Hungary),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6052,Dimethyl benzyl carbinol,Dimethyl benzyl carbinol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6053,Dimethyl Benzyl Carbinyl Acetate,Dimethyl Benzyl Carbinyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6054,Dimethyl Benzyl Carbinyl Butyrate **,Dimethyl Benzyl Carbinyl Butyrate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9638,Dimethyl Hydroquinone Crystals,Dimethyl Hydroquinone Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6056,Dimethyl Octanol **,Dimethyl Octanol **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6057,Dimethyl Octenone,Dimethyl Octenone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6061,Dimetol®  (Givaudan),Dimetol®  (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9675,Dioctyl Adipate (DOA),Dioctyl Adipate (DOA),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6063,Diphenyl Oxide **,Diphenyl Oxide **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6663,Dipropylene Glycol (DPG),Dipropylene Glycol (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6314,Dirt Fragrance Oil**,Dirt Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9623,Dodecalactone Delta,Dodecalactone Delta,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5945,Dorinia SA (Firmenich),Dorinia SA (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9012,Dowanol™ (DPMA),Dowanol™ (DPMA),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9013,Dowanol™ TPM,Dowanol™ TPM,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8332,Dragons Blood Fragrance Oil (Premium),Dragons Blood Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6316,Dragons Blood Fragrance Oil**,Dragons Blood Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9648,Dreamwood™ Base (Firmenich),Dreamwood™ Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8550,Dry Grass Essence**,Dry Grass Essence**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8528,Dupical (Givaudan),Dupical (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8753,Dynamone (Natural) (Biolandes),Dynamone (Natural) (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9370,Dynascone (Firmenich) **,Dynascone (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6064,Ebanol® (Givaudan),Ebanol® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9685,Edenolide (IFF) **,Edenolide (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7618,Egyptian Musk Fragrance Oil**,Egyptian Musk Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6449,Elemi (Philippines) **,Elemi (Philippines) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9478,Erigeron Essential Oil,زيت Erigeron العطري,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7661,Espresso Distillate (Natural) **,مقطر Espresso  (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7668,Ethyl Acetate 10% in BB **,Ethyl Acetate 10% in BB **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6066,Ethyl Butyrate FCC **,Ethyl Butyrate FCC **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9633,Ethyl Caprate,Ethyl Caprate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6068,Ethyl Cinnamate,Ethyl Cinnamate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8188,Ethyl Cyclopentenolone 50% in PG (Firmenich),Ethyl Cyclopentenolone 50% in PG (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6069,Ethyl Heptoate (Ethyl Heptanoate),Ethyl Heptoate (Ethyl Heptanoate),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9562,Ethyl Isobutyrate **,Ethyl Isobutyrate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9618,Ethyl Laurate (Natural),Ethyl Laurate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6071,Ethyl Linalool,Ethyl Linalool,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6072,Ethyl Linalyl Acetate,Ethyl Linalyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6666,Ethyl Maltol crystals,Ethyl Maltol crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6075,Ethyl Methyl-2-Butyrate **,Ethyl Methyl-2-Butyrate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6076,Ethyl Propionate **,Ethyl Propionate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9055,Ethyl Safranate (Givaudan),Ethyl Safranate (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6077,Ethyl Salicylate,Ethyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9659,Ethyl Undecylenate,Ethyl Undecylenate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6078,Ethyl vanillin,Ethyl vanillin,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6079,Ethylene Brassylate **,Ethylene Brassylate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6080,Eucalyptol (Natural) **,Eucalyptol (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7343,Eucalyptus (menthol)**,Eucalyptus (menthol)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9306,Eucalyptus Bioabsolute (Biolandes),Eucalyptus Bioabsolute (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8307,Eucalyptus Blue Mallee**,Eucalyptus Blue Mallee**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6081,Eugenol FCC,Eugenol FCC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6836,Eugenyl Acetate,Eugenyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9787,Exaltenone (Firmenich),Exaltenone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8257,Exaltolide® Total (Firmenich),Exaltolide® Total (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9280,Exaltone (Firmenich),Exaltone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8513,Farnesene,Farnesene,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8125,Farnesol (Symrise),Farnesol (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8495,Fenchol,Fenchol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6456,Fennel - Sweet - Austria**,Fennel - Sweet - Austria**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6317,Fern Fragrance Oil**,Fern Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8480,Feuillesol - Solubilizer (Clear),Feuillesol - Solubilizer (Clear),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8342,Fig Fragrance Oil (Premium),Fig Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6318,Fig Fragrance Oil**,Fig Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9302,Fir Balsam (Absolute),خلاصة Fir Balsam () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5947,Fir Balsam Reconstitution (IFF) **,Fir Balsam Reconstitution (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8901,Firascone™ (Firmenich),Firascone™ (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9372,Firsantol (Firmenich),Firsantol (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8087,"Fixamber (Amber Decatriene, Trimofix O)","Fixamber (Amber Decatriene, Trimofix O)",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9910,Fixateur 505E (Firmenich) **,Fixateur 505E (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6231,Fixolide **,Fixolide **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8414,Floral - Key Accord (Natural),Floral - Key Accord (Natural),Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+9412,Floralol (IFF),Floralol (IFF),Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+6084,Floralozone,Floralozone,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+6085,Florhydral® (Givaudan),Florhydral® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8093,Florocyclene (Givaudan),Florocyclene (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6086,Floropal (Vertacetal Coeur),Floropal (Vertacetal Coeur),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6087,Florosa (Florosol),Florosa (Florosol),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8546,Folione® FCC (Givaudan),Folione® FCC (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6319,Forget-Me-Not Fragrance Oil**,Forget-Me-Not Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8409,Fougere - Key Accord (Natural)**,Fougere - Key Accord (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8309,Fragonia**,Fragonia**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9385,Fraise 184075 D (Firmenich),Fraise 184075 D (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9437,Fraistone (IFF),Fraistone (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9383,Framboise (Firmenich),Framboise (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6320,Frangipani Fragrance Oil**,Frangipani Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9308,Frankincense (Black) **,Frankincense (Black) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8254,Frankincense (Olibanum) - Somalia**,Frankincense (Olibanum) - Somalia**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6321,Frankincense Fragrance Oil**,Frankincense Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6323,Freesia Fragrance Oil**,Freesia Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6324,Fresh Cotton Fragrance Oil**,Fresh Cotton Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6325,Fresh Cut Grass Fragrance Oil**,Fresh Cut Grass Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9332,Fresh Grapefruit Essence (Fragrance) **,Fresh Grapefruit Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8529,Freskomenthe® (Givaudan),Freskomenthe® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9788,Fructalate (Firmenich) **,Fructalate (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6088,Fructone (IFF),Fructone (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9368,Fruit SEC 184078 (Firmenich),Fruit SEC 184078 (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9329,Fruitaleur (Bedoukian)**,Fruitaleur (Bedoukian)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9597,Fruity A **,Fruity A **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9387,Furaneol 20% in TEC,Furaneol 20% in TEC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8975,Galaxolide (Musk G),Galaxolide (Musk G),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6089,Galaxolide® 50% in IPM (IFF) **,Galaxolide® 50% in IPM (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6467,Galbanum Oil P&N - AV (Turkey)**,Galbanum Oil P&N - AV (Turkey)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9561,Galbanum Resinoid **,Galbanum  ** (راتنجي),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9794,Galbex® 183 (Firmenich) **,Galbex® 183 (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6090,Gamma Decalactone,Gamma Decalactone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8567,Gamma Decalactone (Natural),Gamma Decalactone (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8620,Gamma Dodecalactone (Natural),Gamma Dodecalactone (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6091,Gamma Octalactone,Gamma Octalactone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7708,Gamma Octalactone (Natural),Gamma Octalactone (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5949,Gardenia - Key Accord,Gardenia - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6326,Gardenia Fragrance Oil**,Gardenia Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8667,Geosmin (Pure),Geosmin (Pure),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8668,Geosmin 1% (TEC),Geosmin 1% (TEC),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6092,Geraniol (95),Geraniol (95),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6700,Geraniol (Natural),Geraniol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9355,Geranium Bourbon Oil (Natural) **,Geranium Bourbon Oil (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6327,Geranium Fragrance Oil,Geranium Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8024,"Geranium Oil, Egypt P&N","Geranium Oil, Egypt P&N",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6093,Geranodyle (Givaudan) **,Geranodyle (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6094,Geranyl Acetate,Geranyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7709,Geranyl Acetate (Natural),Geranyl Acetate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8899,Gin - Key Accord,Gin - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9560,Ginger (CO2 Extract) **,Ginger (CO2 Extract) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6476,Ginger Fresh Madagascar **,Ginger Fresh Madagascar **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6095,Givescone®  (Givaudan),Givescone®  (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7992,Globacenide (Symrise),Globacenide (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7991,Globanone® Pure (Symrise),Globanone® Pure (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6669,Glucam P-20,Glucam P-20,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9057,Glycolierral (Givaudan)**,Glycolierral (Givaudan)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9649,Grape Butyrate **,Grape Butyrate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8366,Grapefruit (Red) - USA**,Grapefruit (Red) - USA**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6615,Grapefruit (White) FCC - USA **,Grapefruit (White) FCC - USA **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9660,Grapefruit Mercaptan **,Grapefruit Mercaptan **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6479,Grapefruit Pink **,Grapefruit Pink **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8868,Grapefruit Terpenes (Natural)**,Grapefruit Terpenes (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8335,Grass Fragrance Oil (Premium),Grass Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9598,Green A **,Green A **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6328,Green Apple Fragrance Oil**,Green Apple Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9601,Green Floral,Green Floral,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+5950,Green Leaf - Key Accord **,Green Leaf - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9338,Green Mandarin Oil **,Green Mandarin Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6329,Green Tea Fragrance Oil**,Green Tea Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8348,Grey Pine **,Grey Pine **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6096,Grisalva (IFF),Grisalva (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6097,Guaiacol (Natural),Guaiacol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7310,Guaiacwood (Multi-Origin),Guaiacwood (Multi-Origin),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8491,Guaiene (Natural),Guaiene (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8734,Guaiol (Natural),Guaiol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6098,Guaiyl Acetate,Guaiyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6330,Guava Fragrance Oil **,Guava Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8283,Guavanate (Bedoukian),Guavanate (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10215,Gunsmoke - Key Accord,Gunsmoke - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8976,Gurjun Balsam,Gurjun Balsam,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9424,Habanene (Bedoukian) **,Habanene (Bedoukian) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6099,Habanolide® (Firmenich),Habanolide® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6331,Hawaiian Rain Fragrance Oil**,Hawaiian Rain Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6332,Heather Fragrance Oil**,Heather Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6334,Heavenly Musk Fragrance Oil**,Heavenly Musk Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6100,Hedione® (Firmenich),Hedione® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8473,Hedione® HC (Firmenich),Hedione® HC (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6101,Helional® (IFF) **,Helional® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8404,Heliotropex N (IFF),Heliotropex N (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6102,Heliotropin Replacer 20% (in BB) **,Heliotropin Replacer 20% (in BB) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7667,Helvetolide® (Firmenich),Helvetolide® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8351,Hemlock**,Hemlock**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8530,Herboxane (Givaudan),Herboxane (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8148,Hercolyn D,Hercolyn D,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9422,Hexadecanolide (IFF),Hexadecanolide (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9411,Hexalon (IFF),Hexalon (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9497,Hexanoic Acid **,Hexanoic Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9322,Hexenol 3-Cis (Natural) **,Hexenol 3-Cis (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6104,Hexenol-3-Cis **,Hexenol-3-Cis **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8094,Hexenyl Cis-3 Acetate (Natural) **,Hexenyl Cis-3 Acetate (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6105,Hexenyl Cis-3 Acetate FCC**,Hexenyl Cis-3 Acetate FCC**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6106,Hexenyl Cis-3 Salicylate **,Hexenyl Cis-3 Salicylate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9427,Hexenyl-cis-3-benzoate (Bedoukian) **,Hexenyl-cis-3-benzoate (Bedoukian) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6107,Hexyl Acetate **,Hexyl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9789,Hexyl Benzoate,Hexyl Benzoate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6109,Hexyl Cinnamaldehyde (Hexyl Cinnamic Aldehyde) **,Hexyl Cinnamaldehyde (Hexyl Cinnamic Aldehyde) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6110,Hexyl Salicylate **,Hexyl Salicylate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8936,Hivernal® Neo (Firmenich),Hivernal® Neo (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9316,Ho Leaf (Ravintsara) -  Madagascar **,Ho Leaf (Ravintsara) -  Madagascar **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9380,Ho Wood (Essential Oil) P&N,زيت Ho Wood () P&N العطري,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6111,Homofuronol - 20% in PG,Homofuronol - 20% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7656,Honey (Miel) Essence (IFF) **,Honey (Miel) Essence (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6337,Honey Almond Fragrance Oil,Honey Almond Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6336,Honey Fragrance Oil,Honey Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8340,Honey Fragrance Oil (Premium) **,Honey Fragrance Oil (Premium) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9334,Honey Lactone Essence (Fragrance) **,Honey Lactone Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9318,Honeybush CO2 Extract **,Honeybush CO2 Extract **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6338,Honeydew Fragrance Oil **,Honeydew Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6339,Honeysuckle Fragrance Oil,Honeysuckle Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8493,Humulene (Natural),Humulene (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8010,Hyacinth - Key Accord,Hyacinth - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8452,Hyacinth Body No. 3 (IFF),Hyacinth Body No. 3 (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8270,Hydratropic Aldehyde Dimethyl Acetal,Hydratropic Aldehyde Dimethyl Acetal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8754,Hydrocarboresine (Natural) (Biolandes),Hydrocarboresine (Natural) (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6113,Hydroxycitronellal Pure (High Laurine),Hydroxycitronellal Pure (High Laurine),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10112,Hyraceum Absolute 60% DIPG (Firmenich),خلاصة Hyraceum  60% DIPG (Firmenich) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8017,Hyssop Oil P&N**,Hyssop Oil P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8304,Immortelle**,Immortelle**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9608,Incense,Incense,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9170,Indocolore™ (Firmenich),Indocolore™ (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9286,Indolarome (IFF),Indolarome (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9331,Indole (Pure) Crystals **,Indole (Pure) Crystals **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8621,Indole @ 1% in Alcohol (Natural) **,Indole @ 1% in Alcohol (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6116,Indolene 50 (IFF),Indolene 50 (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6117,Intreleven Aldehyde (IFF),Intreleven Aldehyde (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6118,Ionone Alpha (White Coeur),Ionone Alpha (White Coeur),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6119,Ionone Beta,Ionone Beta,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9287,Iralia® (Firmenich),Iralia® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9288,Iralia® TOTAL (Firmenich),Iralia® TOTAL (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7690,Iris - Key Accord **,Iris - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8333,Iris Fragrance Oil (Premium)**,Iris Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9390,Irisnitrile (Symrise),Irisnitrile (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9466,Irival Oliffac 0612 (IFF) **,Irival Oliffac 0612 (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9267,Irone Alpha**,Irone Alpha**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8757,Iso Amyl Acetate **,Iso Amyl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6120,Iso E Super® (IFF) **,Iso E Super® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6121,Iso Eugenol,Iso Eugenol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6122,Isoamyl Isovalerate FCC (single isomer),Isoamyl Isovalerate FCC (single isomer),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6124,Isoamyl Salicylate,Isoamyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8632,Isoborneol (Crystals)**,Isoborneol (Crystals)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6125,Isobornyl acetate,Isobornyl acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6126,Isobutavan,Isobutavan,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9617,Isobutyl Isovalerate (Natural) **,Isobutyl Isovalerate (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9569,Isobutyl Quinoline (10% in BB)**,Isobutyl Quinoline (10% in BB)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6127,Isobutyl Salicylate,Isobutyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9683,Isobutyric Acid **,Isobutyric Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6128,Isocyclocitral,Isocyclocitral,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9294,Isoeugenyl Acetate,Isoeugenyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9374,Isolongifolanone (Givaudan)**,Isolongifolanone (Givaudan)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6175,Isomuscone® - 50% IPM,Isomuscone® - 50% IPM,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6129,Isopropyl Methyl-2-Butyrate **,Isopropyl Methyl-2-Butyrate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6654,Isopropyl Myristate (IPM),Isopropyl Myristate (IPM),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6130,Isoraldeine® 70 (Givaudan) **,Isoraldeine® 70 (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6131,Isoraldeine® 95 (Givaudan) **,Isoraldeine® 95 (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9636,Isovaleric Acid **,Isovaleric Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8090,Ivy Base (Firmenich),Ivy Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10246,Jasmacyclene (Givaudan),Jasmacyclene (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6132,Jasmatone (Givaudan),Jasmatone (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8098,Jasmin Specialty (Firmenich) **,Jasmin Specialty (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5952,Jasmine - Key Accord **,Jasmine - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6343,Jasmine Fragrance Oil,Jasmine Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9273,Jasmine Grandiflorum (Absolute),خلاصة Jasmine Grandiflorum () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9276,Jasmine Sambac (Absolute),خلاصة Jasmine Sambac () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9367,Jasminlactone (IFF),Jasminlactone (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8449,Jasmolactone (Firmenich),Jasmolactone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6133,Jasmone Cis,Jasmone Cis,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6134,Jasmonyl® (Givaudan),Jasmonyl® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9350,Jasmopyrane Forte (Givaudan),Jasmopyrane Forte (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6135,Javanol® (Givaudan),Javanol® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9418,Jessemal (IFF),Jessemal (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8012,"Juniper Berry Oil, Balkans P&N**","Juniper Berry Oil, Balkans P&N**",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6488,Juniper Berry**,Juniper Berry**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6136,Karanal (Givaudan) **,Karanal (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8057,Karmawood™ (IFF),Karmawood™ (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6137,Kephalis (Givaudan),Kephalis (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9416,Kharismal® (IFF),Kharismal® (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6345,Kiwi Fragrance Oil**,Kiwi Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6138,Koavone®  (IFF) **,Koavone®  (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6139,Kohinool® (IFF) **,Kohinool® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8310,Kunzea,Kunzea,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7994,Labdanum Absolute  (50%) **,خلاصة Labdanum   (50%) ** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9376,Labdanum Clear Absolute P&N,خلاصة Labdanum Clear  P&N مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9337,Labdanum Resinoid 50% TEC **,Labdanum  50% TEC ** (راتنجي),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6141,Labienoxime 10% in IPM/TEC (Givaudan),Labienoxime 10% in IPM/TEC (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9298,Lactojasmone (Symrise),Lactojasmone (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6492,Laurel Leaf - Hungary **,Laurel Leaf - Hungary **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9950,Lavandin Absolute (Biolandes),خلاصة Lavandin  (Biolandes) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9270,Lavandin Grosso (France),Lavandin Grosso (France),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9235,Lavender (Diva) - France,Lavender (Diva) - France,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7339,Lavender (France) 40/42,Lavender (France) 40/42,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9300,Lavender Absolute,خلاصة الخزامى (لافندر) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8284,Lavender Aldehyde FCC (Bedoukian),Lavender Aldehyde FCC (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7702,Lavender Fleurs (France) **,Lavender Fleurs (France) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8327,Lavender Fragrance Oil (Premium),Lavender Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6346,Lavender Fragrance Oil **,Lavender Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8013,"Lavender Maillette, France P&N","Lavender Maillette, France P&N",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5955,Leather - Key Accord,Leather - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6347,Leather Fragrance Oil,Leather Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6505,Lemon - California**,Lemon - California**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9220,Lemon - Cold Pressed (Argentina)**,Lemon - Cold Pressed (Argentina)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9219,Lemon - Sfumatrice (Italy)**,Lemon - Sfumatrice (Italy)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9336,Lemon Candy Essence (Fragrance) **,Lemon Candy Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9050,Lemon Terpenes (Natural)**,Lemon Terpenes (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8325,Lemon Verbena Fragrance Oil (Premium) **,Lemon Verbena Fragrance Oil (Premium) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6348,Lemon Verbena Fragrance Oil**,Lemon Verbena Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8019,Lemongrass Oil P&N**,Lemongrass Oil P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6143,Lemonile® (Givaudan),Lemonile® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6144,Levistamel 25% in TEC (Givaudan),Levistamel 25% in TEC (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9326,Liatrix Absolute (Substitute) Natural**,خلاصة Liatrix  (Substitute) Natural** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9272,Liffarome (IFF),Liffarome (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6349,Light Vanilla Fragrance Oil**,Light Vanilla Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8341,Lilac Fragrance Oil (Premium),Lilac Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6350,Lilac Fragrance Oil**,Lilac Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9358,Lilas Mauve (Synarome),Lilas Mauve (Synarome),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6145,Lilial a.k.a Lilestralis **,Lilial a.k.a Lilestralis **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10280,Lilial Replacer,Lilial Replacer,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6351,Lily of the Valley Fragrance Oil **,Lily of the Valley Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9745,Lilybelle® (Symrise),Lilybelle® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9297,Lilyflore® (Firmenich),Lilyflore® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9293,Lilytol,Lilytol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6512,Lime (Mexico) Distilled**,Lime (Mexico) Distilled**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6146,Lime Oxide (Givaudan) **,Lime Oxide (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9051,Lime Terpenes (Natural)**,Lime Terpenes (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6147,Limetol (Givaudan) **,Limetol (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7293,Limonene D (Natural) **,Limonene D (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6148,Linalool,Linalool,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6699,Linalool (Natural),Linalool (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6149,Linalool Oxide,Linalool Oxide,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6150,Linalyl Acetate,Linalyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7710,Linalyl Acetate (Natural),Linalyl Acetate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5956,Lindenblossom Givco 151/7,Lindenblossom Givco 151/7,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8137,Lisylang (Natural),Lisylang (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6515,Litsea (May Chang) - China **,Litsea (May Chang) - China **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6352,Lotus Fragrance Oil,Lotus Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6151,Lyral - Leerall,Lyral - Leerall,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8418,Madeleine - Key Accord **,Madeleine - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10247,Madranol (Symrise),Madranol (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6152,Magnolan,Magnolan,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7096,Magnolia Flower (China),Magnolia Flower (China),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9399,Magnolia Heart (Natural),Magnolia Heart (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9182,Magnolys® E (Firmenich),Magnolys® E (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9450,Mahagonate® (Symrise),Mahagonate® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9428,Mahogany & Teak Fragrance Oil **,Mahogany & Teak Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6153,Majantol (Symrise),Majantol (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6154,Maltol (Crystals),Maltol (Crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9324,Mandarin (Yellow) **,Mandarin (Yellow) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7617,Mandarin Fragrance Oil **,Mandarin Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9234,Mandarin Red - EO (Italy) **,Mandarin Red - EO (Italy) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9792,Mandarinal 32048 SAEK (Firmenich) **,Mandarinal 32048 SAEK (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6155,Mandarine Aldehyde 10% (Firmenich) **,Mandarine Aldehyde 10% (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6353,Mango Fragrance Oil **,Mango Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10240,Mango Natural **,Mango Natural **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6156,Manzanate **,Manzanate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5957,Marine & Ozone - Key Accord **,Marine & Ozone - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8286,Maritima (IFF),Maritima (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6520,Marjoram Wild Spain **,Marjoram Wild Spain **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9545,Massoia Lactone (Natural),Massoia Lactone (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8454,Mate (Absolute)**,خلاصة Mate ()** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6827,Matsutake Alcohol (1-octen-3-ol) 1% in PG,Matsutake Alcohol (1-octen-3-ol) 1% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8096,Mayol® (Firmenich),Mayol® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8496,MCT,MCT,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9408,Melafleur (IFF) **,Melafleur (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7662,Melon Aldehyde (Natural),Melon Aldehyde (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6356,Melon Fragrance Oil,Melon Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8973,Melon Givco 150/2**,Melon Givco 150/2**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6157,Melonal (Givaudan),Melonal (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6159,Menthone,Menthone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7216,Menthyl Acetate (Natural),Menthyl Acetate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9773,Metallic Saffron Essence (Fragrance),Metallic Saffron Essence (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9395,Methyl acetophenone para (Symrise),Methyl acetophenone para (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8296,Methyl Anthranilate (50% in BB) **,Methyl Anthranilate (50% in BB) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6162,Methyl Benzoate,Methyl Benzoate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6164,Methyl Cinnamate,Methyl Cinnamate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7223,Methyl Cyclo Pentenolone,Methyl Cyclo Pentenolone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6165,Methyl Diantilis® (Givaudan),Methyl Diantilis® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10009,Methyl Dihydro Jasmonate HC,Methyl Dihydro Jasmonate HC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9500,Methyl Eugenol,Methyl Eugenol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6166,Methyl Hexyl Ketone **,Methyl Hexyl Ketone **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9479,Methyl Ionone Alpha Extra (IFF) **,Methyl Ionone Alpha Extra (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9415,Methyl Ionone Beta Coeur (IFF) **,Methyl Ionone Beta Coeur (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9178,Methyl Ionone Gamma (Coeur) (IFF) **,Methyl Ionone Gamma (Coeur) (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6169,Methyl Isoeugenol,Methyl Isoeugenol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6170,Methyl Laitone 10% in DPG (Givaudan),Methyl Laitone 10% in DPG (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6171,Methyl Pamplemousse (Givaudan),Methyl Pamplemousse (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8407,Methyl Phenyl Acetate (40% in BB) **,Methyl Phenyl Acetate (40% in BB) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7325,Methyl Salicylate,Methyl Salicylate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9564,Methyl Tuberate,Methyl Tuberate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6823,Methylbutyraldehyde - 1% in PG,Methylbutyraldehyde - 1% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6522,Milfoil/Yarrow - Dark Blue (United Kingdom) **,Milfoil/Yarrow - Dark Blue (United Kingdom) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8954,Milk Lactone,Milk Lactone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8264,Mimosa - Key Accord **,Mimosa - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8181,Mimosa Olessence**,Mimosa Olessence**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9391,Mintonat (Symrise),Mintonat (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9783,Modern Vanilla Essence (Fragrance),Modern Vanilla Essence (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5958,Muguet (Lily) - Key Accord,Muguet (Lily) - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9394,Muguet Alcohol (Symrise),Muguet Alcohol (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6173,Muguet Aldehyde 50% in DEP (IFF),Muguet Aldehyde 50% in DEP (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9356,Muscarome (Synarome) **,Muscarome (Synarome) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6174,Muscenone® (Firmenich),Muscenone® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9756,Muscone (Firmenich),Muscone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8329,Musk Fragrance Oil (Premium),Musk Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6358,Musk Fragrance Oil**,Musk Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6176,Musk Ketone **,Musk Ketone **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6177,Musk R1 (Givaudan),Musk R1 (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6179,Myrac Aldehyde (IFF),Myrac Aldehyde (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6180,Myraldyl Acetate (Givaudan),Myraldyl Acetate (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8980,Myrcene (Natural) **,Myrcene (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8287,Myrcene **,Myrcene **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8338,Myrrh Fragrance Oil (Premium)**,Myrrh Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6359,Myrrh Fragrance Oil **,Myrrh Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8014,"Myrrh Oil, Somalia P&N","Myrrh Oil, Somalia P&N",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6527,Myrtle - Linalool Type (Turkey) **,Myrtle - Linalool Type (Turkey) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9475,Myrtle Lemon (Australia),Myrtle Lemon (Australia),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9359,Mysoral (Synarome) **,Mysoral (Synarome) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8402,Mysore Wood Blend (Firmenich),Mysore Wood Blend (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6360,Nag Champa Fragrance Oil **,Nag Champa Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9462,Narcisse Base (Firmenich),Narcisse Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9604,Narcotic Floral **,Narcotic Floral **,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+9405,Nectarate (IFF) **,Nectarate (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6181,Nectaryl (Givaudan),Nectaryl (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9536,Neofolione (Givaudan),Neofolione (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8486,Nerol,Nerol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9233,Neroli - Tunisia (P&N) **,Neroli - Tunisia (P&N) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9995,Neroli & Orange Blossom,Neroli & Orange Blossom,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9232,Neroli (Multi-origin) **,Neroli (Multi-origin) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6362,Neroli Fragrance Oil **,Neroli Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7414,Nerolidol,Nerolidol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8465,Nerolidol (Natural) **,Nerolidol (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8097,Nerolione (Symrise) **,Nerolione (Symrise) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6182,Neryl Acetate JAX (IFF),Neryl Acetate JAX (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6531,Niaouli Cineole Type Madagascar **,Niaouli Cineole Type Madagascar **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9199,"Nonadienal (2-Trans, 6 CIS)","Nonadienal (2-Trans, 6 CIS)",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8265,Nonadienal 1% (DPG),Nonadienal 1% (DPG),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9016,Nootkatone (Crystals) 98%,Nootkatone (Crystals) 98%,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9303,Nootkatone 10% TEC,Nootkatone 10% TEC,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7397,Norlimbanol® (Firmenich),Norlimbanol® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9644,Nuezate (Bedoukian),Nuezate (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6535,Nutmeg India **,Nutmeg India **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9069,Oakmoss Absolute (Robertet),خلاصة Oakmoss  (Robertet) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7733,Oakmoss Absolute 10% **,خلاصة Oakmoss  10% ** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9702,Oakmoss Firbest 50 MIP (Firmenich),Oakmoss Firbest 50 MIP (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6364,Oakmoss Fragrance Oil,Oakmoss Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8323,Oakmoss Fragrance Oil (Premium)**,Oakmoss Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5960,Oakmoss Givco 214/3,Oakmoss Givco 214/3,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9310,Oakwood Absolute 50% TEC,خلاصة Oakwood  50% TEC مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9494,Oakwood CO2 Extract **,Oakwood CO2 Extract **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9335,Oatmeal Essence (Fragrance) **,Oatmeal Essence (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6366,Ocean Scent Fragrance Oil**,Ocean Scent Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8599,Ocimene**,Ocimene**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6184,Okoumal® (Givaudan),Okoumal® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10243,Olibanum Absolute (Robertet) **,خلاصة Olibanum  (Robertet) ** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9969,Olibanum Resinoid,Olibanum (راتنجي),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6536,Opoponax (Sweet Myrrh),Opoponax (Sweet Myrrh),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9382,Opoponax Absolute,خلاصة Opoponax مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6538,Orange Bitter - Italy**,Orange Bitter - Italy**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6540,Orange Blood - Italy**,Orange Blood - Italy**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6367,Orange Blossom Fragrance Oil,Orange Blossom Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8328,Orange Blossom Fragrance Oil (Premium),Orange Blossom Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9573,Orange Flower (Absolute) Blend**,خلاصة Orange Flower () Blend** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10317,Orange Flower (Absolute) Pure**,خلاصة Orange Flower () Pure** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5961,Orange Flower (Neroli) - Key Accord **,Orange Flower (Neroli) - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8451,Orange Flower Ether (IFF),Orange Flower Ether (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8269,Orange Olessence **,Orange Olessence **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6543,Orange Sweet - USA**,Orange Sweet - USA**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6185,Orange Terpenes (Natural)**,Orange Terpenes (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6186,Oranger Crystals (beta-naphthyl methyl ketone) **,Oranger Crystals (beta-naphthyl methyl ketone) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6368,Orchid Fragrance Oil **,Orchid Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8267,Orcinyl 3 (Givaudan),Orcinyl 3 (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8268,Orcinyl 3 10% (TEC),Orcinyl 3 10% (TEC),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10188,Orinox™ (PFW),Orinox™ (PFW),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8453,Orivone (IFF),Orivone (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8984,Orris Butter (15% Irones),Orris Butter (15% Irones),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9321,Orris Butter Artessence (Biolandes),Orris Butter Artessence (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8985,Orris Butter Tincture (20%)***,Orris Butter Tincture (20%)***,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9349,Orris Givco® 204/20**,Orris Givco® 204/20**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7696,Orris Tincture (France) - 10% Resinoid ***,Orris Tincture (France) - 10%  *** (راتنجي),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6239,Ortho tertiary-butyl cyclohexyl acetate**,Ortho tertiary-butyl cyclohexyl acetate**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8300,Osmanthus Absolute (P&N),خلاصة Osmanthus  (P&N) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9243,Oud Anokha (Firmenich)**,Oud Anokha (Firmenich)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9250,Oud Assafi™ (5% in TEC),Oud Assafi™ (5% in TEC),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9236,Oud Assafi™ (Firmenich),Oud Assafi™ (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9242,Oud Maleki (Firmenich) **,Oud Maleki (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9940,Oud Oliffac (IFF) **,Oud Oliffac (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9241,Oud Samrat (Firmenich)**,Oud Samrat (Firmenich)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5963,Oud Synth 10760 E (Firmenich) **,Oud Synth 10760 E (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6188,Oxyoctaline Formate (Givaudan),Oxyoctaline Formate (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9406,Ozofleur (IFF) **,Ozofleur (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6550,Palmarosa India,Palmarosa India,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8988,Palo Santo - Key Accord,Palo Santo - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9909,Pamplefleur® (IFF) **,Pamplefleur® (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6369,Papaya Fragrance Oil,Papaya Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9323,Paprika INCO 5 (Biolandes),Paprika INCO 5 (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8989,Para Cymene (Natural)**,Para Cymene (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6189,Para Cymene**,Para Cymene**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6192,Para-cresyl acetate,Para-cresyl acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6193,Para-cresyl methyl ether,Para-cresyl methyl ether,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7394,Paradisamide® (Givaudan),Paradisamide® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6370,Passion Flower Fragrance Oil **,Passion Flower Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8583,Passion Fruit Base (Firmenich),Passion Fruit Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6552,Patchouli (Dark) Indonesia **,Patchouli (Dark) Indonesia **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9396,Patchouli Absolute,خلاصة الباتشولي مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8120,Patchouli Fractions,Patchouli Fractions,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6371,Patchouli Fragrance Oil**,Patchouli Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10032,Patchoulol Crystals **,Patchoulol Crystals **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5964,Peach - Key Accord (Fragrance),Peach - Key Accord (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8272,Peach (Natural) w/o Acetaldehyde - Fragrance,Peach (Natural) w/o Acetaldehyde - Fragrance,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6372,Peach Fragrance Oil,Peach Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5965,Pear - Key Accord (Fragrance)**,Pear - Key Accord (Fragrance)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9379,Pear Essence (Natural) - Fragrance **,Pear Essence (Natural) - Fragrance **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6373,Pear Fragrance Oil **,Pear Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6082,Pentalide (Macrolide Supra) (K),Pentalide (Macrolide Supra) (K),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8313,Peomosa (IFF),Peomosa (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6194,Peonile® (Givaudan),Peonile® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6374,Peony Fragrance Oil **,Peony Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9381,Pepper Sichuan (CO2 Extract) **,Pepper Sichuan (CO2 Extract) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7616,Peppermint Fragrance Oil,Peppermint Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6557,Peppermint India **,Peppermint India **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8015,Peru Balsam Oil Rectified P&N**,Peru Balsam Oil Rectified P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9663,Petitgrain Mandarin (Egypt) **,Petitgrain Mandarin (Egypt) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6567,Petitgrain Paraguay**,Petitgrain Paraguay**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6195,Pharaone® 10% in DPG (Givaudan),Pharaone® 10% in DPG (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8485,Phellandrene Alpha (Natural)**,Phellandrene Alpha (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6196,Phenethyl acetate a.k.a Phenyl Ethyl Acetate,Phenethyl acetate a.k.a Phenyl Ethyl Acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6198,Phenethyl Benzoate (Phenyl Ethyl Benzoate)**,Phenethyl Benzoate (Phenyl Ethyl Benzoate)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6199,Phenethyl Propionate,Phenethyl Propionate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6200,Phenoxy Ethyl Iso Butyrate (IFF),Phenoxy Ethyl Iso Butyrate (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6201,Phenyl Acetaldehyde 50%,Phenyl Acetaldehyde 50%,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6202,Phenyl Acetaldehyde Dimethyl Acetal (PADMA) - Viridine,Phenyl Acetaldehyde Dimethyl Acetal (PADMA) - Viridine,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6197,Phenyl Ethyl Alcohol,Phenyl Ethyl Alcohol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7681,Phenyl Ethyl Alcohol (Natural),Phenyl Ethyl Alcohol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9978,Phenyl Ethyl Formate,Phenyl Ethyl Formate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6203,Phenyl Ethyl Phenyl Acetate - Replacer 40% **,Phenyl Ethyl Phenyl Acetate - Replacer 40% **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9628,Phenyl Ethyl Salicylate (Crystals),Phenyl Ethyl Salicylate (Crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8535,Phenyl Hexanol,Phenyl Hexanol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6204,Phenyl Propyl Alcohol a.k.a hydrocinnamyl alcohol,Phenyl Propyl Alcohol a.k.a hydrocinnamyl alcohol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6206,Phenylacetic acid (Natural) 40% in BB **,Phenylacetic acid (Natural) 40% in BB **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6207,Phytol,Phytol,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6375,Pikaki Fragrance Oil **,Pikaki Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5966,Pina Colada - Key Accord (Fragrance) **,Pina Colada - Key Accord (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8069,Pine Needle (Hungary) **,Pine Needle (Hungary) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9535,Pineapple Essence (Natural) - Fragrance **,Pineapple Essence (Natural) - Fragrance **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6377,Pineapple Fragrance Oil,Pineapple Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8016,Pink Peppercorn Oil P&N**,Pink Peppercorn Oil P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8974,Pino Acetaldehyde (IFF),Pino Acetaldehyde (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9166,Plumeria - Key accord **,Plumeria - Key accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6378,Plumeria Fragrance Oil **,Plumeria Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8955,Poivrol®  (Symrise),Poivrol®  (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6335,Polynesian Hibiscus Fragrance Oil **,Polynesian Hibiscus Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8029,Polysantol® (Firmenich),Polysantol® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6379,Pomegranate Fragrance Oil **,Pomegranate Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6380,Powder Fragrance Oil**,Powder Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6208,Precyclemone B (IFF),Precyclemone B (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6209,Prenyl Acetate **,Prenyl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9819,Prismantol (IFF) **,Prismantol (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9635,Propionic Acid **,Propionic Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9384,Prunella (Firmenich),Prunella (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8515,Pulegone Dextro (Natural),Pulegone Dextro (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8344,Pumpkin Spice Maple Fragrance Oil (Premium),Pumpkin Spice Maple Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6211,Pyralone (Givaudan),Pyralone (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7525,Pyroprunat,Pyroprunat,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6381,Rain Fragrance Oil**,Rain Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9228,Raspberry Essence (Natural) **,Raspberry Essence (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6382,Raspberry Fragrance Oil**,Raspberry Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6829,Raspberry Ketone - 10% in PG,Raspberry Ketone - 10% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6213,Raspberry ketone (raspberry crystals),Raspberry ketone (raspberry crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5932,Red Apple - Key Accord (Fragrance) **,Red Apple - Key Accord (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8356,Red Fruit - Key Accord**,Red Fruit - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8347,Red Pine **,Red Pine **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7225,Rhodinol 70,Rhodinol 70,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6214,Rhubafuran (Givaudan),Rhubafuran (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8903,Rhubofix® (Firmenich),Rhubofix® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8902,Rhumacetal,Rhumacetal,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9534,Ribes Mercaptan (1% in TEC),Ribes Mercaptan (1% in TEC),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9611,Rich Amber,Rich Amber,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9603,Rich Floral,Rich Floral,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+9612,Rich Woods **,Rich Woods **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8082,Romandolide® (Firmenich) **,Romandolide® (Firmenich) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6215,Rosalva (IFF),Rosalva (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9204,Rosamusk BHT (IFF),Rosamusk BHT (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8904,Rosaphen® (Symrise),Rosaphen® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9169,Rose - Absolute (Blend),خلاصة Rose -  (Blend) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6803,Rose - Key Accord**,Rose - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6216,Rose Crystals,Rose Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6384,Rose Fragrance Oil,Rose Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8330,Rose Fragrance Oil (Premium),Rose Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9486,Rose Geranium (South Africa) **,Rose Geranium (South Africa) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8080,Rose Givco 217 (Revised),Rose Givco 217 (Revised),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8084,"Rose Oil, Bulgarian P&N 10%**","Rose Oil, Bulgarian P&N 10%**",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8025,"Rose Oil, Bulgarian P&N**","Rose Oil, Bulgarian P&N**",Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6217,Rose Oxide (racemic),Rose Oxide (racemic),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8316,Rosemary (Tunisia) **,Rosemary (Tunisia) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9183,Rosessence (Firmenich),Rosessence (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6583,Rosewood (Bois de Rose),Rosewood (Bois de Rose),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6218,Rosyrane Super (Givaudan),Rosyrane Super (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9330,Rum Ether (Natural) **,Rum Ether (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8517,Russian Leather**,Russian Leather**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9701,Saffron Oleoresin 5% MPG,Saffron Oleoresin 5% MPG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6672,Safraleine® (Givaudan),Safraleine® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9283,Safranal **,Safranal **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6585,Sage (Multi-Origin) **,Sage (Multi-Origin) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8422,Sakura Salicylate™ (Takasago),Sakura Salicylate™ (Takasago),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8896,Salt (Clean) - Key Accord,Salt (Clean) - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8895,Salt (Dry) - Key Accord,Salt (Dry) - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5967,Sampaquita Givco 138/10,Sampaquita Givco 138/10,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6219,Sandalore® (Givaudan) **,Sandalore® (Givaudan) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5969,Sandalwood - Key Accord**,Sandalwood - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7341,Sandalwood - Mysore,Sandalwood - Mysore,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9473,Sandalwood (Australia),Sandalwood (Australia),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8306,Sandalwood (New Caledonia),Sandalwood (New Caledonia),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8319,Sandalwood Fragrance Oil (Premium),Sandalwood Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6385,Sandalwood Fragrance Oil **,Sandalwood Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5968,Sandalwood Givco 203/20,Sandalwood Givco 203/20,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8532,Sandela® 85 IPM (Givaudan),Sandela® 85 IPM (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9410,Sanjinol (IFF) **,Sanjinol (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9403,Santaliff™ (IFF) **,Santaliff™ (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9361,Santalol (Natural),Santalol (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9185,Sarriette Base (Firmenich),Sarriette Base (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9231,Sauvignone 100 (Takasago),Sauvignone 100 (Takasago),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6221,Scentenal® (Firmenich),Scentenal® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9915,Scentolide (Synarome) **,Scentolide (Synarome) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6589,Scotch Pine **,Scotch Pine **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6386,Sea Breeze Fragrance Oil**,Sea Breeze Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8554,Seaweed - Key Accord**,Seaweed - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8408,Seaweed Absolute (50%)**,خلاصة Seaweed  (50%)** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9168,Shangralide Oliffac 0712 (IFF) **,Shangralide Oliffac 0712 (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9609,Sheer Amber,Sheer Amber,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9346,Siam Wood Oil **,Siam Wood Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8534,Silvanone® Supra (Givaudan),Silvanone® Supra (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6590,Silver Fir Needle Austria **,Silver Fir Needle Austria **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6222,Silvial® (Givaudan),Silvial® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10020,Skatole Crystals 1% BB **,Skatole Crystals 1% BB **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8897,Smoke - Key Accord**,Smoke - Key Accord**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9784,Snappy Greens Essence,Snappy Greens Essence,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9602,Soft Floral **,Soft Floral **,Fragrance ingredient.,Fragrance ingredient.,Floral,زهري
+9599,Soft Spearmint,Soft Spearmint,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9292,Sotolone (Caramel Furanone),Sotolone (Caramel Furanone),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7163,Spice - Key Accord (Fragrance) **,Spice - Key Accord (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6223,Spirogalbanone® Pure (Givaudan),Spirogalbanone® Pure (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9266,Splendione® (Firmenich),Splendione® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10000,Sporty Green Essence**,Sporty Green Essence**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9813,Spring Bamboo Essence,Spring Bamboo Essence,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8350,Spruce (Black) - EO (Canada) P&N**,Spruce (Black) - EO (Canada) P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9419,Starfleur™ 40 (IFF) **,Starfleur™ 40 (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6224,Stemone® (Givaudan),Stemone® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9227,Strawberry Essence (Natural)- Fragrance **,Strawberry Essence (Natural)- Fragrance **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6273,Strawberry Fragrance Oil **,Strawberry Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6225,Styrallyl acetate,Styrallyl acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7995,Styrax (Liquidambar styraciflua) 50% Alc **,Styrax (Liquidambar styraciflua) 50% Alc **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5970,Styrax Essence Oliffac 0712 (IFF),Styrax Essence Oliffac 0712 (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6226,Suederal LT ® (IFF),Suederal LT ® (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6274,Sugar Fragrance Oil **,Sugar Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8536,Sultanene® (Symrise),Sultanene® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8957,Sweet Pea Essence**,Sweet Pea Essence**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6275,Sweet Pea Fragrance Oil **,Sweet Pea Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8152,Sylvamber™,Sylvamber™,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8937,Symroxane™ (Symrise),Symroxane™ (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10060,Syringa Aldehyde,Syringa Aldehyde,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7553,Syringol 20,Syringol 20,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7649,Syringol Crystals,Syringol Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9285,Syvertal (IFF),Syvertal (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7360,Tabanon,Tabanon,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9340,Tagete EO - Africa (Multi-Origin) **,Tagete EO - Africa (Multi-Origin) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6276,Tangerine Fragrance Oil **,Tangerine Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7441,Tarragon (Hungary) **,Tarragon (Hungary) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8317,Tea Tree (Australia) **,Tea Tree (Australia) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5971,Teak (Firmenich),Teak (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8548,Terpinene gamma (Natural)**,Terpinene gamma (Natural)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8489,Terpineol Alpha (Natural),Terpineol Alpha (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6229,Terpineol alpha acetate,Terpineol alpha acetate,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8487,Terpinolene (Natural) **,Terpinolene (Natural) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6015,Terrasol FCC (Bedoukian),Terrasol FCC (Bedoukian),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6230,Tetrahydro linalool,Tetrahydro linalool,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6821,Tetramethyl Pyrazine - 10% in PG,Tetramethyl Pyrazine - 10% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9278,Thyme (Red) - Spain **,Thyme (Red) - Spain **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9279,Thyme (White) P&N - France,Thyme (White) P&N - France,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8977,Thymol (Crystals)**,Thymol (Crystals)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8053,Timbersilk (IFF) **,Timbersilk (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8519,Timbrox Base,Timbrox Base,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9354,Timur Pepper Oil **,Timur Pepper Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8088,Tobacarol (IFF),Tobacarol (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5972,Tobacco - Key Accord (Fragrance) **,Tobacco - Key Accord (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6609,Tobacco Absolute 5% in TEC Natural (Fragrance),خلاصة Tobacco  5% in TEC Natural (Fragrance) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5973,Tolu Balsam Essence (DEP),Tolu Balsam Essence (DEP),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8142,Tomato (Natural) - Fragrance,Tomato (Natural) - Fragrance,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5974,Tomato Leaf - Key Accord (Fragrance)**,Tomato Leaf - Key Accord (Fragrance)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8900,Tonka Bean - Key Accord,Tonka Bean - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8315,Tonka Bean (Absolute),خلاصة Tonka Bean () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8435,Tonka Bean (Absolute) - 50% Alc**,خلاصة Tonka Bean () - 50% Alc** مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7655,Tonquitone (Musk) Essence (IFF) **,Tonquitone (Musk) Essence (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6232,Toscanol® (Givaudan),Toscanol® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9431,trans-3-Hexenyl Acetate **,trans-3-Hexenyl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9490,Traseolide (Quest),Traseolide (Quest),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8149,Treemoss,Treemoss,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8448,Treemoss TEC Fireco® (Firmenich),Treemoss TEC Fireco® (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8068,Triethyl Citrate (Natural),Triethyl Citrate (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9388,Trifernal (Firmenich),Trifernal (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6235,Trimethyl Pyrazine - 10% in PG,Trimethyl Pyrazine - 10% in PG,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9519,Trimethyl Pyrazine (10% in BB),Trimethyl Pyrazine (10% in BB),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9056,Trisamber® (IFF),Trisamber® (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5975,Tropifruit Givco 205 **,Tropifruit Givco 205 **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9565,Tubereuse 184108 (Firmenich),Tubereuse 184108 (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9309,Tuberose Absolute,خلاصة مسك الروم مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9320,Tuberose Artessence (Biolandes),Tuberose Artessence (Biolandes),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8334,Tuberose Fragrance Oil (Premium)**,Tuberose Fragrance Oil (Premium)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6279,Tuberose Fragrance Oil**,Tuberose Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8009,Tulip - Key Accord **,Tulip - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5976,Ultrazur® (Givaudan),Ultrazur® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6236,Undecavertol (Givaudan),Undecavertol (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8492,Valencene (Natural),Valencene (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9680,Valeric Acid **,Valeric Acid **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8150,Valspice (4 Methyl Guaiacol) (Natural),Valspice (4 Methyl Guaiacol) (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9610,Vanilla (Fragrance),Vanilla (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9271,Vanilla Absolute (50% BB),خلاصة Vanilla  (50% BB) مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5977,Vanilla Bean - Key Accord (Fragrance),Vanilla Bean - Key Accord (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6280,Vanilla Spice Fragrance Oil**,Vanilla Spice Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6281,Vanilla Sugar Fragrance Oil**,Vanilla Sugar Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6237,Vanillin Crystals,Vanillin Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7665,Vanillin Crystals (Natural),Vanillin Crystals (Natural),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7993,Vanillin Crystals (Natural) 10% Alc**,Vanillin Crystals (Natural) 10% Alc**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9793,Veloutone (Firmenich),Veloutone (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8447,Velvetone 470 (Bedoukian) **,Velvetone 470 (Bedoukian) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6238,Velvione® (Givaudan),Velvione® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6243,Veramoss (IFF),Veramoss (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8020,Verbena Oil P&N**,Verbena Oil P&N**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8533,Vernaldehyde® (Givaudan),Vernaldehyde® (Givaudan),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6210,Vertenex (PT Butyl Cyclohexyl Acetate),Vertenex (PT Butyl Cyclohexyl Acetate),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6242,Vertofix a.k.a Vertofix Coeur a.k.a Methyl Cedryl Ketone **,Vertofix a.k.a Vertofix Coeur a.k.a Methyl Cedryl Ketone **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9421,Vetikolacetat® (Symrise),Vetikolacetat® (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9392,Vetikone (Symrise),Vetikone (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6611,Vetiver - Indonesia,Vetiver - Indonesia,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9203,Vetiver (Haiti),Vetiver (Haiti),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9347,Vetiver Absolute,خلاصة نجيل الهند مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8331,Vetiver Fragrance Oil (Premium),Vetiver Fragrance Oil (Premium),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6282,Vetiver Fragrance Oil **,Vetiver Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+10248,Vetiver MD Oil (Biolandes) **,Vetiver MD Oil (Biolandes) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8047,Vetiveryl Acetate (ex Java),Vetiveryl Acetate (ex Java),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6245,Vetiveryl Acetate **,Vetiveryl Acetate **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8555,Violet - Key Accord,Violet - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6283,Violet Fragrance Oil **,Violet Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9304,Violet Leaf (Absolute),خلاصة Violet Leaf () مطلقة,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8827,Violettyne MIP (Firmenich),Violettyne MIP (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6246,Violiff (IFF),Violiff (IFF),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9017,Vitamin E (dl-alpha tocopheryl acetate),Vitamin E (dl-alpha tocopheryl acetate),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8749,Warm Cotton (Fragrance),Warm Cotton (Fragrance),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9605,Warm Spice A,Warm Spice A,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9606,Warm Spice B **,Warm Spice B **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6284,Water Lily Fragrance Oil **,Water Lily Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6285,Watermelon Fragrance Oil**,Watermelon Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9429,Whiskey Bourbon Fragrance Oil,Whiskey Bourbon Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9291,Whiskey Lactone,Whiskey Lactone,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6292,White Amber Fragrance Oil**,White Amber Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6287,White Ginger Fragrance Oil **,White Ginger Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5941,White Grapefruit (Citrus) - Key Accord (Fragrance) **,White Grapefruit (Citrus) - Key Accord (Fragrance) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5978,White Musk - Key Accord **,White Musk - Key Accord **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7280,White Musk Fragrance Oil**,White Musk Fragrance Oil**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+7666,White Tea Fragrance Oil **,White Tea Fragrance Oil **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6290,Wisteria Fragrance Oil,Wisteria Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6620,Wormwood (USA),Wormwood (USA),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9440,Yara Yara (Crystals),Yara Yara (Crystals),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+5979,Ylang - Key Accord,Ylang - Key Accord,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9467,Ylang Oliffac 0612 (IFF) **,Ylang Oliffac 0612 (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8255,Ylang Ylang - Complete (Nosy Be),Ylang Ylang - Complete (Nosy Be),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9282,Ylang Ylang (1st Fraction) Comoros,Ylang Ylang (1st Fraction) Comoros,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9281,Ylang Ylang (Extra) - Comoros,Ylang Ylang (Extra) - Comoros,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+6291,Ylang Ylang Fragrance Oil,Ylang Ylang Fragrance Oil,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9386,Ysamber K (Symrise),Ysamber K (Symrise),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9485,Yuzu Oil - Cold Pressed (Spain) **,Yuzu Oil - Cold Pressed (Spain) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+8978,Yuzuzest TEC (Givaudan)**,Yuzuzest TEC (Givaudan)**,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9460,Z11 10 MIP (Firmenich),Z11 10 MIP (Firmenich),Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9402,Zenolide (IFF) **,Zenolide (IFF) **,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى
+9499,Zingerone Crystals,Zingerone Crystals,Fragrance ingredient.,Fragrance ingredient.,Others,أخرى

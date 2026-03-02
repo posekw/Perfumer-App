@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الخبير العطري | محترف صناعة العطور</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 
 <body>
@@ -21,7 +21,49 @@
         </header>
 
         <main class="main-grid">
-            <!-- مكتبة المكونات -->
+            <!-- Gemini AI Generator -->
+            <section class="ai-generator-section glass" style="margin-bottom: 2rem;">
+                <h2 class="card-title" style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="font-size: 1.8rem;">✨</span> صانع العطور الذكي (Gemini AI)
+                </h2>
+                <div style="margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
+                    اكتب قصة أو فكرة لعطرك (مثال: عطر شتوي دافئ مبني على الجلود والفانيليا)، وسيقوم الذكاء الاصطناعي
+                    باختيار المكونات ووزنها لك.
+                </div>
+                <div style="display: flex; gap: 1rem; align-items: stretch;">
+                    <textarea id="ai-prompt-input" placeholder="استلهم عطرك هنا..."
+                        style="flex: 1; background: var(--surface-color); border: 1px solid var(--glass-border); border-radius: var(--border-radius); padding: 1rem; color: var(--text-primary); font-family: inherit; resize: vertical; min-height: 80px;"></textarea>
+                    <button id="gemini-generate-btn"
+                        style="background: linear-gradient(135deg, var(--accent-color), #fbc531); color: #000; border: none; padding: 0 2rem; border-radius: var(--border-radius); font-weight: 700; cursor: pointer; transition: all 0.3s ease; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; min-width: 150px;">
+                        <span style="font-size: 1.5rem;">🪄</span>
+                        <span>ابتكر العطر</span>
+                    </button>
+                </div>
+                <div id="ai-loading-indicator"
+                    style="display: none; margin-top: 1rem; color: var(--accent-color); font-size: 0.9rem; text-align: center;">
+                    <span class="calc-icon">⏳</span> جاري صياغة التركيبة بواسطة الذكاء الاصطناعي...
+                </div>
+                <div id="ai-error-msg"
+                    style="display: none; margin-top: 1rem; color: #ff4d4d; font-size: 0.85rem; padding: 0.5rem; background: rgba(255, 77, 77, 0.05); border-radius: 4px; border-left: 3px solid #ff4d4d;">
+                </div>
+            </section>
+
+            <!-- 1. مختبر التركيب (المدخلات) -->
+            <section class="lab-inputs glass">
+                <h2 class="card-title">مختبر التركيب</h2>
+                <div class="control-group">
+                    <div class="input-field">
+                        <label for="perfume-weight">الوزن الكلي للعطر (جرام)</label>
+                        <input type="number" id="perfume-weight" value="100" min="1">
+                    </div>
+                    <div class="input-field">
+                        <label for="concentration">تركيز الزيت العطري (%) <span class="calc-icon">⚖️</span></label>
+                        <input type="number" id="concentration" value="20" min="1" max="100">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. مكتبة المكونات -->
             <section class="library-section glass">
                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                     <h2 class="card-title">مكتبة المكونات</h2>
@@ -34,21 +76,8 @@
                 </div>
             </section>
 
-            <!-- مختبر التركيب -->
+            <!-- 3. صيغة العطر والنتائج -->
             <section class="lab-section">
-                <div class="glass">
-                    <h2 class="card-title">مختبر التركيب</h2>
-                    <div class="control-group">
-                        <div class="input-field">
-                            <label for="perfume-weight">الوزن الكلي للعطر (جرام)</label>
-                            <input type="number" id="perfume-weight" value="100" min="1">
-                        </div>
-                        <div class="input-field">
-                            <label for="concentration">تركيز الزيت العطري (%) <span class="calc-icon">⚖️</span></label>
-                            <input type="number" id="concentration" value="20" min="1" max="100">
-                        </div>
-                    </div>
-                </div>
 
                 <div class="glass">
                     <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -57,27 +86,93 @@
                             style="background: var(--accent-color); color: #000; border: none; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: var(--transition);">مقترح
                             الذكاء الاصطناعي (أوزان آمنة)</button>
                     </div>
+
+                    <!-- Intelligent Evaluation Dashboard -->
+                    <div id="smart-dashboard"
+                        style="background: rgba(255,255,255,0.03); border-radius: 12px; padding: 1rem; margin-top: 1rem; border: 1px solid rgba(212, 175, 55, 0.15);">
+                        <h4 style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--accent-color);">لوحة التقييم
+                            الذكي</h4>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                            <!-- Balance Score -->
+                            <div>
+                                <div
+                                    style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.3rem;">
+                                    <span>مؤشر التوازن</span>
+                                    <span id="balance-score-val" style="font-weight: bold; color: #4cd137;">100%</span>
+                                </div>
+                                <div
+                                    style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+                                    <div id="balance-score-bar"
+                                        style="height: 100%; width: 100%; background: #4cd137; transition: all 0.5s;">
+                                    </div>
+                                </div>
+                                <div id="balance-tooltip"
+                                    style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.3rem;">متوازن
+                                    وممتاز</div>
+                            </div>
+                            <!-- Signature Strength -->
+                            <div>
+                                <div
+                                    style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.3rem;">
+                                    <span>قوة البصمة (Signature)</span>
+                                    <span id="signature-score-val"
+                                        style="font-weight: bold; color: var(--accent-color);">0%</span>
+                                </div>
+                                <div
+                                    style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+                                    <div id="signature-score-bar"
+                                        style="height: 100%; width: 0%; background: var(--accent-color); transition: all 0.5s;">
+                                    </div>
+                                </div>
+                                <div id="signature-tooltip"
+                                    style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.3rem;">مألوف
+                                    جداً</div>
+                            </div>
+                        </div>
+                        <!-- Scent Evolution Timeline -->
+                        <div style="margin-top: 1.5rem;">
+                            <h5 style="font-size: 0.8rem; margin: 0 0 0.5rem 0; color: #ccc;">محاكاة التطور الزمني
+                                (Evolution Pipeline)</h5>
+                            <div
+                                style="display: flex; justify-content: space-between; background: rgba(0,0,0,0.3); padding: 0.8rem; border-radius: 8px; font-size: 0.8rem;">
+                                <div
+                                    style="text-align: center; flex: 1; border-left: 1px solid rgba(255,255,255,0.05);">
+                                    <div style="color: #ffd700; margin-bottom: 0.3rem; font-weight: bold;">0h
+                                        (الافتتاحية)</div>
+                                    <div id="evo-0h" style="color: var(--text-secondary);">-</div>
+                                </div>
+                                <div
+                                    style="text-align: center; flex: 1; border-left: 1px solid rgba(255,255,255,0.05);">
+                                    <div style="color: #ff6b6b; margin-bottom: 0.3rem; font-weight: bold;">4h (القلب)
+                                    </div>
+                                    <div id="evo-4h" style="color: var(--text-secondary);">-</div>
+                                </div>
+                                <div style="text-align: center; flex: 1;">
+                                    <div style="color: #4a90e2; margin-bottom: 0.3rem; font-weight: bold;">12h+ (الجفاف)
+                                    </div>
+                                    <div id="evo-12h" style="color: var(--text-secondary);">-</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Clash Warnings -->
+                        <div id="clash-warnings"
+                            style="margin-top: 1rem; padding: 0.5rem; background: rgba(255, 77, 77, 0.05); border-left: 3px solid #ff4d4d; color: #ff8e8e; font-size: 0.85rem; display: none;">
+                        </div>
+                    </div>
                     <div id="ai-tips"
                         style="background: rgba(212, 175, 55, 0.05); border-right: 3px solid var(--accent-color); padding: 0.8rem; margin: 0.8rem 0; font-size: 0.85rem; color: var(--text-secondary); display: none;">
                         <!-- AI Tips will appear here -->
                     </div>
 
-                    <!-- Recipe Control Tools -->
-                    <div class="recipe-tools"
-                        style="display: flex; gap: 0.8rem; margin-bottom: 1rem; align-items: center;">
-                        <input type="text" id="recipe-name" placeholder="اسم الوصفة (مثلاً: عود ملكي)..."
-                            style="flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(212, 175, 55, 0.3); color: white; padding: 0.5rem 1rem; border-radius: 8px;">
-                        <button id="save-recipe-btn" class="secondary-btn" title="حفظ الوصفة">💾 حفظ</button>
-                        <button id="recipes-list-btn" class="secondary-btn" title="الوصفات المحفوظة">📂 الوصفات</button>
-                    </div>
                     <table class="formula-table">
                         <thead>
                             <tr>
                                 <th>المكون (CAS/IFRA)</th>
                                 <th>التصنيف</th>
-                                <th title="اجعل هذا المكون طاغياً في الرائحة">طاغٍ ⭐</th>
-                                <th>الوزن (جرام)</th>
-                                <th>النسبة (%)</th>
+                                <th>التخفيف (%)</th>
+                                <th>الوزن الإجمالي (g)</th>
+                                <th title="النسبة من إجمالي الزيت الصافي">النسبة (%)</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -113,7 +208,7 @@
 
                 <div class="summary-grid">
                     <div class="summary-card">
-                        <span>إجمالي الزيوت</span>
+                        <span title="وزن الزيت الصافي بدون المذيبات المضافة للتخفيف">إجمالي الزيت الصافي</span>
                         <strong id="total-oil-weight">0 جرام</strong>
                     </div>
                     <div class="summary-card">
@@ -141,13 +236,12 @@
                         تطايرها.</li>
                     <li>🛡️ <strong>معامل الأمان الكيميائي:</strong> يتم مراقبة المكونات القوية (مثل القرفة أو الطحالب)
                         وتقليل حصتها تلقائياً لضمان عدم طغيانها.</li>
-                    <li>⭐ <strong>نظام السيادة (Dominance):</strong> يسمح لك بتحديد قوة بروز مكون معين بـ 3 مستويات:
-                        <ul style="margin-right: 1.5rem; font-size: 0.85rem; color: var(--accent-color);">
-                            <li>المستوى 1 (⭐): تأثير بسيط (ضعف الوزن).</li>
-                            <li>المستوى 2 (⭐⭐): تأثير قوي (5 أضعاف الوزن).</li>
-                            <li>المستوى 3 (⭐⭐⭐): سيادة كاملة (12 ضعف الوزن).</li>
-                        </ul>
-                    </li>
+                    <li>📊 <strong>معالجة التخفيف (Dilution):</strong> بإمكانك إدخال نسبة تخفيف المادة (مثلاً مادة مخففة
+                        10% بالكحول)، وسيقوم النظام بحساب <em>الزيت الصافي</em> تلقائياً في هرم العطر الكلي، مع احتساب
+                        الإيثانول المتبقي ضمن مذيب العطر النهائي.</li>
+                    <li>🧠 <strong>لوحة التقييم الذكي:</strong> تقيس مدى توازن العطر (Balance Score) مقارنة بالنسب
+                        الذهبية (25-35-40)، وتحسب قوة بصمة العطر، وتنبهك عن التضارب بين العائلات العطرية، إضافة إلى
+                        محاكاة تطور الرائحة مع مرور الساعات (Evolution Timeline).</li>
                     <li>📂 <strong>قاعدة بيانات مرنة:</strong> يمكنك إضافة مكوناتك الخاصة أو تعديل قوتها مباشرة عبر فتح
                         ملف <code>data/ingredients_db.csv</code> في برنامج Excel.</li>
                 </ul>
@@ -164,17 +258,6 @@
         style="text-align: center; padding: 1rem; color: var(--text-secondary); font-size: 0.8rem; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.05);">
         تطوير وبرمجة: <strong>ضاري التميمي</strong>
     </footer>
-
-    <!-- Modal: Saved Recipes -->
-    <div id="recipes-modal" class="modal">
-        <div class="modal-content glass" style="max-width: 600px;">
-            <span class="close-modal" id="close-recipes">&times;</span>
-            <h2 class="card-title">الوصفات المحفوظة</h2>
-            <div id="saved-recipes-container" style="max-height: 400px; overflow-y: auto; margin-top: 1rem;">
-                <!-- Saved recipes list will appear here -->
-            </div>
-        </div>
-    </div>
 
     <script src="app.js" type="module"></script>
 </body>

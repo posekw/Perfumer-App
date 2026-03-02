@@ -87,6 +87,7 @@ header {
     gap: 2rem;
 }
 
+/* Base Mobile Responsive */
 @media (max-width: 1024px) {
     .perfumer-plugin-container {
         padding: 0 1rem;
@@ -95,10 +96,9 @@ header {
 
 /* Ingredient Library */
 .library-section {
-    position: relative;
-    height: 400px;
     display: flex;
     flex-direction: column;
+    max-height: 400px;
 }
 
 .search-box {
